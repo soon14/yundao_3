@@ -1,0 +1,156 @@
+.mui-content {
+	padding-top: 0px !important;
+}
+
+.mui-control-content {
+	/*min-height: 300px;*/
+	min-height: 78.169vh;
+}
+
+body,
+html {
+	overflow: hidden;
+	height: 100%;
+}
+
+#uptext {
+	background: #e4f0fe;
+	color: #666666;
+	margin: 0;
+	font-size: 0.2918rem;
+}
+
+.waibu {
+	background-color: #FFFFFF;
+	padding: 10px;
+	border-bottom: 1px solid #E4E4E4;
+}
+
+.mui-slider-group {
+	margin-top: 0.08rem;
+}
+
+.mui-card {
+	margin: 0;
+}
+
+.mui-table-view-cell:after {
+	height: 0;
+}
+
+#title_zi {
+	font-size: 0.2918rem;
+	color: #424242;
+}
+
+#content_zi {
+	font-size: 0.2501rem;
+	color: #999999;
+}
+
+.mui-navigate-right:after {
+	font-size: 0.5rem;
+	color: #E0E0E0;
+	right: 0;
+}
+
+.cheImg {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+#dixian li{
+	padding: 0px 15px;
+}
+.mui-card{
+	box-shadow: none;
+}
+#jiner{
+	text-align: center;
+    margin-top: 10%;
+    color: #e44424;
+    font-size: 0.2918rem;
+    padding-left: 5%;
+}
+#gongli{
+	color: #424242;
+}
+#leftcontent{
+	border-right: 1px solid #E0E0E0;
+}
+#kongge li a .mui-pull-left,#smallVan li a .mui-pull-left,#middleVan li a .mui-pull-left,#middleTruck li a .mui-pull-left,#largeTruck li a .mui-pull-left{
+	margin-top: 10px;
+}
+#leftcontent,#leftcontent2{
+	margin-top: 5px;
+}
+#tuijian{
+	color: #d94949 !important;
+	font-size: .2918rem;
+}
+#wuliu{
+	font-size: .2918rem;
+}
+#wuliu .mui-table-view-cell:after{
+	height: 1px;
+}
+#wuliu .mui-media-object{
+	width: 1.29rem;
+	height: 1.29rem;
+	max-width: 1.29rem;
+}
+.mui-table-view-cell>a:not(.mui-btn){
+	white-space: normal;
+}
+#zuobiao{
+	width: 0.32rem;
+	
+}
+#jvli p{
+	color: #da4a49;
+}
+#mingcheng p{
+	font-size: .2501rem;
+	color: #666666;
+}
+#xuanzeluxian h5{
+	text-align:center; font-size: 0.2918rem;color: #020202;
+}
+#xuanzeluxian img{
+	width: 0.44rem;
+}
+#xuanzediqu-end{
+	color: #999999;
+}
+#xuanzediqu-start{color: #020202;}
+#kaishisousuo{
+	background-color: #ffc749;
+	color: #272727;
+}
+#fujincheliang {
+	padding-top: 0.28rem;
+	font-size: 0.24rem;
+	margin-left: 5px;
+}
+.mui-table-view-cell.mui-active,.mui-table-view-cell>a:not(.mui-btn).mui-active{
+	background-color: #FFFFFF;
+}
+.display-none{display: none;}
+.mui-table-view .mui-media-object{border-radius: 42px;}
+#tuijian-ctn {background-color: #f6f6f6;}
+#tuijian-ctn li{background-color: white;margin-top: 5px;}
+#xuanzediqu-start{padding: 10px;}
+#xuanzediqu-end{padding: 10px;}
+@media screen and (min-width: 320px) and (max-width:375px) {
+	
+}
+@media screen and (min-width: 375px) and (max-width:414px) {
+	.mui-control-content {height: 74vh;}
+	.mui-hight{height:74vh;}
+}
+@media screen and (min-width: 414px) and (max-width:576px) {
+.mui-control-content {min-height: 80vh;}
+}
+@media screen and (min-width: 576px) and (max-width:640px) {}
+@media screen and (min-width: 768px) and (max-width:1920px) {
+	
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>待支付</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../../css/mui.min.css" />
+		<link rel="stylesheet" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/system/style.css" />
+		<!--<link rel="stylesheet" href="../../css/business/index.css" />-->
+		<link rel="stylesheet" href="../../css/business/payment/wait-payment.css" />
+	</head>
+
+	<body class="bg-whf6">
+
+		<header class="mui-bar mui-bar-transparent mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">待支付</h1>
+		</header>
+
+		<div class="mui-content bg-whf6">
+			<div class="wait-payment">
+				<img src="../../image/dzf.png" />
+				<div>￥<span id="money_id"></span></div>
+			</div>
+			<div class="mui-input-group bg-whf6">
+				<div class="mui-input-row mui-radio bg-wh">
+					<label id="card"><img src="../../image/dzf1.png" />银行卡支付<span id="zhe1">（9折）</span></label>
+					<input name="style" type="radio" checked value="left-none" id="pay1">
+				</div>
+				<div class="mui-input-row mui-radio bg-wh">
+					<label id="wechat"><img src="../../image/dzf2.png" />微信支付<span id="zhe2">（9折）</span></label>
+					<input name="style" type="radio" value="left-icon" id="pay2">
+				</div>
+				<div class="mui-input-row mui-radio bg-wh" id="cash">
+					<label ><img src="../../image/dzf3.png" />现金支付</label>
+					<input name="style" type="radio" value="left-icon" id="pay3">
+				</div>
+				<div class="mui-input-row mui-radio bg-wh" id="yezf">
+					<label id="yue"><img src="../../image/dzf4.png" />余额支付<span id="zhe3">（9折）</span></label>
+					<input name="style" type="radio" value="left-icon" id="pay4">
+				</div>
+			</div>
+			<div class="mui-content-padded mt30">
+				<button id='queren' class="mui-btn mui-btn-block mui-btn-primary">确认支付</button>
+			</div>
+		</div>
+		<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+		<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/business/payment/wait-payment.js"></script>
+	</body>
+
+</html>

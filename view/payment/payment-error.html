@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html class="bg-wh">
+
+	<head>
+		<meta charset="utf-8">
+		<title>支付失败</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../../css/mui.min.css" />
+		<link rel="stylesheet" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/system/style.css" />
+		<!--<link rel="stylesheet" href="../../css/business/index.css" />-->
+		<link rel="stylesheet" href="../../css/business/payment/wait-payment.css" />
+	</head>
+
+	<body class="bg-wh">
+
+		<header class="mui-bar mui-bar-transparent">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">支付失败</h1>
+		</header>
+
+		<div class="mui-content bg-wh mt59">
+			<div class="wait-payment">
+				<img src="../../image/zf_err.png" />
+				<div class="payment-success">
+					<span id="djs">3</span>
+					秒后自动跳转至订单管理页面
+				</div>
+			</div>
+			
+			<div class="mui-content-padded mt30">
+				<button id='queren' class="mui-btn mui-btn-block mui-btn-primary">立即返回</button>
+			</div>
+		</div>
+		<script src="../../js/system/xiangyingshi.js"></script>
+		<script src="../../js/system/mui.min.js"></script>
+		<script src="../../js/business/payment/payment-success.js"></script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js" ></script>
+	</body>
+
+</html>

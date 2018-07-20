@@ -1,0 +1,74 @@
+/*背景色*/
+.bg-wh{background: #FFFFFF;}
+.bg-whf5{background: #f5f5f5;}
+.bg-whe0{background:#e0e0e0;}
+.bg-whf6{background: #f6f6f6;}
+/*margin值*/
+.m-rem2{margin-top: 0.2rem;}
+.m-rem3{margin-top: 0.3rem;}
+.m-rem4{margin-top: 0.4rem;}
+.m-rem5{margin-top: 0.5rem;}
+.m-rem50{margin-top: 5rem;}
+.m-rem23{margin-top: 23%;}
+.m-rem40{margin-top: 40%;}
+.m-rem2-b{margin-bottom: 0.2rem;}
+
+/*padding值*/
+.p-rem{padding: 0 !important;}
+.p-rem2{padding-bottom: 0.2rem;}
+
+/*字size*/
+.size12{font-size: 12px;}
+.size13{font-size: 13px;}
+.size14{font-size: 14px;}
+.size17{font-size: 17px;}
+/*字间距*/
+.ft-le-s{letter-spacing: -1px;}
+/*宽度*/
+.w30{width: 30%;}
+.w60{width: 60%;}
+/*头部bander*/
+.mui-bar {
+	background: -webkit-linear-gradient(left, #f46d44 , #d94949); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #f46d44, #d94949); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #f46d44, #d94949); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #f46d44 , #d94949); /* 标准的语法（必须放在最后） */
+}
+.min-max{min-width: 320px;max-width: 516px;margin: 0 auto;}
+.mui-title{color: white;}
+a:active {color: white;}
+.mui-bar-nav a{color: white;}
+.mui-bar .mui-btn-link{color:white;}
+.mui-btn {border-radius:25px ;}
+.mui-btn-blue.mui-active:enabled, .mui-btn-blue:enabled:active, .mui-btn-primary.mui-active:enabled, .mui-btn-primary:enabled:active, input[type=submit].mui-active:enabled, input[type=submit]:enabled:active{
+	background: #f45353;
+	border: 1px #f45353 solid;
+}
+/*登录和注册*/
+.mui-input-row label img{width: 1.8rem;height: 1.8rem;}
+.mui-btn-blue, .mui-btn-primary, input[type=submit]{
+    border: 1px solid #d94949;
+    background-color: #d94949;	
+}
+@media screen and (min-width: 375px) and (max-width:414px) {
+	.mui-btn{padding: 0.8rem;}
+	
+}
+@media screen and (min-width: 414px) and (max-width:576px) {
+	
+}
+@media screen and (min-width: 576px) and (max-width:640px) {
+	
+}
+@media screen and (min-width: 768px) and (max-width:1920px) {	
+	.size14 {font-size: 23px;}
+	.mui-bar {height: 95px;}
+	.mui-title {line-height:95px;font-size: 40px;}
+	.mui-bar .mui-icon{font-size: 70px;}
+	.mui-btn {padding: 1.6rem;border-radius: 40px;}
+	.mui-btn-block {font-size: 23px;}
+	.mui-bar-nav~.mui-content{padding-top:95px;}
+}
+
+
+

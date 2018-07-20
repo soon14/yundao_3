@@ -1,0 +1,36 @@
+.mui-table-view-cell-1{padding: 6px 8px;border-right: 1px #e0e0e0 solid;border-left: 1px #e0e0e0 solid;}
+.mui-table-view1{margin:10px 10px 0px 10px;;}
+.mui-table-view2{margin: 5px 10px 10px 10px;}
+.mui-table-view-cell i {font-style: normal;font-size: 0.2rem;}
+.mui-input-row label{font-size: 0.3rem;padding:11px 0;}
+.mui-input-row input{text-align: right;font-size: 0.3rem;}
+.mui-table-view li{font-size: 0.2rem;}
+.mui-media-body{border-right: 1px #e0e0e0 solid;line-height: 50px;}
+.tjm-title{min-height:58px;border-bottom: 1px #e0e0e0 solid;text-align: center;}
+.tjm-title h2{line-height: 58px;width: 50%;border-right: 1px #e0e0e0 solid;float: left;font-size: 0.3rem;}
+.tjm-sum{color: #bf2025;float:right;width: 50%;line-height: 58px;font-size: 0.3rem;}
+.receive-btn{width:33%;float: right;text-align: center;}
+.receive-btn img{width: 60px;margin: 24px 0px;}
+.tjm-jd{text-align: center;min-height: 58px;padding-top: 5px;}
+.tjm-jd p{line-height: 20px;color: #ef4723;}
+.tjm-jd p:first-child{color: #424242;font-size: 0.3rem;}
+.tjm-jd p:last-child{font-size: 0.25rem;}
+.czrw-img{position: absolute;left: -9px;z-index: 9999;top: -3px;}
+.czrw-img img{width: 60px;}
+.mui-table-view-cell>a:not(.mui-btn){margin:-15px}
+.mui-table-view-cell:after{left: 0;}
+/*输入推荐码*/
+.insurance-prompt{font-size: 0.28rem;padding: 15px;}
+.bg-color {background: #e4f0fe;}
+.label-cl{color: #bf2025;}
+.mui-input-row .mui-btn+input, .mui-input-row label+input, .mui-input-row:last-child {background:#fafafa;}
+.mui-input-group .mui-input-row{border: 1px #d8d8d8 solid;border-radius: 5px;}
+.mui-input-group{padding: 10px 10px 30px 10px;}
+.mui-input-group .mui-input-row:after{background-color: inherit;}
+.mui-input-group:before{background-color: inherit;}
+.p-label{padding-left: 10px !important;color: #da4a49;}
+.mui-btn-link span{color: white !important;}
+/*司机任务*/
+.siji-jl{color: black;}
+.siji-jl span{color: #fd0b00;}
+.siji-jl img{width: 12px; height: 12px;margin-bottom: 22px;}

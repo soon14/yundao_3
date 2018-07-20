@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>提现明细</title>
+		<link rel="stylesheet" href="../../css/mui.min.css" />
+		<link rel="stylesheet" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/system/style.css" />
+		<!--<link rel="stylesheet" href="../../css/business/index.css" />-->
+		<link rel="stylesheet" href="../../css/business/balance/balance_detailed_list.css" />
+		
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">提现明细</h1>
+		</header>
+		<div class="mui-content mui-scroll-wrapper bg-whf6 mb50 tixian" id="pullrefresh">
+			<div class="mui-scroll">
+				<ul id="mui-template" class="mui-table-view bg-whf6">
+<!--					<script type="text/template" id="radio-tigan"><% for(var i in record){ var item=record[i]; %>-->
+						
+						<li id="<%=item.OD_ID%>" status="<%=item.STATUS%>" class="mui-table-view-cell mui-media bg-wh">
+							<a href="javascript:;" money="<%=item.MONEY%>" time="<%=item.SYS_DATE%>" beizhu="<%=item.BEIZHU%>">	
+								<div class="mui-media-body mui-pull-right  tx-price">
+									<p class="mui-ellipsis p-green">
+										审核中
+									</p>
+									-25.00								
+								</div>
+								<div class="mui-media-body">
+									<p class="mui-ellipsis">
+										2017-05-31 12:25:03
+									</p>
+									提现									
+								</div>
+							</a>
+						</li>
+						<li id="<%=item.OD_ID%>" status="<%=item.STATUS%>" class="mui-table-view-cell mui-media bg-wh">
+							<a href="javascript:;" money="<%=item.MONEY%>" time="<%=item.SYS_DATE%>" beizhu="<%=item.BEIZHU%>">	
+								<div class="mui-media-body mui-pull-right  tx-price">
+									<p class="mui-ellipsis p-red">
+										交易成功
+									</p>
+									-254.00								
+								</div>
+								<div class="mui-media-body">
+									<p class="mui-ellipsis">
+										2017-05-31 12:25:03
+									</p>
+									提现									
+								</div>
+							</a>
+						</li>
+						<li id="<%=item.OD_ID%>" status="<%=item.STATUS%>" class="mui-table-view-cell mui-media bg-wh">
+							<a href="javascript:;" money="<%=item.MONEY%>" time="<%=item.SYS_DATE%>" beizhu="<%=item.BEIZHU%>">	
+								<div class="mui-media-body mui-pull-right  tx-price">
+									<p class="mui-ellipsis p-hui">
+										交易失败
+									</p>
+									-254.00								
+								</div>
+								<div class="mui-media-body">
+									<p class="mui-ellipsis">
+										2017-05-31 12:25:03
+									</p>
+									提现									
+								</div>
+							</a>
+						</li>
+						<!--<%}%>
+					</script>-->
+				</ul>
+				<div id="zanwu" class="mui-content bg-whf6 balance-detailed-body display-none">
+					<ul class="mui-table-view bg-whf6">
+						<img src="../../image/yemx_null.png" alt="" />
+						<p>暂无任何记录！</p>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="../../js/system/jquery-3.1.1.js"></script>
+		<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/system/json_time.js"></script>
+		<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+		<script type="text/javascript" src="../../js/system/arttmpl.js"></script>
+		<script type="text/javascript" src="../../js/business/balance/balance_detailed_list.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>投诉</title>
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/business/index.css" rel="stylesheet" />
+		<link href="../../css/business/order/complaint.css" rel="stylesheet" />
+	</head>
+
+	<body class="bg-whf6 size14">
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">投诉</h1>
+		</header>
+		<div class="mui-content bg-whf6">
+			<div class="mui-card-content">
+				<div class="mui-card-content-inner">
+					请简要描述遇到的问题:
+				</div>
+			</div>
+			<div class="mui-card textarea-body bg-whf6 mui-card-0">
+				<textarea id="textarea" rows="5" onkeyup="checkLen(this)" onfocus="if(this.value=='描述内容不多于60字') {this.value='';}" onblur="if(this.value=='') {this.value='描述内容不多于60字';}">描述内容不多于60字</textarea>
+				<p><span id="shengyu">0</span>/60</p>
+			</div>
+			<div class="mui-content-padded m-rem50">
+				<button id="tousu" class="mui-btn mui-btn-block mui-btn-primary">投诉</button>
+			</div>
+		</div>
+		<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/business/order/complaint.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>发货</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/iconfont.css" />
+		<link rel="stylesheet" href="../../css/icons-extra.css" />
+		<link rel="stylesheet" href="../../css/business/order/fahuo.css" />
+	</head>
+
+	<body>
+
+		<div class="mui-content">
+			<ul class="mui-table-view mui-bar-nav" id="uptext">
+				<li class="mui-table-view-cell" id="fujincheliang">
+					<a id="a_1" style="display: block;">
+						您附近现在约有&nbsp;<span id="num_count">0</span>&nbsp;辆货车可提供服务
+					</a>
+					<a id="a_2" style="display: none;">
+						顺风车接单较慢，如您急需发货可选择专车服务
+					</a>
+					<a id="a_3" style="display: none;">
+						物流发货由各物流公司提供服务，运到APP仅提供信息展示
+					</a>
+				</li>
+			</ul>
+			<div class="divanimate">
+				<div class="waibu">
+					<div id="segmentedControl" class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted mui-segmented-control-positive">
+						<a class="mui-control-item mui-active" href="#item1" data-index="1">专车</a>
+						<a class="mui-control-item" href="#item2" data-index="2">顺风车</a>
+						<a class="mui-control-item" href="#item3" data-index="3">物流</a>
+					</div>
+				</div>
+				<div class="mui-slider-group">
+					<div id="item1" class="mui-control-content mui-active mui-slider-item">
+						<div id="scroll" class="mui-scroll-wrapper">
+							<div class="mui-scroll" id="xinxi">
+								<ul class="mui-table-view mui-card " id="kongge">
+									<li class="mui-table-view-cell mui-media">
+										<a href="#" id="car_1" class="mui-navigate-right">
+											<div class="mui-pull-left"><img src="../../image/che3.png" class="cheImg"></div>
+											<div class="mui-media-body">
+												<ul class="mui-table-view" id="dixian">
+													<li class="mui-table-view-cell mui-row mui-table-view-cell-hight">
+														<div class="mui-col-sm-8 mui-col-xs-8" id="leftcontent">
+															<div class="mui-row">
+																<div id="title_zi">小型面包车</div>
+															</div>
+															<div class="mui-media-body" id="content_zi">
+																<p class="mui-ellipsis" id="content_zi">载重：0.8吨</p>
+																<p class="mui-ellipsis" id="content_zi">长*宽*高 1.7*1.1*1m</p>
+																<p class="mui-ellipsis" id="content_zi">超公里费3.0元/公里</p>
+															</div>
+														</div>
+														<div class=" mui-ellipsis mui-col-sm-4 mui-col-xs-4" id="jiner">¥28元<br><span id="gongli">(5公里)</span></div>
+
+													</li>
+												</ul>
+											</div>
+										</a>
+									</li>
+								</ul>
+								<ul class="mui-table-view mui-card " id="kongge">
+									<li class="mui-table-view-cell mui-media">
+										<a href="#" id="car_2" class="mui-navigate-right">
+											<div class="mui-pull-left"><img src="../../image/che4.png" class="cheImg"></div>
+											<div class="mui-media-body">
+												<ul class="mui-table-view" id="dixian">
+													<li class="mui-table-view-cell mui-row mui-table-view-cell-hight">
+														<div class="mui-col-sm-8 mui-col-xs-8" id="leftcontent">
+															<div class="mui-row">
+																<div id="title_zi">中型面包车</div>
+															</div>
+															<div class="mui-media-body" id="content_zi">
+																<p class="mui-ellipsis" id="content_zi">载重：1.5吨</p>
+																<p class="mui-ellipsis" id="content_zi">长*宽*高 2.7*1.4*1.2m</p>
+																<p class="mui-ellipsis" id="content_zi">超公里费4.0元/公里</p>
+															</div>
+														</div>
+														<div class=" mui-ellipsis mui-col-sm-4 mui-col-xs-4" id="jiner">¥48元<br><span id="gongli">(5公里)</span></div>
+													</li>
+												</ul>
+											</div>
+										</a>
+									</li>
+								</ul>
+								<ul class="mui-table-view mui-card " id="kongge">
+									<li class="mui-table-view-cell mui-media">
+										<a href="#" id="car_3" class="mui-navigate-right">
+											<div class="mui-pull-left"><img src="../../image/che2.png" class="cheImg"></div>
+											<div class="mui-media-body">
+												<ul class="mui-table-view" id="dixian">
+													<li class="mui-table-view-cell mui-row mui-table-view-cell-hight">
+														<div class="mui-col-sm-8 mui-col-xs-8" id="leftcontent">
+															<div class="mui-row">
+																<div id="title_zi">中型货车</div>
+															</div>
+															<div class="mui-media-body" id="content_zi">
+																<p class="mui-ellipsis" id="content_zi">载重：1.5吨</p>
+																<p class="mui-ellipsis" id="content_zi">长*宽*高 2.7*1.4*1.2m</p>
+																<p class="mui-ellipsis" id="content_zi">超公里费4.0元/公里</p>
+															</div>
+														</div>
+														<div class=" mui-ellipsis mui-col-sm-4 mui-col-xs-4" id="jiner">¥78元<br><span id="gongli">(5公里)</span></div>
+
+													</li>
+												</ul>
+											</div>
+										</a>
+									</li>
+								</ul>
+								<ul class="mui-table-view mui-card " id="kongge">
+									<li class="mui-table-view-cell mui-media">
+										<a href="#" id="car_4" class="mui-navigate-right">
+											<div class="mui-pull-left"><img src="../../image/che1.png" class="cheImg"></div>
+											<div class="mui-media-body">
+												<ul class="mui-table-view" id="dixian">
+													<li class="mui-table-view-cell mui-row mui-table-view-cell-hight">
+														<div class="mui-col-sm-8 mui-col-xs-8" id="leftcontent">
+															<div class="mui-row">
+																<div id="title_zi">大型货车</div>
+															</div>
+															<div class="mui-media-body" id="content_zi">
+																<p class="mui-ellipsis" id="content_zi">载重：1.5吨</p>
+																<p class="mui-ellipsis" id="content_zi">长*宽*高 2.7*1.4*1.2m</p>
+																<p class="mui-ellipsis" id="content_zi">超公里费4.0元/公里</p>
+															</div>
+														</div>
+														<div class=" mui-ellipsis mui-col-sm-4 mui-col-xs-4" id="jiner">¥48元<br><span id="gongli">(5公里)</span></div>
+
+													</li>
+												</ul>
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="item2" class="mui-control-content mui-slider-item">
+						<div id="scroll" class="mui-scroll-wrapper">
+							<div class="mui-scroll" id="xinxi2">
+								<ul class="mui-table-view mui-card " id="smallVan">
+									<li class="mui-table-view-cell mui-media">
+										<a href="#" id="shunfengcar_1" class="mui-navigate-right">
+											<div class="mui-pull-left"><img src="../../image/che1.png" class="cheImg"></div>
+											<div class="mui-media-body">
+												<ul class="mui-table-view" id="dixian">
+													<li class="mui-table-view-cell" id="leftcontent2">
+														<div class="mui-row">
+															<div class="mui-col-sm-5 mui-col-xs-5" id="title_zi">小型面包车</div>
+														</div>
+														<div class="mui-media-body" id="content_zi">
+															<p class="mui-ellipsis" id="content_zi">载重：0.8吨</p>
+															<p class="mui-ellipsis" id="content_zi">长*宽*高 1.7*1.1*1m</p>
+															<p class="mui-ellipsis" id="content_zi">超公里费3.0元/公里</p>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</a>
+									</li>
+								</ul>
+								<ul class="mui-table-view mui-card " id="middleVan">
+									<li class="mui-table-view-cell mui-media">
+										<a href="#" id="shunfengcar_2" class="mui-navigate-right">
+											<div class="mui-pull-left"><img src="../../image/che2.png" class="cheImg"></div>
+											<div class="mui-media-body">
+												<ul class="mui-table-view" id="dixian">
+													<li class="mui-table-view-cell" id="leftcontent2">
+														<div class="mui-row">
+															<div class="mui-col-sm-5 mui-col-xs-5" id="title_zi">中型面包车</div>
+														</div>
+														<div class="mui-media-body" id="content_zi">
+															<p class="mui-ellipsis" id="content_zi">载重：1.5吨</p>
+															<p class="mui-ellipsis" id="content_zi">长*宽*高 2.7*1.4*1.2m</p>
+															<p class="mui-ellipsis" id="content_zi">超公里费4.0元/公里</p>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</a>
+									</li>
+								</ul>
+								<ul class="mui-table-view mui-card " id="middleTruck">
+									<li class="mui-table-view-cell mui-media">
+										<a href="#" id="shunfengcar_3" class="mui-navigate-right">
+											<div class="mui-pull-left"><img src="../../image/che3.png" class="cheImg"></div>
+											<div class="mui-media-body">
+												<ul class="mui-table-view" id="dixian">
+													<li class="mui-table-view-cell" id="leftcontent2">
+														<div class="mui-row">
+															<div class="mui-col-sm-5 mui-col-xs-5" id="title_zi">中型货车</div>
+														</div>
+														<div class="mui-media-body" id="content_zi">
+															<p class="mui-ellipsis" id="content_zi">载重：1.5吨</p>
+															<p class="mui-ellipsis" id="content_zi">长*宽*高 2.7*1.4*1.2m</p>
+															<p class="mui-ellipsis" id="content_zi">超公里费4.0元/公里</p>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</a>
+									</li>
+								</ul>
+								<ul class="mui-table-view mui-card " id="largeTruck">
+									<li class="mui-table-view-cell mui-media">
+										<a href="#" id="shunfengcar_4" class="mui-navigate-right">
+											<div class="mui-pull-left"><img src="../../image/che4.png" class="cheImg"></div>
+											<div class="mui-media-body">
+												<ul class="mui-table-view" id="dixian">
+													<li class="mui-table-view-cell" id="leftcontent2">
+														<div class="mui-row">
+															<div class="mui-col-sm-5 mui-col-xs-5" id="title_zi">大型货车</div>
+														</div>
+														<div class="mui-media-body" id="content_zi">
+															<p class="mui-ellipsis" id="content_zi">载重：1.5吨</p>
+															<p class="mui-ellipsis" id="content_zi">长*宽*高 2.7*1.4*1.2m</p>
+															<p class="mui-ellipsis" id="content_zi">超公里费4.0元/公里</p>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="item3" class="mui-control-content mui-slider-item">
+						<div id="scroll" class="mui-scroll-wrapper">
+							<div class="mui-scroll" id="xinxi3">
+								<ul class="mui-table-view">
+									<li class="mui-table-view-cell mui-media">
+										<a href="javascript:;" id="xuanzeluxian">
+											<h5>												
+												<span id="xuanzediqu-start">吉林长春二道区 &nbsp;&nbsp; </span>
+												<span id="start1" class="display-none"></span>
+												<span id="start2" class="display-none"></span>
+												<span id="start3" class="display-none"></span>
+												<img src="../../image/jiantou.png"> &nbsp;&nbsp;
+												<span id="xuanzediqu-end"> 请选择地区</span>
+												<span id="end1" class="display-none"></span>
+												<span id="end2" class="display-none"></span>
+												<span id="end3" class="display-none"></span>
+											</h5>
+										</a>
+									</li>
+								</ul>
+								<div class="mui-content-padded">
+									<button type="button" class="mui-btn mui-btn-block" id="kaishisousuo">开始搜索</button>
+								</div>
+								<ul class="mui-table-view">
+									<li class="mui-table-view-cell mui-media">
+										<a href="javascript:;" id="tuijian">
+											为您推荐:
+										</a>
+									</li>
+								</ul>
+								<ul class="mui-table-view mui-card" id="tuijian-ctn">
+									<script type="text/template" id="radio-tigan">
+										<% for(var i in record){ var item=record[i]; %>
+											<li class="mui-table-view-cell mui-media">
+												<a href="javascript:;"><img class="mui-media-object mui-pull-left" src="<%=item.LOGOPATH_NEW%>">
+													<div class="mui-media-body mui-row">
+														<div class="mui-col-sm-8 mui-col-xs-8" id="mingcheng">
+															<span><%=item.NAME%></span>
+															<p><%=item.CITYNAME%><%=item.AREANAME%><%=item.ADDRESS%></p>
+														</div>														
+													</div>	
+												</a>
+											</li>
+										<%}%>
+									</script>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+	<script type="text/javascript" src="../../js/system/constants.js"></script>
+	<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+	<script type="text/javascript" src="../../js/system/city.data-3.js"></script>
+	<script type="text/javascript" src="../../js/system/arttmpl.js"></script>
+	<!--<script type="text/javascript" src="../../js/system/xiachenshi.js" ></script>-->
+	<script type="text/javascript" src="../../js/system/gps.js"></script>
+	<script type="text/javascript" src="../../js/business/order/fahuo.js"></script>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>抢单记录</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/iconfont.css" />
+		<link rel="stylesheet" href="../../css/business/order/along_car_xq.css" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">抢单记录</h1>
+		</header>
+		<div class="mui-content qd-list">									
+			<ul class="mui-table-view">									
+				<li class="mui-table-view-cell">								
+					<span class="mui-badge jishi">&nbsp;即时&nbsp;&nbsp;</span>																		
+					<span id="shijian">2017-05-26 17:30</span>	
+					<span class="mui-pull-right red">抢单成功</span>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<div class="mui-slider-handle">
+						<div class="mui-media-body mui-ellipsis">											
+							<span id="qishi"><img src="../../image/dingdan/qi.png"/>长春南湖公园</span>	
+							<span>（当前位置）</span>						
+						</div>
+					</div>
+				</li>							
+				<li class="mui-table-view-cell">
+					<div class="mui-slider-handle">
+						<div class="mui-media-body mui-ellipsis">
+							<span id="zhongdian"><img src="../../image/dingdan/zhong.png"/>长春凯旋路</span>
+							<span>（吉林省长春市宽城区宽城大陆258号）</span>		
+						</div>
+					</div>
+				</li>																							
+				<li class="mui-table-view-cell mui-ellipsis-2">
+					<span><img src="../../image/dingdan/qian.png"/></span>									
+					<span><span class="price">¥ 12</span>（预估价）</span>										
+				</li>									
+			</ul>
+			<ul class="mui-table-view">									
+				<li class="mui-table-view-cell">								
+					<span class="mui-badge yuyue">&nbsp;预约&nbsp;&nbsp;</span>																		
+					<span id="shijian">2017-05-26 17:30</span>		
+					<span class="mui-pull-right hui">被抢</span>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<div class="mui-slider-handle">
+						<div class="mui-media-body mui-ellipsis">											
+							<span id="qishi"><img src="../../image/dingdan/qi.png"/>长春南湖公园</span>	
+							<span>（当前位置）</span>						
+						</div>
+					</div>
+				</li>							
+				<li class="mui-table-view-cell">
+					<div class="mui-slider-handle">
+						<div class="mui-media-body mui-ellipsis">
+							<span id="zhongdian"><img src="../../image/dingdan/zhong.png"/>长春凯旋路</span>
+							<span>（吉林省长春市宽城区宽城大陆258号）</span>		
+						</div>
+					</div>
+				</li>																							
+				<li class="mui-table-view-cell mui-ellipsis-2">
+					<span><img src="../../image/dingdan/qian.png"/></span>									
+					<span><span class="price">¥ 12</span>（预估价）</span>										
+				</li>									
+			</ul>	
+			<ul class="mui-table-view">									
+				<li class="mui-table-view-cell">								
+					<span class="mui-badge jishi">&nbsp;即时&nbsp;&nbsp;</span>																		
+					<span id="shijian">2017-05-26 17:30</span>	
+					<span class="mui-pull-right green">等待反选</span>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<div class="mui-slider-handle">
+						<div class="mui-media-body mui-ellipsis">											
+							<span id="qishi"><img src="../../image/dingdan/qi.png"/>长春南湖公园</span>	
+							<span>（当前位置）</span>						
+						</div>
+					</div>
+				</li>							
+				<li class="mui-table-view-cell">
+					<div class="mui-slider-handle">
+						<div class="mui-media-body mui-ellipsis">
+							<span id="zhongdian"><img src="../../image/dingdan/zhong.png"/>长春凯旋路</span>
+							<span>（吉林省长春市宽城区宽城大陆258号）</span>		
+						</div>
+					</div>
+				</li>																							
+				<li class="mui-table-view-cell mui-ellipsis-2">
+					<span><img src="../../image/dingdan/qian.png"/></span>									
+					<span><span class="price">¥ 12</span>（预估价）</span>										
+				</li>									
+			</ul>
+		</div>
+		<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+		<script type="text/javascript" src="../../js/system/city.data-3.js"></script>
+		<script type="text/javascript" src="../../js/system/arttmpl.js"></script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js" ></script>
+		<script type="text/javascript" src="../../js/system/gps.js"></script>
+		<!--<script type="text/javascript" src="../../js/business/order/along_car_xq.js"></script>-->
+	</body>
+
+</html>

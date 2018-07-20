@@ -1,0 +1,1441 @@
+{
+  "login/login.html": {
+    "resources": [
+      "image/logo.png",
+      "css/business/login/login.css",
+      "fonts/mui.ttf",
+      "css/image/bj.png",
+      "image/dl_02.png",
+      "image/dl_03.png",
+      "js/system/mui.min.js",
+      "css/mui.min.css",
+      "css/business/index.css",
+      "js/business/login/login.js"
+    ],
+    "refer": [
+      "login/register.html"
+    ]
+  },
+  "login/register.html": {
+    "resources": [
+      "css/business/login/register.css",
+      "js/business/login/register.js"
+    ],
+    "refer": []
+  },
+  "view/login/login.html": {
+    "resources": [
+      "image/logo.png",
+      "css/business/login/login.css",
+      "fonts/mui.ttf",
+      "css/image/bj.png",
+      "image/dl_02.png",
+      "image/dl_03.png",
+      "js/system/mui.min.js",
+      "css/mui.min.css",
+      "css/business/index.css",
+      "js/business/login/login.js",
+      "view/login/register.html",
+      "js/system/app.js",
+      "js/system/constants.js",
+      "js/system/gps.js",
+      "js/system/xiachenshi.js"
+    ],
+    "refer": [
+      "index.html",
+      "view/login/register_driver.html"
+    ]
+  },
+  "index.html": {
+    "resources": [
+      "css/mui.min.css",
+      "js/system/mui.min.js",
+      "image/jiantou2.png",
+      "js/system/mui.picker.js",
+      "js/system/mui.js",
+      "fonts/mui.ttf",
+      "js/system/mui.poppicker.js",
+      "css/system/mui.picker.css",
+      "js/business/index.js",
+      "css/business/index2.css",
+      "js/system/xiangyingshi.js",
+      "js/system/constants.js",
+      "css/iconfont.css",
+      "js/system/city.data-3.js",
+      "css/iconfont.woff",
+      "css/system/mui.poppicker.css",
+      "css/system/main.css",
+      "view/order/fahuo.html",
+      "view/order/comlaint-select.html",
+      "view/geren_message/geren_message.html",
+      "js/system/xiachenshi.js",
+      "js/system/gps.js",
+      "image/headerBG.png",
+      "image/shangxiaban.png",
+      "view/notice/notice.html",
+      "view/order/jianche.html",
+      "fonts/iconfont.ttf",
+      "view/order/qiangdan.html",
+      "js/system/ydapp.js"
+    ],
+    "refer": [
+      "view/order/fahuo.html",
+      "view/order/dingdan.html",
+      "view/order/city_select.html",
+      "view/order/comlaint-select.html",
+      "view/notice/notice.html",
+      "view/geren_message/geren_message.html",
+      "view/order/jianche.html",
+      "view/geren_message/wode.html",
+      "view/order/fujincheliang.html",
+      "view/geren_message/end_message.html",
+      "view/geren_message/jingting_message.html",
+      "view/geren_message/begin_message.html",
+      "view/order/along_car_order.html",
+      "view/order/qiangdan.html",
+      "view/order/rob_order.html"
+    ]
+  },
+  "view/login/register.html": {
+    "resources": [
+      "view/login/login.html",
+      "css/business/login/register.css",
+      "js/business/login/register.js",
+      "image/dl_02.png",
+      "image/dl_03.png",
+      "js/system/mui.min.js",
+      "css/mui.min.css",
+      "css/business/index.css",
+      "fonts/mui.ttf",
+      "js/system/app.js",
+      "view/login/login-agreement.html"
+    ],
+    "refer": [
+      "view/login/login.html"
+    ]
+  },
+  "view/login/login-agreement.html": {
+    "resources": [
+      "css/business/agreement.css"
+    ],
+    "refer": []
+  },
+  "view/order/fahuo.html": {
+    "resources": [
+      "image/wuliu2.png",
+      "image/wuliu1.png",
+      "image/zuobiao.png",
+      "image/che3.png",
+      "image/che2.png",
+      "image/wuliu3.png",
+      "image/jiantou.png",
+      "image/che4.png",
+      "image/che1.png",
+      "js/business/order/fahuo.js",
+      "css/business/order/fahuo.css",
+      "css/icons-extra.css",
+      "js/system/mui.min.js",
+      "js/system/xiangyingshi.js",
+      "js/system/constants.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "css/system/main.css",
+      "fonts/mui.ttf",
+      "js/system/gps.js",
+      "js/system/arttmpl.js",
+      "js/system/city.data-3.js",
+      "image/jiazai.png"
+    ],
+    "refer": [
+      "view/order/fujincheliang.html",
+      "view/order/zhuanche_xiadan.html",
+      "view/login/login.html",
+      "view/order/logistics.html",
+      "view/order/shunfengche_xiadan.html",
+      "view/order/city_select.html"
+    ]
+  },
+  "view/order/dingdan.html": {
+    "resources": [
+      "css/business/order/dingdan.css",
+      "css/iconfont.woff",
+      "js/system/xiangyingshi.js",
+      "js/system/constants.js",
+      "css/iconfont.css",
+      "js/system/mui.min.js",
+      "css/mui.min.css",
+      "css/system/main.css",
+      "image/dingdan/qian.png",
+      "image/dingdan/qi.png",
+      "image/dingdan/zhong.png",
+      "image/dingdan/jianche.png",
+      "image/dingdan/wuliu.png",
+      "js/business/order/dingdan.js",
+      "js/system/arttmpl.js",
+      "js/system/json_time.js",
+      "js/system/mui.pullToRefresh.js",
+      "js/system/jquery-3.1.1.js",
+      "image/dingdan/wudingdan.png",
+      "js/system/mui.pullToRefresh.material.js",
+      "image/dingdan/lvche.png"
+    ],
+    "refer": [
+      "view/order/order_xiangqing.html",
+      "view/checkline/order_detail.html",
+      "view/order/order_wuliu_xq.html"
+    ]
+  },
+  "view/order/city_select.html": {
+    "resources": [
+      "js/system/mui.poppicker_eidt.js",
+      "js/system/mui.picker.js",
+      "js/system/mui.js",
+      "js/system/city.data-3.js",
+      "css/mui.min.css",
+      "css/system/mui.picker.css",
+      "css/system/mui.poppicker.css",
+      "css/system/main.css",
+      "js/business/order/city_select.js"
+    ],
+    "refer": []
+  },
+  "view/order/comlaint-select.html": {
+    "resources": [
+      "css/business/order/complaint.css",
+      "image/tousu.png",
+      "css/business/index.css",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "js/business/order/complaint-select.js",
+      "js/system/xiachenshi.js",
+      "js/system/mui.min.js"
+    ],
+    "refer": [
+      "view/order/complaint.html"
+    ]
+  },
+  "view/notice/notice.html": {
+    "resources": [
+      "css/system/style.css",
+      "image/notice.png",
+      "css/business/notice/notice.css",
+      "js/business/notice/notice.js",
+      "js/system/arttmpl.js",
+      "js/system/json_time.js",
+      "js/system/jquery-3.1.1.js",
+      "js/system/xiangyingshi.js",
+      "image/tz_02.png",
+      "js/system/constants.js",
+      "js/system/mui.min.js",
+      "css/mui.min.css",
+      "css/system/main.css",
+      "image/dingdan/wudingdan.png"
+    ],
+    "refer": [
+      "view/login/login.html",
+      "view/notice/notice_detail.html"
+    ]
+  },
+  "view/geren_message/geren_message.html": {
+    "resources": [
+      "css/business/geren_message/geren_message.css",
+      "js/business/geren_message/geren_message.js",
+      "image/touxiang.png",
+      "js/system/xiangyingshi.js",
+      "js/system/mui.js",
+      "js/system/constants.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "css/system/main.css",
+      "js/system/xiachenshi.js",
+      "js/system/exif.js",
+      "js/system/mobileBUGFix.mini.js",
+      "image/tubiao2.png"
+    ],
+    "refer": [
+      "view/geren_message/photo.html",
+      "view/geren_message/name.html",
+      "view/geren_message/gexingqianming.html"
+    ]
+  },
+  "view/geren_message/photo.html": {
+    "resources": [
+      "image/photo.png",
+      "css/business/geren_message/photo.css",
+      "css/system/tubiao.css",
+      "image/tubiao1.png"
+    ],
+    "refer": []
+  },
+  "view/order/jianche.html": {
+    "resources": [
+      "image/jche3.png",
+      "image/jche1.png",
+      "image/jche4.png",
+      "image/jche2.png",
+      "css/business/order/jianche.css",
+      "fonts/mui.ttf",
+      "js/system/mui.min.js",
+      "css/icons-extra.css",
+      "js/system/xiangyingshi.js",
+      "js/system/constants.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "js/business/order/fahuo.js",
+      "css/system/main.css",
+      "js/business/checkline/jianche.js"
+    ],
+    "refer": [
+      "view/jianche/jianche_xiadan.html"
+    ]
+  },
+  "view/geren_message/wode.html": {
+    "resources": [
+      "image/wode/guanyuwomen.png",
+      "image/wode/youhuijuan.png",
+      "image/wode/luxian.png",
+      "image/wodelogo.png",
+      "css/business/geren_message/wode.css",
+      "image/vip.png",
+      "image/wode/yue.png",
+      "image/wodebg.png",
+      "image/wode/haoyou.png",
+      "image/wode/kefu.png",
+      "image/wode/dengji.png",
+      "js/business/geren_message/wode.js",
+      "fonts/mui.ttf",
+      "js/system/mui.min.js",
+      "css/icons-extra.css",
+      "js/system/xiangyingshi.js",
+      "js/system/constants.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "css/system/main.css",
+      "image/touxiang.png",
+      "image/v1-driver.png",
+      "image/wode/renwu.png",
+      "image/wode/danshu_img.png",
+      "image/wode/fanwei.png",
+      "image/wode/shouru.png",
+      "image/wode/xingxing.png",
+      "image/wode/xingxingBan.png"
+    ],
+    "refer": [
+      "view/about-us/about-us.html",
+      "view/coupon/coupon.html",
+      "view/about-us/call-center.html",
+      "view/recommend-code/recommend-code.html",
+      "view/geren_message/wodedengji.html",
+      "view/login/login.html",
+      "view/geren_message/guanli_luxian.html",
+      "view/geren_message/geren_message.html",
+      "view/balance/balance.html",
+      "view/geren_message/driver_task.html",
+      "view/car-order/car_range.html",
+      "view/geren_message/fuwubiaozhun-agreement.html"
+    ]
+  },
+  "view/notice/notice_detail.html": {
+    "resources": [
+      "js/business/notice/notice_detail.js",
+      "js/system/xiangyingshi.js",
+      "js/system/arttmpl.js",
+      "js/system/constants.js",
+      "fonts/mui.ttf",
+      "css/iconfont.css",
+      "js/system/mui.min.js",
+      "css/mui.min.css",
+      "js/system/json_time.js",
+      "css/icons-extra.css",
+      "css/system/main.css",
+      "js/system/xiachenshi.js"
+    ],
+    "refer": []
+  },
+  "view/about-us/about-us.html": {
+    "resources": [
+      "js/system/xiangyingshi.js",
+      "css/system/style.css",
+      "fonts/mui.ttf",
+      "image/logo_no.png",
+      "js/system/mui.min.js",
+      "css/mui.min.css",
+      "css/business/about-us/about-us.css",
+      "css/business/index.css",
+      "css/system/main.css",
+      "js/business/about-us/about-us.js",
+      "js/system/xiachenshi.js"
+    ],
+    "refer": []
+  },
+  "view/about-us/kefu-wenda.html": {
+    "resources": [
+      "js/system/mui.js",
+      "js/business/about-us/kefu-wenda.js",
+      "image/tel.png",
+      "js/system/arttmpl.js",
+      "css/iconfont.css",
+      "js/system/jquery-3.1.1.js",
+      "css/business/about-us/kefu-wenti.css",
+      "css/icons-extra.css",
+      "css/system/main.css"
+    ],
+    "refer": []
+  },
+  "view/coupon/coupon.html": {
+    "resources": [
+      "css/business/coupon/coupon.css",
+      "css/system/style.css",
+      "js/system/arttmpl.js",
+      "fonts/mui.ttf",
+      "js/system/mui.min.js",
+      "image/yjq-time.png",
+      "css/image/yhq_01.png",
+      "image/yhq_wu.png",
+      "js/system/xiangyingshi.js",
+      "js/business/coupon/coupon.js",
+      "js/system/constants.js",
+      "css/mui.min.css",
+      "js/system/json_time.js",
+      "css/image/yhq_02.png",
+      "js/system/jquery-3.1.1.js",
+      "css/system/main.css",
+      "view/coupon/coupon-invalid.html",
+      "js/system/xiachenshi.js"
+    ],
+    "refer": [
+      "view/coupon/coupon-invalid.html"
+    ]
+  },
+  "view/about-us/call-center.html": {
+    "resources": [
+      "js/system/xiangyingshi.js",
+      "css/system/style.css",
+      "css/image/kefu_03.png",
+      "css/image/kefu_02.png",
+      "css/image/kefu_04.png",
+      "fonts/mui.ttf",
+      "image/kfzx.png",
+      "js/system/mui.min.js",
+      "css/mui.min.css",
+      "css/business/about-us/about-us.css",
+      "css/business/index.css",
+      "css/image/kefu_01dj.png",
+      "js/business/about-us/call-center.js",
+      "js/system/xiachenshi.js",
+      "css/image/kefu_02dj.png",
+      "css/image/kefu_01.png",
+      "css/image/kefu_03dj.png",
+      "css/image/kefu_04dj.png"
+    ],
+    "refer": [
+      "view/about-us/kefu-wenda.html"
+    ]
+  },
+  "view/coupon/coupon-invalid.html": {
+    "resources": [
+      "image/yhq-time-hui.png",
+      "image/yhq_04.png",
+      "css/image/yhq_03.png",
+      "js/business/coupon/coupon-invalid.js",
+      "view/coupon/coupon.html",
+      "js/system/jquery-3.1.1.js",
+      "js/system/xiangyingshi.js",
+      "css/business/coupon/coupon.css",
+      "js/system/xiachenshi.js",
+      "js/system/arttmpl.js",
+      "js/system/constants.js",
+      "js/system/mui.min.js",
+      "css/mui.min.css",
+      "js/system/json_time.js",
+      "css/system/style.css",
+      "css/system/main.css"
+    ],
+    "refer": [
+      "view/coupon/coupon.html"
+    ]
+  },
+  "view/recommend-code/recommend-code.html": {
+    "resources": [
+      "image/czrw.png",
+      "css/system/style.css",
+      "image/mrrw.png",
+      "js/system/arttmpl.js",
+      "fonts/mui.ttf",
+      "js/system/mui.min.js",
+      "image/tjm.png",
+      "js/system/xiangyingshi.js",
+      "js/business/recommend-code/recommend-code.js",
+      "js/system/constants.js",
+      "css/mui.min.css",
+      "css/business/recommend-code/recommend-code.css",
+      "js/system/json_time.js",
+      "js/system/jquery-3.1.1.js",
+      "css/system/main.css",
+      "image/lqjl2.png",
+      "image/lqjl3.png",
+      "js/system/xiachenshi.js"
+    ],
+    "refer": []
+  },
+  "view/geren_message/wodedengji.html": {
+    "resources": [
+      "image/wodelogo.png",
+      "image/wode/jifen3.png",
+      "fonts/mui.ttf",
+      "js/business/geren_message/huiyuandengji.js",
+      "js/system/mui.min.js",
+      "image/wode/jifen1.png",
+      "css/business/geren_message/wodedengji.css",
+      "css/icons-extra.css",
+      "js/system/xiangyingshi.js",
+      "image/vip.png",
+      "js/system/constants.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "image/v1.png",
+      "css/system/main.css",
+      "js/business/geren_message/wodedengji.js",
+      "js/system/xiachenshi.js"
+    ],
+    "refer": [
+      "view/geren_message/huiyuandengji.html"
+    ]
+  },
+  "view/geren_message/huiyuandengji.html": {
+    "resources": [
+      "css/business/geren_message/huiyuandengji.css",
+      "image/VI/2.png",
+      "image/VI/3.png",
+      "image/VI/1.png",
+      "image/VI/4.png",
+      "js/business/geren_message/huiyuandengji.js",
+      "js/system/xiangyingshi.js",
+      "js/system/xiachenshi.js",
+      "js/system/constants.js",
+      "css/iconfont.css",
+      "js/system/mui.min.js",
+      "css/mui.min.css",
+      "css/icons-extra.css",
+      "css/system/main.css",
+      "image/v6.png",
+      "image/v5.png"
+    ],
+    "refer": []
+  },
+  "view/order/fujincheliang.html": {
+    "resources": [
+      "js/business/order/fujincheliang.js",
+      "js/system/constants.js",
+      "fonts/mui.ttf",
+      "css/iconfont.css",
+      "js/system/mui.min.js",
+      "css/mui.min.css",
+      "css/icons-extra.css",
+      "css/system/main.css",
+      "js/system/xiangyingshi.js",
+      "js/system/arttmpl.js",
+      "js/system/json_time.js",
+      "view/order/maps_map_sub.html",
+      "view/order/maps_map_sub_2.html",
+      "image/my_zuobiao.png",
+      "js/system/xiachenshi.js",
+      "image/headerBG.png"
+    ],
+    "refer": [
+      "view/order/maps_map_sub.html",
+      "view/order/maps_map_sub_2.html"
+    ]
+  },
+  "view/order/maps_map_sub.html": {
+    "resources": [
+      "js/system/mui.min.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "css/business/order/qiangdan.css",
+      "css/icons-extra.css",
+      "css/system/main.css"
+    ],
+    "refer": []
+  },
+  "view/order/maps_map_sub_2.html": {
+    "resources": [
+      "js/system/mui.min.js"
+    ],
+    "refer": []
+  },
+  "view/geren_message/end_message.html": {
+    "resources": [
+      "js/business/geren_message/end_message.js",
+      "image/fahuo_message/qishi1.png",
+      "image/fahuo_message/qishi4.png",
+      "image/fahuo_message/qishi3.png",
+      "image/fahuo_message/qishi2.png",
+      "js/system/mui.js",
+      "css/system/style.css",
+      "fonts/mui.ttf",
+      "css/icons-extra.css",
+      "js/system/xiangyingshi.js",
+      "js/system/constants.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "css/business/geren_message/begin_message.css",
+      "css/system/main.css",
+      "js/system/xiachenshi.js"
+    ],
+    "refer": []
+  },
+  "view/geren_message/jingting_message.html": {
+    "resources": [
+      "js/business/geren_message/jingting_message.js",
+      "image/fahuo_message/qishi1.png",
+      "image/fahuo_message/qishi4.png",
+      "image/fahuo_message/qishi3.png",
+      "image/fahuo_message/qishi2.png",
+      "js/system/mui.js",
+      "css/business/geren_message/begin_message.css",
+      "css/system/style.css",
+      "fonts/mui.ttf",
+      "css/icons-extra.css",
+      "js/system/xiangyingshi.js",
+      "js/system/constants.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "css/system/main.css",
+      "js/system/xiachenshi.js",
+      "image/headerBG.png"
+    ],
+    "refer": []
+  },
+  "view/geren_message/begin_message.html": {
+    "resources": [
+      "js/system/mui.js",
+      "js/business/geren_message/begin_message.js",
+      "css/business/geren_message/begin_message.css",
+      "image/fahuo_message/qishi1.png",
+      "image/fahuo_message/qishi4.png",
+      "image/fahuo_message/qishi3.png",
+      "image/fahuo_message/qishi2.png",
+      "fonts/mui.ttf",
+      "css/system/style.css",
+      "css/icons-extra.css",
+      "js/system/xiangyingshi.js",
+      "js/system/constants.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "css/system/main.css",
+      "js/system/xiachenshi.js"
+    ],
+    "refer": []
+  },
+  "view/order/zhuanche_xiadan.html": {
+    "resources": [
+      "js/system/mui.picker.js",
+      "js/system/mui.js",
+      "css/system/style.css",
+      "css/business/order/zhuanche_xiadan.css",
+      "fonts/mui.ttf",
+      "image/ewai.png",
+      "css/system/mui.picker.css",
+      "css/system/mui.dtpicker.css",
+      "css/icons-extra.css",
+      "image/qidian.png",
+      "js/business/order/zhuanche_xiadan.js",
+      "js/system/mui.dtpicker.js",
+      "js/system/xiangyingshi.js",
+      "image/liuyan.png",
+      "image/zhongdian.png",
+      "js/system/constants.js",
+      "image/shijian.png",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "js/system/json_time.js",
+      "image/huoyun.png",
+      "css/system/main.css",
+      "image/jing.png",
+      "js/system/gps.js",
+      "js/system/xiachenshi.js"
+    ],
+    "refer": [
+      "view/car-order/additional-services.html",
+      "view/geren_message/select_luxian.html",
+      "view/car-order/freight-insurance.html",
+      "view/car-order/order-confirm.html",
+      "view/car-order/message.html"
+    ]
+  },
+  "view/car-order/additional-services.html": {
+    "resources": [
+      "css/system/style.css",
+      "js/system/arttmpl.js",
+      "fonts/mui.ttf",
+      "image/ewai.png",
+      "js/system/mui.min.js",
+      "js/system/xiangyingshi.js",
+      "image/biankuang1.png",
+      "css/business/car-order/additional-services.css",
+      "js/system/constants.js",
+      "css/mui.min.css",
+      "js/system/json_time.js",
+      "js/system/jquery-3.1.1.js",
+      "image/biankuang2.png",
+      "js/business/car-order/additional-services.js",
+      "css/system/main.css"
+    ],
+    "refer": [
+      "view/order/zhuanche_xiadan.html"
+    ]
+  },
+  "view/geren_message/select_luxian.html": {
+    "resources": [
+      "image/luxian.png",
+      "image/zuobiao2.png",
+      "js/system/arttmpl.js",
+      "css/business/geren_message/select_luxian.css",
+      "image/guanli.png",
+      "js/system/jquery-3.1.1.js",
+      "js/business/geren_message/select_luxian.js",
+      "js/system/mui.js",
+      "css/system/style.css",
+      "fonts/mui.ttf",
+      "css/icons-extra.css",
+      "js/system/xiangyingshi.js",
+      "js/system/constants.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "css/system/main.css"
+    ],
+    "refer": []
+  },
+  "view/car-order/freight-insurance.html": {
+    "resources": [
+      "js/system/xiangyingshi.js",
+      "js/system/arttmpl.js",
+      "js/system/constants.js",
+      "fonts/mui.ttf",
+      "js/system/mui.min.js",
+      "css/mui.min.css",
+      "css/business/index.css",
+      "js/system/jquery-3.1.1.js",
+      "js/business/car-order/freight-insurance.js",
+      "image/yfx.png",
+      "css/business/car-order/freight-insurance.css"
+    ],
+    "refer": [
+      "view/car-order/insurance-agreement.html"
+    ]
+  },
+  "view/car-order/order-confirm.html": {
+    "resources": [
+      "image/xf-img.png",
+      "css/system/style.css",
+      "js/system/arttmpl.js",
+      "image/order-xzfs.png",
+      "fonts/mui.ttf",
+      "js/system/mui.min.js",
+      "js/business/car-order/order-confirm.js",
+      "image/rud_07.png",
+      "js/system/xiangyingshi.js",
+      "css/business/car-order/order-confirm.css",
+      "image/rud_03.png",
+      "js/system/constants.js",
+      "css/mui.min.css",
+      "js/system/json_time.js",
+      "js/system/jquery-3.1.1.js",
+      "image/rud_05.png",
+      "css/system/main.css",
+      "js/system/xiachenshi.js"
+    ],
+    "refer": []
+  },
+  "view/geren_message/guanli_luxian.html": {
+    "resources": [
+      "js/business/geren_message/guanli_luxian.js",
+      "image/luxian.png",
+      "js/system/mui.js",
+      "css/system/style.css",
+      "js/system/arttmpl.js",
+      "fonts/mui.ttf",
+      "css/icons-extra.css",
+      "css/business/geren_message/guanli_luxian.css",
+      "js/system/xiangyingshi.js",
+      "image/zuobiao2.png",
+      "js/system/constants.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "js/system/jquery-3.1.1.js",
+      "css/system/main.css",
+      "js/system/xiachenshi.js"
+    ],
+    "refer": [
+      "view/geren_message/xiugai_luxian.html",
+      "view/geren_message/xinzeng_luxian.html"
+    ]
+  },
+  "view/geren_message/xiugai_luxian.html": {
+    "resources": [
+      "js/system/mui.js",
+      "css/system/style.css",
+      "fonts/mui.ttf",
+      "image/qidian.png",
+      "css/icons-extra.css",
+      "js/system/xiangyingshi.js",
+      "image/zhongdian.png",
+      "js/business/geren_message/xiugai_luxian.js",
+      "js/system/constants.js",
+      "image/jing.png",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "css/business/geren_message/xinzeng_luxian.css",
+      "image/shuru.png",
+      "css/system/main.css",
+      "js/system/xiachenshi.js"
+    ],
+    "refer": [
+      "view/geren_message/end_message.html",
+      "view/geren_message/begin_message.html"
+    ]
+  },
+  "view/order/order_xiangqing.html": {
+    "resources": [
+      "image/dingdan/xiangqing5.png",
+      "image/dingdan/xiangqing2.png",
+      "css/business/order/order_xiangqing.css",
+      "js/business/order/order_xiangqing.js",
+      "image/dingdan/xiangqing1.png",
+      "image/dingdan/xiangqing3.png",
+      "image/dingdan/xiangqing4.png",
+      "image/dingdan/xiangqing6.png",
+      "js/system/arttmpl.js",
+      "fonts/mui.ttf",
+      "js/system/mui.min.js",
+      "js/system/xiangyingshi.js",
+      "js/system/constants.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "js/system/json_time.js",
+      "js/system/jquery-3.1.1.js",
+      "css/system/main.css",
+      "js/system/xiachenshi.js",
+      "image/headerBG.png"
+    ],
+    "refer": [
+      "view/order/comlaint-select.html",
+      "view/order/complaint_select.html",
+      "view/payment/wait-payment.html"
+    ]
+  },
+  "view/car-order/insurance-agreement.html": {
+    "resources": [
+      "css/business/agreement.css",
+      "css/business/about-us/about-us.css",
+      "js/business/car-order/insurance-agreement.js"
+    ],
+    "refer": []
+  },
+  "view/car-order/message.html": {
+    "resources": [
+      "css/system/style.css",
+      "js/system/arttmpl.js",
+      "image/biankuang3.png",
+      "css/business/car-order/message.css",
+      "fonts/mui.ttf",
+      "js/system/mui.min.js",
+      "js/business/car-order/message.js",
+      "js/system/xiangyingshi.js",
+      "js/system/constants.js",
+      "css/mui.min.css",
+      "js/system/json_time.js",
+      "js/system/jquery-3.1.1.js",
+      "css/system/main.css",
+      "image/biankuang4.png"
+    ],
+    "refer": []
+  },
+  "view/balance/balance_list_parent.html": {
+    "resources": [
+      "view/balance/balance_detailed_list.html",
+      "js/business/balance/balance_list_parent.js"
+    ],
+    "refer": [
+      "view/balance/balance_detailed_list.html"
+    ]
+  },
+  "view/balance/balance.html": {
+    "resources": [
+      "css/system/style.css",
+      "js/business/balance/balance.js",
+      "js/system/arttmpl.js",
+      "fonts/mui.ttf",
+      "js/system/mui.min.js",
+      "js/system/xiangyingshi.js",
+      "js/system/constants.js",
+      "css/business/balance/balance.css",
+      "css/mui.min.css",
+      "js/system/json_time.js",
+      "js/system/jquery-3.1.1.js",
+      "image/balance-ye.png",
+      "css/system/main.css",
+      "image/tixian.png"
+    ],
+    "refer": [
+      "view/balance/balance_list_parent.html",
+      "view/balance/recharge.html",
+      "view/balance/withdrawals.html",
+      "view/balance/setup_password.html"
+    ]
+  },
+  "view/balance/balance_detailed_list.html": {
+    "resources": [
+      "css/business/balance/balance_detailed_list.css",
+      "js/business/balance/balance_detailed_list.js",
+      "image/yemx_null.png",
+      "js/system/xiangyingshi.js",
+      "css/system/style.css",
+      "js/system/arttmpl.js",
+      "js/system/constants.js",
+      "js/system/mui.min.js",
+      "css/mui.min.css",
+      "js/system/json_time.js",
+      "js/system/jquery-3.1.1.js",
+      "css/system/main.css"
+    ],
+    "refer": [
+      "view/balance/balance_detailed_details.html"
+    ]
+  },
+  "view/jianche/jianche_xiadan.html": {
+    "resources": [
+      "js/business/checkline/checkline_list.js",
+      "js/system/jquery-3.1.1.min.js",
+      "js/system/mui.js",
+      "css/system/style.css",
+      "css/business/jianche/jianche_xiadan.css",
+      "fonts/mui.ttf",
+      "css/icons-extra.css",
+      "js/system/arttmpl.js",
+      "js/system/xiangyingshi.js",
+      "js/system/constants.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "css/system/main.css",
+      "js/system/xiachenshi.js",
+      "image/headerBG.png"
+    ],
+    "refer": [
+      "view/jianche/message_tianxie.html"
+    ]
+  },
+  "view/geren_message/xinzeng_luxian.html": {
+    "resources": [
+      "image/zhongdian.png",
+      "css/business/geren_message/xinzeng_luxian.css",
+      "image/shuru.png",
+      "image/qidian.png",
+      "js/business/geren_message/xinzeng_luxian.js",
+      "js/system/mui.js",
+      "css/system/style.css",
+      "js/system/xiachenshi.js",
+      "fonts/mui.ttf",
+      "css/icons-extra.css",
+      "js/system/xiangyingshi.js",
+      "js/system/constants.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "css/system/main.css"
+    ],
+    "refer": [
+      "view/geren_message/begin_message.html"
+    ]
+  },
+  "view/geren_message/name.html": {
+    "resources": [
+      "css/business/geren_message/name.css",
+      "js/business/geren_message/name.js"
+    ],
+    "refer": []
+  },
+  "view/geren_message/gexingqianming.html": {
+    "resources": [
+      "css/system/style.css",
+      "js/business/geren_message/gexingqianming.js",
+      "css/business/geren_message/gexingqianming.css"
+    ],
+    "refer": []
+  },
+  "view/order/complaint.html": {
+    "resources": [
+      "js/business/order/complaint.js",
+      "css/business/order/complaint.css",
+      "js/system/xiachenshi.js",
+      "fonts/mui.ttf",
+      "js/system/mui.min.js",
+      "css/mui.min.css",
+      "css/business/index.css",
+      "js/system/constants.js"
+    ],
+    "refer": []
+  },
+  "view/order/complaint_select.html": {
+    "resources": [
+      "css/business/order/complaint.css",
+      "js/business/order/complaint_select.js",
+      "image/tousu.png",
+      "css/business/index.css",
+      "js/system/constants.js",
+      "js/system/xiachenshi.js",
+      "fonts/mui.ttf",
+      "js/system/mui.min.js",
+      "css/mui.min.css"
+    ],
+    "refer": [
+      "view/order/complaint.html"
+    ]
+  },
+  "view/order/logistics.html": {
+    "resources": [
+      "css/system/style.css",
+      "js/business/order/logistice.js",
+      "js/system/xiachenshi.js",
+      "fonts/mui.ttf",
+      "image/zwkx.png",
+      "css/mui.min.css",
+      "css/business/order/logistics.css",
+      "css/system/mui.picker.css",
+      "image/jiazai.png",
+      "css/system/mui.poppicker.css",
+      "js/system/gps.js",
+      "css/system/main.css",
+      "js/system/arttmpl.js",
+      "js/system/mui.min.js",
+      "js/system/xiangyingshi.js",
+      "js/system/constants.js",
+      "js/system/jquery-3.1.1.js"
+    ],
+    "refer": [
+      "view/order/logistics_company.html"
+    ]
+  },
+  "view/order/logistics_company.html": {
+    "resources": [
+      "image/wlgs_tel.png",
+      "css/business/order/wuliu_xiadan.css",
+      "js/system/mui.js",
+      "css/iconfont.css",
+      "js/business/order/logistics_company.js",
+      "css/icons-extra.css",
+      "css/system/style.css",
+      "js/system/xiachenshi.js",
+      "js/system/arttmpl.js",
+      "fonts/mui.ttf",
+      "js/system/xiangyingshi.js",
+      "js/system/constants.js",
+      "css/mui.min.css",
+      "js/system/jquery-3.1.1.js",
+      "image/jiazai.png",
+      "js/system/gps.js",
+      "css/system/main.css"
+    ],
+    "refer": [
+      "view/order/fujincheliang.html",
+      "view/order/dingdan.html"
+    ]
+  },
+  "view/checkline/order_detail.html": {
+    "resources": [
+      "js/business/checkline/order_detail.js",
+      "js/system/mui.min.js",
+      "js/system/jquery-3.1.1.js",
+      "css/business/order/order_xiangqing.css",
+      "image/dingdan/xiangqing1.png",
+      "image/dingdan/xiangqing6.png",
+      "css/mui.min.css",
+      "js/system/json_time.js",
+      "js/system/arttmpl.js",
+      "js/system/xiangyingshi.js",
+      "js/system/xiachenshi.js",
+      "js/system/constants.js",
+      "image/dingdan/xiangqing2.png",
+      "css/iconfont.css",
+      "css/system/main.css",
+      "fonts/mui.ttf"
+    ],
+    "refer": [
+      "view/order/complaint.html",
+      "view/payment/wait-payment.html"
+    ]
+  },
+  "view/order/shunfengche_xiadan.html": {
+    "resources": [
+      "fonts/mui.ttf",
+      "js/business/order/shunfengche_xiadan.js",
+      "js/system/mui.picker.js",
+      "js/system/mui.js",
+      "css/system/style.css",
+      "js/system/xiachenshi.js",
+      "css/business/order/zhuanche_xiadan.css",
+      "image/ewai.png",
+      "css/system/mui.picker.css",
+      "css/system/mui.dtpicker.css",
+      "css/icons-extra.css",
+      "image/qidian.png",
+      "js/system/mui.dtpicker.js",
+      "js/system/xiangyingshi.js",
+      "image/liuyan.png",
+      "image/zhongdian.png",
+      "js/system/constants.js",
+      "image/shijian.png",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "image/huoyun.png",
+      "css/system/main.css",
+      "image/jing.png",
+      "js/system/gps.js"
+    ],
+    "refer": [
+      "view/car-order/freight-insurance.html",
+      "view/geren_message/select_luxian.html",
+      "view/car-order/additional-services.html",
+      "view/car-order/shunfeng-order-confirm.html"
+    ]
+  },
+  "view/car-order/shunfeng-order-confirm.html": {
+    "resources": [
+      "image/xf-img.png",
+      "image/rud_03.png",
+      "css/business/car-order/order-confirm.css",
+      "image/order-xzfs.png",
+      "image/rud_05.png",
+      "js/business/car-order/shunfengche-order-confirm.js",
+      "image/rud_07.png",
+      "css/system/style.css",
+      "js/system/xiachenshi.js",
+      "js/system/arttmpl.js",
+      "fonts/mui.ttf",
+      "js/system/mui.min.js",
+      "js/system/xiangyingshi.js",
+      "js/system/constants.js",
+      "css/mui.min.css",
+      "js/system/json_time.js",
+      "js/system/jquery-3.1.1.js",
+      "css/system/main.css"
+    ],
+    "refer": []
+  },
+  "view/order/order_wuliu_xq.html": {
+    "resources": [
+      "js/business/order/order_wuliu_xq.js",
+      "fonts/mui.ttf",
+      "css/business/order/order_xiangqing.css",
+      "image/dingdan/xiangqing1.png",
+      "image/dingdan/xiangqing6.png"
+    ],
+    "refer": [
+      "view/payment/wait-payment.html"
+    ]
+  },
+  "view/payment/wait-payment.html": {
+    "resources": [
+      "image/dzf2.png",
+      "image/dzf.png",
+      "image/dzf4.png",
+      "js/business/payment/wait-payment.js",
+      "image/dzf1.png",
+      "image/dzf3.png",
+      "css/business/payment/wait-payment.css",
+      "js/system/mui.min.js",
+      "css/system/style.css",
+      "js/system/xiachenshi.js",
+      "fonts/mui.ttf",
+      "js/system/xiangyingshi.js",
+      "js/system/constants.js",
+      "css/mui.min.css",
+      "css/system/main.css"
+    ],
+    "refer": [
+      "view/payment/tl_bank_pay.html"
+    ]
+  },
+  "view/balance/recharge.html": {
+    "resources": [
+      "js/business/balance/recharge.js",
+      "image/recharge_img.png",
+      "js/system/jquery-3.1.1.js"
+    ],
+    "refer": []
+  },
+  "view/jianche/message_tianxie.html": {
+    "resources": [
+      "js/system/mui.dtpicker.js",
+      "js/system/mui.picker.min.js",
+      "css/business/jianche/message_tianxie.css",
+      "js/business/checkline/message_tianxie.js",
+      "css/system/mui.dtpicker.css",
+      "css/system/mui.picker.css",
+      "js/system/mui.js",
+      "js/system/xiangyingshi.js",
+      "js/system/xiachenshi.js",
+      "js/system/constants.js",
+      "css/mui.min.css",
+      "css/system/style.css"
+    ],
+    "refer": [
+      "view/jianche/jianche_dingdanqueren.html"
+    ]
+  },
+  "view/jianche/jianche_dingdanqueren.html": {
+    "resources": [
+      "css/business/jianche/jianche_dingdanqueren.css",
+      "js/system/mui.min.js",
+      "js/business/checkline/jianche_dingdanqueren.js",
+      "js/system/xiangyingshi.js",
+      "js/system/xiachenshi.js",
+      "js/system/constants.js",
+      "fonts/mui.ttf",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "css/system/main.css"
+    ],
+    "refer": [
+      "view/payment/wait-payment.html"
+    ]
+  },
+  "view/payment/tl_bank_pay.html": {
+    "resources": [
+      "js/system/xiangyingshi.js",
+      "css/system/style.css",
+      "js/system/constants.js",
+      "js/system/xiachenshi.js",
+      "fonts/mui.ttf",
+      "js/system/mui.min.js",
+      "css/mui.min.css",
+      "css/business/payment/wait-payment.css",
+      "css/system/main.css"
+    ],
+    "refer": []
+  },
+  "view/order/along_car_order.html": {
+    "resources": [
+      "css/system/style.css",
+      "js/business/order/along_car_order.js",
+      "image/zc.png",
+      "css/mui.min.css",
+      "image/sfc.png",
+      "css/business/order/along_car_order.css",
+      "css/business/notice/notice.css",
+      "js/business/notice/notice.js",
+      "image/tz_02.png",
+      "image/notice.png"
+    ],
+    "refer": []
+  },
+  "view/order/qiangdan.html": {
+    "resources": [
+      "image/qiangdan2.png",
+      "css/business/order/qiangdan.css",
+      "js/business/order/qiangdan.js",
+      "image/dingwei.png",
+      "js/system/city.data-3.js",
+      "js/system/gps.js",
+      "js/system/arttmpl.js",
+      "css/icons-extra.css",
+      "js/system/xiangyingshi.js",
+      "js/system/constants.js",
+      "js/system/mui.min.js",
+      "css/mui.min.css",
+      "css/system/main.css",
+      "fonts/mui.ttf",
+      "css/iconfont.css",
+      "view/order/city_select.html",
+      "view/order/maps_map_sub.html",
+      "image/sfc_qd.png",
+      "js/system/ydapp.js"
+    ],
+    "refer": [
+      "view/order/along_car_xq.html",
+      "view/order/city_select.html",
+      "view/order/maps_map_sub.html",
+      "view/order/order_xiangqing.html"
+    ]
+  },
+  "view/order/along_car_xq.html": {
+    "resources": [
+      "image/sfcqi.png",
+      "js/business/order/along_car_xq.js",
+      "image/dingdan/qi.png",
+      "image/dingdan/qian.png",
+      "js/system/xiachenshi.js",
+      "js/system/arttmpl.js",
+      "js/system/mui.min.js",
+      "image/dingdan/zhong.png",
+      "js/system/xiangyingshi.js",
+      "image/sfcwz.png",
+      "js/system/constants.js",
+      "js/system/city.data-3.js",
+      "css/mui.min.css",
+      "css/business/order/along_car_xq.css",
+      "image/sq.png",
+      "js/system/gps.js",
+      "image/sfczhong.png",
+      "fonts/mui.ttf",
+      "css/iconfont.css",
+      "css/system/main.css",
+      "image/sfc_zanwu.png",
+      "js/system/jquery-3.1.1.js"
+    ],
+    "refer": [
+      "view/order/city_select.html"
+    ]
+  },
+  "view/login/register-input-file.html": {
+    "resources": [
+      "css/image/zc_03.png",
+      "js/system/xiachenshi.js",
+      "fonts/mui.ttf",
+      "css/business/login/register-input-file.css",
+      "image/dl_tj.png",
+      "js/system/mui.min.js",
+      "js/system/mobileBUGFix.mini.js",
+      "css/system/mui.picker.min.css",
+      "js/system/xiangyingshi.js",
+      "js/system/mui.picker.min.js",
+      "js/system/constants.js",
+      "js/business/login/register-input-file.js",
+      "css/mui.min.css",
+      "js/system/exif.js",
+      "css/image/zc_02.png"
+    ],
+    "refer": []
+  },
+  "view/geren_message/driver_task.html": {
+    "resources": [
+      "image/czrw.png",
+      "image/mrrw.png",
+      "js/system/xiachenshi.js",
+      "js/system/arttmpl.js",
+      "js/system/mui.min.js",
+      "image/tjm.png",
+      "image/lqjl2.png",
+      "image/siirenwu.png",
+      "js/system/xiangyingshi.js",
+      "js/system/constants.js",
+      "image/lqjl3.png",
+      "css/mui.min.css",
+      "css/business/recommend-code/recommend-code.css",
+      "js/system/json_time.js",
+      "js/system/jquery-3.1.1.js",
+      "image/headerBG.png",
+      "css/system/style.css",
+      "fonts/mui.ttf",
+      "js/business/geren_message/driver_task.js",
+      "css/system/main.css"
+    ],
+    "refer": []
+  },
+  "view/login/register_driver.html": {
+    "resources": [
+      "image/zc_06.png",
+      "js/business/login/register_driver.js",
+      "css/system/mui.picker.min.css",
+      "js/system/mui.picker.min.js",
+      "css/business/login/register_driver.css",
+      "js/system/xiachenshi.js",
+      "js/system/constants.js",
+      "js/system/mui.min.js",
+      "css/mui.min.css",
+      "css/business/index.css"
+    ],
+    "refer": []
+  },
+  "view/car-order/car_range.html": {
+    "resources": [
+      "js/business/car-order/car_range.js",
+      "image/jiedanfanwei.png",
+      "css/business/index.css",
+      "css/business/car-order/freight-insurance.css",
+      "js/system/xiangyingshi.js",
+      "js/system/xiachenshi.js",
+      "js/system/arttmpl.js",
+      "js/system/constants.js",
+      "js/system/mui.min.js",
+      "css/mui.min.css",
+      "js/system/jquery-3.1.1.js",
+      "fonts/mui.ttf"
+    ],
+    "refer": []
+  },
+  "view/balance/withdrawals.html": {
+    "resources": [
+      "js/business/balance/withdrawals.js",
+      "image/tixian_wt.png",
+      "js/system/jquery-3.1.1.js"
+    ],
+    "refer": [
+      "view/balance/common_problem.html"
+    ]
+  },
+  "view/order/rob_order.html": {
+    "resources": [
+      "image/jf.png",
+      "image/je.png",
+      "js/system/mui.js",
+      "js/business/order/rob_order.js",
+      "image/anniu.png",
+      "image/qi.png",
+      "css/business/order/rob_order.css",
+      "image/sj.png",
+      "image/dh.png",
+      "image/jing_order.png",
+      "image/ewfw_order.png",
+      "css/system/style.css",
+      "js/system/xiachenshi.js",
+      "image/dingdan/zhong.png",
+      "css/icons-extra.css",
+      "js/system/xiangyingshi.js",
+      "js/system/constants.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "css/system/main.css",
+      "image/anniudj.png"
+    ],
+    "refer": []
+  },
+  "view/balance/setup_password.html": {
+    "resources": [
+      "js/business/balance/setup_password.js"
+    ],
+    "refer": []
+  },
+  "view/geren_message/fuwubiaozhun-agreement.html": {
+    "resources": [
+      "image/fuwubiaozhun/5555.png",
+      "css/business/agreement.css",
+      "image/fuwubiaozhun/3333.png",
+      "image/fuwubiaozhun/4444.png",
+      "js/business/car-order/insurance-agreement.js"
+    ],
+    "refer": []
+  },
+  "view/balance/common_problem.html": {
+    "resources": [
+      "js/business/balance/common_problem.js",
+      "css/image/kefu_02dj.png",
+      "css/image/kefu_03.png",
+      "css/image/kefu_02.png",
+      "image/kfzx.png",
+      "css/image/kefu_01.png",
+      "css/image/kefu_01dj.png",
+      "css/image/kefu_03dj.png"
+    ],
+    "refer": [
+      "view/about-us/kefu-wenda.html"
+    ]
+  },
+  "view/balance/balance_detailed_details.html": {
+    "resources": [
+      "css/business/balance/balance_detailed_details.css",
+      "js/business/balance/balance_detailed_details.js"
+    ],
+    "refer": []
+  }
+}

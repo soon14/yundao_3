@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>修改常用路线</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/system/style.css" />
+		<link rel="stylesheet" href="../../css/icons-extra.css" />
+		<link rel="stylesheet" href="../../css/iconfont.css" />
+		<link rel="stylesheet" href="../../css/business/geren_message/xinzeng_luxian.css" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">修改常用路线</h1>
+		</header>
+		<div class="mui-content">
+			<input type="hidden" id="address_name_begin">
+			<input type="hidden" id="address_lng_begin">
+			<input type="hidden" id="address_lat_begin">
+			<input type="hidden" id="address_name_begin_bieming">
+			<input type="hidden" id="person_fahuo">
+			<input type="hidden" id="person_fahuo_phone">
+
+			<input type="hidden" id="address_name_end">
+			<input type="hidden" id="address_lng_end">
+			<input type="hidden" id="address_lat_end">
+			<input type="hidden" id="address_name_end_bieming">
+			<input type="hidden" id="person_shouhuo">
+			<input type="hidden" id="person_shouhuo_phone">
+
+			<div id="setting" class="mui-page mui-page-center">
+				<div class="mui-page-content">
+					<ul class="mui-table-view mui-table-view-chevron">
+						<li class="mui-table-view-cell" id="luxianinput">
+							<div class="mui-input-row">
+								<input type="search" class="mui-input-clear" placeholder="输入路线名称，方便记忆，如周三路线" id="searchinput">
+							</div>
+						</li>
+					</ul>
+					<ul class="mui-table-view mui-table-view-chevron" id="OA_task_1">
+						<li class="mui-table-view-cell mui-media">
+							<a href="#" id="begin_address" class="mui-navigate-right">
+								<div class="mui-slider-handle">
+									<div class="mui-media-body mui-ellipsis">
+										<span class="qishi"><img src="../../image/qidian.png"></span><span id="begin_textXIU">长春内陆港联检大楼</span>
+									</div>
+								</div>
+							</a>
+
+						</li>
+						<div id="tujing" class="jingting_class">
+						</div>
+						<li class="mui-table-view-cell">
+							<a href="#" id="end_address" class="mui-navigate-right">
+								<div class="mui-slider-handle">
+									<div class="mui-media-body mui-ellipsis">
+										<span class="zhongdian"><img src="../../image/zhongdian.png"></span><span id="end_textXIU">长春东站</span>
+									</div>
+								</div>
+							</a>
+						</li>
+						
+						<!--<li class='mui-table-view-cell'>
+							<div class="mui-slider-right mui-disabled">
+						<a class="mui-btn mui-btn-red">删除</a>
+					</div>
+							<a class=' mui-navigate-right ' id='tujing_id_ '"+i+"' class='tingjingdian' >
+								<div class='mui-media-body mui-ellipsis'><span class='jingting'><img src='../../image/jing.png'></span><span id='tujing_name_" +i+" ' style='color: #000000; font-size: 0.28rem;'>"+decodeURI(data.attributes.ADDRESS_TUJING[i - 1].ADDRESS_NAME_TUJING)+"</span></div>
+							</a>
+						</li>-->
+						
+						<!--<li class="mui-table-view-cell">
+							<div class="mui-slider-right mui-disabled">
+								<a class="mui-btn mui-btn-red">删除</a>
+							</div>
+							<div class="mui-slider-handle">
+								<div class='mui-media-body mui-ellipsis'><span class='jingting'><img src='../../image/jing.png'></span><span id='tujing_name_" +i+" ' style='color: #000000; font-size: 0.28rem;'>111<i class='mui-icon mui-icon-arrowright mui-pull-right' id="jingtingicon"></i></span></div>
+							</div>
+						</li>-->
+					</ul>
+					<ul>
+						<li class="mui-table-view-cell mui-media mui-input-row mui-left" id="tianjiaLi">
+							<a class="mui-row">
+								<div id="square2" class="mui-media-object mui-pull-left mui-col-sm-6 mui-col-xs-6"><span class="mui-icon mui-icon-plusempty">添加目的地</span></div>
+								<div class="mui-media-body mui-ellipsis mui-pull-right mui-col-sm-6 mui-col-xs-6 " id="hs">
+									请按照卸货顺序填写以便估算价格
+									<p class="mui-ellipsis">（左滑删除）</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+					<div class="mui-content-padded">
+						<button id='xiugai_address' class="mui-btn mui-btn-block mui-btn-primary">保存</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="../../js/system/mui.js"></script>
+		<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/business/geren_message/xiugai_luxian.js"></script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js"></script>
+	</body>
+
+</html>

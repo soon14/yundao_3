@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>附近车辆</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/iconfont.css" />
+		<link rel="stylesheet" href="../../css/icons-extra.css" />
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 id="title" class="mui-title">附近车辆</h1>
+			<div class="mui-btn  mui-btn-link mui-pull-right" id="reset">
+				<img src="../../image/my_zuobiao.png" style="width: 50%; height: 50%; margin-top: 20%;"/>
+			</div>
+		</header>
+		<div class="mui-content">
+			<div id="baidumap" style="height: 11.7rem;"></div>
+		</div>
+	<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+	<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+	<script type="text/javascript" src="../../js/system/arttmpl.js"></script>
+	<script type="text/javascript" src="../../js/system/constants.js" ></script>
+	<script type="text/javascript" src="../../js/system/xiachenshi.js" ></script>
+	<script type="text/javascript" src="../../js/business/order/fujincheliang.js" ></script>
+	
+	</body>
+</html>

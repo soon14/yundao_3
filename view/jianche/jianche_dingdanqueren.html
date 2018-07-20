@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>订单确认</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/iconfont.css" />
+		<link rel="stylesheet" href="../../css/business/jianche/jianche_dingdanqueren.css" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 id="title" class="mui-title">订单确认</h1>
+		</header>
+		<div class="mui-content">
+			<div id="setting" class="mui-page mui-page-center">
+				<!--<div class="mui-control-content mui-active">-->
+				<div class="mui-scroll-wrapper" id="scroll" style="min-height: 70.5vh;">
+					<div class="mui-scroll">
+						<ul class="mui-table-view" id="lvst">
+							<li class="mui-table-view-cell" id="unfull">
+								<div class="mui-table">
+									<div class="mui-table-cell mui-col-xs-3  mui-col-sm-3">
+										<p>预约时间</p>
+									</div>
+									<div class="mui-table-cell mui-col-xs-9">
+										<h5 id="cl_checkTime">2017-03-24</h5>
+									</div>
+
+								</div>
+							</li>
+							<li class="mui-table-view-cell" id="unfull">
+								<div class="mui-table">
+									<div class="mui-table-cell mui-col-xs-3  mui-col-sm-3">
+										<p id="twozi">车型</p>
+									</div>
+									<div class="mui-table-cell mui-col-xs-9">
+										<h5 id="cl_carType">小型客车</h5>
+									</div>
+
+								</div>
+							</li>
+							<li class="mui-table-view-cell" id="full">
+								<div class="mui-table">
+									<div class="mui-table-cell mui-col-xs-3  mui-col-sm-3">
+										<p id="threezi">车牌号</p>
+									</div>
+									<div class="mui-table-cell mui-col-xs-9">
+										<h5 class=" mui-ellipsis" id="cl_carNo">吉A 8888</h5>
+									</div>
+
+								</div>
+							</li>
+							<li class="mui-table-view-cell" id="unfull">
+								<div class="mui-table">
+									<div class="mui-table-cell mui-col-xs-3  mui-col-sm-3">
+										<p id="threezi">联系人</p>
+									</div>
+									<div class="mui-table-cell mui-col-xs-9" id="unfullxin">
+										<h5 class="mui-ellipsis" id="cl_contactor">闵思吉</h5>
+									</div>
+
+								</div>
+							</li>
+							<li class="mui-table-view-cell" id="full">
+								<div class="mui-table">
+									<div class="mui-table-cell mui-col-xs-3  mui-col-sm-3">
+										<p>联系方式</p>
+									</div>
+									<div class="mui-table-cell mui-col-xs-9">
+										<h5 class="" id="cl_contactPhone">13112345678</h5>
+									</div>
+
+								</div>
+							</li>
+							<li class="mui-table-view-cell" id="full">
+								<div class="mui-table">
+									<div class="mui-table-cell mui-col-xs-3 mui-col-sm-3">
+										<p id="threezi">检车线</p>
+									</div>
+									<div class="mui-table-cell mui-col-xs-9 mui-media">
+										<h5 class="" id="cl_checklineName">长春市绿园检车线</h5>
+									</div>
+
+								</div>
+							</li>
+							<li class="mui-table-view-cell" id="unfull">
+								<div class="mui-table">
+									<div class="mui-table-cell mui-col-xs-3  mui-col-sm-3">
+										<p id="twozi">地址</p>
+									</div>
+									<div class="mui-table-cell mui-col-xs-9">
+										<h5 class="" id="cl_address">长春市绿园区188号</h5>
+									</div>
+
+								</div>
+							</li>
+							<li class="mui-table-view-cell" id="unfull">
+								<div class="mui-table">
+									<div class="mui-table-cell mui-col-xs-3  mui-col-sm-3">
+										<p id="twozi">价格</p>
+									</div>
+									<div class="mui-table-cell mui-col-xs-9" id="jiage">
+										<h5 class="" id="cl_price">136元</h5>
+									</div>
+
+								</div>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+				<!--<div class="mui-content-padded">	
+						<h5 class="confirm-h5">在结算时您可以使用一下支付方式</h5>
+						</div>-->
+				<!--<ul class="mui-table-view mui-grid-view bg-color payment-class">
+
+					<li class="mui-table-view-cell mui-media mui-col-sm-3 bottom-p">
+						<a href="#">
+							<img class="mui-media-object" src="../../image/rud_03.png">
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-sm-3 bottom-p">
+						<a href="#">
+							<img class="mui-media-object" src="../../image/rud_05.png">
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-sm-3 bottom-p">
+						<a href="#"><img class="mui-media-object" src="../../image/rud_07.png">
+						</a>
+					</li>
+				</ul>-->
+				<div class="mui-content-padded">
+					<h5>下单成功后，取消订单需要扣除支付价格10%的手续费</h5>
+					<button id="xiadan" class="mui-btn mui-btn-block mui-btn-primary mui-btn-w">前往支付</button>
+				</div>
+			</div>
+		</div>
+		<script src="../../js/system/mui.min.js"></script>
+		<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/business/checkline/jianche_dingdanqueren.js"></script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js"></script>
+		<script>
+			mui.init({
+				swipeBack: false
+			});
+			mui('.mui-scroll-wrapper').scroll();
+		</script>
+	</body>
+
+</html>

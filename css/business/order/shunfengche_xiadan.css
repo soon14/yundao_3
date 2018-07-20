@@ -1,0 +1,265 @@
+.mui-content {
+	margin-top: 0.08rem;
+}
+
+#searchinput {
+	text-align: left;
+	border-radius: 2px;
+	background-color: #fff;
+	border: 1px solid #EBEBEB;
+	height: 1.57rem;
+	font-size: 0.2916rem;
+	padding-bottom: 0.8rem;
+	background: url(../../../image/shuru.png) no-repeat top left;
+	background-size: 0.36rem;
+	background-position: 15px 15px;
+	padding-left: 40px;
+	color: #909090;
+}
+
+#luxianinput {
+	/*padding-right: 0px !important;
+	padding-left: 0px;*/
+	padding: 0;
+	margin-bottom: 0.08rem;
+}
+
+input[type=search] {
+	margin-bottom: 0;
+}
+
+.qishi img,
+.zhongdian img,
+.jingting img ,#chose_time img,#xiabu img{
+	width: 0.5rem;
+	vertical-align: baseline;
+	vertical-align: sub;
+	margin-right: 10px;
+	    height: 0.5rem !important;
+}
+#chose_time span{
+	    vertical-align: text-bottom;
+}
+#square2 {
+	width: 2.26rem;
+	height: 0.61rem;
+	border: 1px solid #dadada;
+	border-radius: 10px;
+	color: #7c919f;
+	font-size: 0.28rem;
+	text-align: center;
+	word-break: break-word;
+	padding: 0.08rem 10px;
+	white-space: normal;
+}
+
+.mui-icon {
+	line-height: 1.2;
+	font-size: 0.28rem;
+}
+
+.mui-search .mui-placeholder {
+	text-align: left;
+	border-radius: 2px;
+	background-color: #fff;
+	border: 1px solid #EBEBEB;
+	height: 28px;
+	padding: 0 5px;
+	font-size: 0.3rem;
+	line-height: 25px;
+}
+
+.mui-navigate-right:after {
+	right: 5px;
+	font-size: 20px;
+}
+
+.mui-btn-block {
+	font-size: 0.3rem;
+}
+
+#lvs {
+	color: #45C01A;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+#lvs-b {
+	color: #45C01A;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+#hs {
+	color: #999999;
+	font-size: 0.24rem;
+	font-weight: normal;
+	line-height: 1.3;
+}
+
+#heis {
+	color: #999999;
+	font-size: 0.24rem;
+	font-weight: normal;
+}
+
+#jvse {
+	color: #FF9700;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.mui-content-padded {
+	/*position: absolute;*/
+	width: 95%;
+	position: relative;
+    margin-top: 0.3rem;
+}
+
+#tianjiaLi {
+	padding-right: 0px;
+}
+
+/*.mui-table-view:before {
+	height: 0;
+}*/
+
+.mui-table-view-cell:after {
+	left: 0;
+}
+
+#end_text,
+#begin_text {
+	color: #999999;
+	font-size: 0.28rem;
+}
+
+#jingtingicon {
+	position: absolute;
+	right: -60px;
+	top: 8px;
+	font-size: 0.5rem;
+	color: #9e9e9e;
+}
+
+.mui-media-body {
+	padding-bottom: 5px;
+}
+
+.mui-navigate-right:after {
+	font-size: 0.5rem;
+	color: #9e9e9e;
+}
+
+.mui-table-view-cell>a>.mui-btn {
+	position: relative;
+}
+
+.mui-media-object {
+	max-width: inherit !important;
+	line-height: inherit !important;
+}
+
+.mui-navigate-right:after {
+	color: #999999;
+}
+
+.mui-input-row .mui-input-clear~.mui-icon-clear {
+	top: 0;
+}
+
+
+#end_textXIU,
+#begin_textXIU {
+	font-size: 0.28rem;
+	color: #1D1D1D;
+}
+#uptext {
+	background: #e4f0fe;
+	color: #666666;
+	margin: 0;
+	font-size: 0.2916rem;
+}
+#yongcheshijian{
+	color: #424242;
+	font-size: 0.2916rem;
+	height: 60px;
+}
+#time_text{
+	color:#d94949;
+	padding-left: 25px; 
+}
+#rightcontent{
+	color: #424242;
+	font-size: 0.25rem;
+	margin-right: -25px;
+	padding-top: 0.05rem;
+}
+.zhongjian{
+	height: 60px;
+	padding: 10px 15px;
+}
+.mui-table-view-cell:last-child:after {
+	height: 1px;
+}
+#yongcheshijian .mui-table-view-cell:last-child:after{
+	height: 0;
+}
+#yongcheshijian{
+	margin-bottom: 0.08rem;
+}
+.dingbu{
+	height: 60px;
+    padding: 11px 15px;
+}
+.mui-scroll-wrapper{
+	top:44px;
+}
+#mui-table-viewC,#xiabu{
+	font-size: 0.2916rem;
+	color:#424242;
+	/*text-align: center;*/
+}
+#mui-table-viewC{
+	text-align: center;
+}
+#xiabu .mui-pull-right{
+	font-size: 0.25rem;
+	color: #d94a49;
+	margin-right: 25px;
+}
+#mui-table-viewC li {
+	height: 60px;
+	padding-top: 15px;
+}
+
+#jianyi{
+	float: left;color:#424242;
+	font-size: 0.2916rem;
+}
+#jianyibaojia{
+	font-size: 0.2916rem; color:#424242;
+	margin-left: -20%;
+}
+#OA_task_1{
+	font-size: 0.2916rem;
+	color: #000000;
+}
+#OA_task_1 P{
+	font-size: 0.25rem;
+	color: #666666;
+}
+#ZHUANCHEjianyibaojia{
+	font-size: 0.2916rem;
+	
+}
+#baojia{
+	position: absolute; bottom: 5px; width: 100%;  margin: 0 auto;
+}
+.mui-control-content{
+	min-height: 110vh;
+}
+#ewai_span,#liuyan_span{
+	width: 50%;
+	text-align: right;
+}

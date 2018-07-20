@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>通知</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../../css/mui.min.css" />
+		<link rel="stylesheet" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/system/style.css" />
+		<link rel="stylesheet" href="../../css/business/notice/notice.css" />
+	</head>
+
+	<body class="bg-whf6">
+
+		<div id="pullrefresh" class="mui-content bg-whf6">
+			<div id="mui-template" class="mui-card bg-whf6">
+				<div id="container">
+					<div id="item4_4_null" class="display-none">
+						<div class="mui-content-padded wutu">
+							<div><img src="../../image/dingdan/wudingdan.png" /></div>
+							<p>您还没有通知消息</p>
+						</div>
+						<!--<div class="mui-content-padded anniu">
+							<button id='save_address' class="mui-btn mui-btn-block mui-btn-primary">下一步</button>
+						</div>-->
+					</div>
+					
+					<script type="text/template" id="radio-tigan">
+						<% for(var i in record){ var item=record[i]; %>
+						<a href="#" id="<%=item.NOTICE_ID%>" name="<%=item.READ_STATUS%>">
+							<ul class="mui-table-view mui-table-view-striped mui-table-view-condensed mb5">
+								<li class="mui-table-view-cell">
+									<div class="mui-slider-cell">
+										<div class="oa-contact-cell mui-table">
+											<div class="oa-contact-content mui-table-cell">
+												<div class="mui-clearfix">
+
+													<div class="notice-img">
+														<% if(item.READ_STATUS!=1){%>
+														<img src="../../image/notice.png" />
+														<%} else{%>
+														<img src="../../image/tz_02.png" />
+														<%}%>
+													</div>
+
+													<h4 class="oa-contact-name mui-ellipsis"><%=item.TITLE%>
+													<span class="mui-h5 mui-pull-right"><%=item.SYS_DATE%></span>
+												</h4>
+
+												</div>
+												<p class="oa-contact-email mui-h6">
+													<%=item.CONTENT%>...(点击查看详情)
+												</p>
+											</div>
+
+										</div>
+									</div>
+								</li>
+							</ul>
+						</a>
+						<%}%>
+					</script>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="../../js/system/jquery-3.1.1.js"></script>
+		<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/system/json_time.js"></script>
+		<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+		<script type="text/javascript" src="../../js/system/arttmpl.js"></script>
+		<script type="text/javascript" src="../../js/business/notice/notice.js"></script>
+		<!--<script type="text/javascript" src="../../js/system/xiachenshi.js" ></script>-->
+	</body>
+
+</html>

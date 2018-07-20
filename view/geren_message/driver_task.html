@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>司机任务</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../../css/mui.min.css" />
+		<link rel="stylesheet" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/system/style.css" />
+		<link rel="stylesheet" href="../../css/business/recommend-code/recommend-code.css" />
+	</head>
+
+	<body class="bg-whf6">
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">司机任务</h1>
+		</header>
+		<div class="mui-content">
+			<div id="renwu">
+				<ul class="mui-table-view mui-table-view1">
+					<div class="czrw-img">
+						<img src="../../image/czrw.png" />
+					</div>
+					<li class="mui-table-view-cell mui-media mui-table-view-cell-1">
+						<a>
+							<div class="mui-media-body mui-pull-left mui-col-xs-8">
+								<div class="tjm-title">
+									<h2>成长任务</h2>
+									<div class="tjm-sum">
+										<span id="od_number"></span>/<span id="od_number_next"></span>
+									</div>
+								</div>
+								<div class="tjm-title">
+									<h2 id="finish">完成1单</h2>
+									<div class="tjm-sum siji-jl">
+										奖励：<img src="../../image/siirenwu.png" /> <span id="growaward">5</span><span>元</span>
+									</div>
+								</div>
+							</div>
+							<div class="receive-btn" id="lingqu_growup">
+								<img id="jiangli_growup_1" src="../../image/lqjl2.png"></img>
+								<img id="jiangli_growup_2" src="../../image/tjm.png" hidden="hidden"></img>
+								<!--<img id="jiangli_growup_3" src="../../image/lqjl3.png" hidden="hidden"></img>-->
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div id="renwu">
+				<ul class="mui-table-view mui-table-view1">
+					<div class="czrw-img">
+						<img src="../../image/mrrw.png" />
+					</div>
+					<li class="mui-table-view-cell mui-media mui-table-view-cell-1">
+						<a>
+							<div class="mui-media-body mui-pull-left mui-col-xs-8">
+								<div class="tjm-title">
+									<h2>每日任务</h2>
+									<div class="tjm-sum">
+										<span id="od_number_day">0</span>/1
+									</div>
+								</div>
+								<div class="tjm-title">
+									<h2>完成1单</h2>
+									<div class="tjm-sum siji-jl">
+										奖励：<img src="../../image/siirenwu.png" /> <span>6元</span>
+									</div>
+								</div>
+							</div>
+							<div class="receive-btn" id="lingqu_day">
+								<img id="jiangli_day_1" src="../../image/lqjl2.png"></img>
+								<img id="jiangli_day_2" src="../../image/tjm.png" hidden="hidden"></img>
+								<img id="jiangli_day_3" src="../../image/lqjl3.png" hidden="hidden"></img>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript" src="../../js/system/jquery-3.1.1.js"></script>
+		<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/system/json_time.js"></script>
+		<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+		<script type="text/javascript" src="../../js/system/arttmpl.js"></script>		
+		<script type="text/javascript" src="../../js/system/xiachenshi.js" ></script>
+		<script type="text/javascript" src="../../js/business/geren_message/driver_task.js"></script>
+	</body>
+
+</html>

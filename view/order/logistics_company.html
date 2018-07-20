@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>物流下单</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/system/style.css" />
+		<link rel="stylesheet" href="../../css/icons-extra.css" />
+		<link rel="stylesheet" href="../../css/iconfont.css" />
+		<link rel="stylesheet" href="../../css/business/order/wuliu_xiadan.css"/>
+		
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 id="title" class="mui-title">顺风物流二道区</h1>
+			<a id="check-map"class="mui-btn mui-btn-link mui-pull-right">查看地图</a>
+		</header>
+		<div class="mui-content mb50">
+			<div id="chakanwd"class="mui-content-padded">
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell">
+						<span class="content">已自动为您筛选出最近的营业网点</span>
+						<button id="check-btn">查看其他网点</button>
+					</li>
+				</ul>
+			</div>
+			<div class="mui-content-padded">
+				<ul class="mui-table-view ">
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<img id="img-url"class="mui-media-object mui-pull-left" src="../../image/jiazai.png">
+							<div class="mui-media-body">
+								<span id="heis">顺风物流二道区店</span>
+								<p class="mui-ellipsis" id="hs">惠公路122号</p>
+								<p class="mui-ellipsis" id="lvs-b" >0531-120345678</p>
+							</div>
+							<a id="square2"><span>运价详情</span></a>
+							<span class="display-no" id="yunjia"></span>
+							<span class="display-no" id="logistic_id"></span>
+							<span class="display-no" id="logistic_x"></span>
+							<span class="display-no" id="logistic_y"></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="mui-content-padded">
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell">
+						<span class="content" >运输范围： <span id="fw">全国配送</span></span>						
+					</li>
+				</ul>
+			</div>
+			<div class="mui-content-padded" id="dibu">
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell">
+						<span id="hs">温馨提示：请先联系物流公司确定运价后再进行下单操作，使用APP下单最高尊享9折优惠哦</span>
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+		<nav class="mui-bar mui-bar-tab">
+			<div><a id="call-tel"><img src="../../image/wlgs_tel.png">联系物流公司</a></div>		
+			<div id="xiadan">下单</div>
+		</nav>
+		<script type="text/javascript" src="../../js/system/jquery-3.1.1.js"></script>
+		<script type="text/javascript" src="../../js/system/mui.js"></script>
+		<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>		
+		<script type="text/javascript" src="../../js/system/arttmpl.js"></script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js" ></script>
+		<script type="text/javascript" src="../../js/system/gps.js"></script>
+		<!--<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=yaDRGoon5YoRzAAwH781yUgn"></script>-->
+		<script type="text/javascript" src="../../js/business/order/logistics_company.js"></script>
+		
+	</body>
+</html>

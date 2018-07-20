@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>网点列表</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../../css/system/mui.picker.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/system/mui.poppicker.css" />
+		<link rel="stylesheet" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/business/order/logistics.css" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 id="title" class="mui-title">鸿阳物流</h1>			
+		</header>
+		<div class="mui-content">		
+			<div class="mui-scroll" id="xinxi3">
+				<!--<ul class="mui-table-view">
+					<li class="mui-table-view-cell mui-media">
+						<div class="fhd">发货地：<button id='showCityPicker3' type='button'>长春<img class="" src="../../image/xx.png"></button></div>
+						<div class="fhd">目的地：<button id='showCityPicker4' type='button'>不限<img class="" src="../../image/xx.png"></button></div>
+					</li>					
+				</ul>	-->
+				<div id="xzwd_btn"class="mui-content-padded">
+					<button type="button" class="mui-btn mui-btn-block" id="mdwangdian">目的地网点</button>
+					<button type="button" class="mui-btn mui-btn-block display-no"id="qswangdian">起始地网点</button>
+				</div>
+				<ul class="mui-table-view mui-card" id="wuliu">
+					<script type="text/template" id="radio-tigan">
+						<% for(var i in record){ var item=record[i]; %>
+							<li class="mui-table-view-cell mui-media">
+								<a id="<%=item.LOGISTICS_ID%>" wangid="<%=item.LOGISTICS_DOT_ID%>"proCode="<%=item.PROVINCE%>"cityCode="<%=item.CITY%>"areaCode="<%=item.AREA%>"zuobiao_x="<%=item.ZUOBIAO_X%>" zuobiao_y="<%=item.ZUOBIAO_Y%>"href="javascript:;"><img class="mui-media-object mui-pull-left" src="../../image/jiazai.png">
+									<div class="mui-media-body mui-row">
+										<div class="mui-col-sm-8 mui-col-xs-8" id="mingcheng">
+											<span><%=item.NAME%></span>
+											<p><%=item.CITYNAME%><%=item.ADDRESS%></p>
+										</div>
+										<div class="mui-col-sm-4 mui-col-xs-4" id="jvli">
+											<p class="mui-pull-right"><img src="../../image/zuobiao.png" id="zuobiao">距我<br><%=item.DISTANCE%>公里</p>
+										</div>
+									</div>
+		
+								</a>
+							</li>
+						<%}%>
+					</script>						
+				</ul>
+				<!--暂无物流-->
+				<div id="zanwuwd"class="wl-null display-no">
+					<img src="../../image/zwkx.png">
+					<p>暂无网点！</p>
+					<!--<div class="mui-content-padded">
+						<button id='chakan' class="mui-btn mui-btn-block mui-btn-primary mui-btn1 chakan-btn">查看更多物流公司</button>
+					</div>-->
+				</div>
+			</div>
+		</div>
+		
+	</body>
+	<script type="text/javascript" src="../../js/system/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+	<script type="text/javascript" src="../../js/system/constants.js"></script>
+	<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+	<script type="text/javascript" src="../../js/system/xiachenshi.js" ></script>
+	<script type="text/javascript" src="../../js/system/arttmpl.js"></script>
+	<script type="text/javascript" src="../../js/business/order/logistics_xq.js"></script>
+	
+	
+</html>

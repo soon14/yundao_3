@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>检车线订单详情</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/iconfont.css" />
+		<link rel="stylesheet" href="../../css/business/order/order_xiangqing.css" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 id="title" class="mui-title">订单</h1>
+			<button class="mui-btn mui-btn-link mui-pull-right" id="kefu_button"><img src="../../image/dingdan/xiangqing6.png" class="kefu">客服</button>
+		</header>
+		<div class="mui-content">
+			<div class="waibu">
+				<div id="segmentedControl" class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted mui-segmented-control-positive">
+					<a class="mui-control-item mui-active" href="#item1">订单状态</a>
+					<a class="mui-control-item" href="#item2">订单详情</a>
+				</div>
+			</div>
+
+			<div class="neirong">
+				<div id="item1" class="mui-control-content mui-active">
+					<div id="scroll" class="mui-scroll-wrapper">
+						<div class="mui-scroll">
+							<div class="mui-row">
+								<ol class="exp-conent-orderlist exp-content-body" id="orde_status">
+									<script type="text/template" id="radio-tigan">
+										<% for(var i in record){ var item=record[i]; %>
+										<div class="mui-media-object mui-pull-left" id="xiangqingshijian"><span><%=item.SYS_MINUTES_NEW%></span>
+											<p>
+												<%=item.SYS_DATE_NEW%>
+											</p>
+										</div>
+										<div>
+											<li class="exp-content-list list-item-2 mui-media">
+												<!--<div style="position:relative;left:-30px;width:15px;height:100px ;background:#FFFFFF"></div>-->
+												<div class="list-icon" style="visibility: visible;"></div>
+												<% if(item.STATUS_ORDER_HIS==1){%>
+												<div class="mui-media-body mui-table-view-cell">
+													<span class="mui-text-left">订单已提交</span>
+												</div>
+												<%} else if(item.STATUS_ORDER_HIS==2){%>
+												<div class="mui-media-body mui-table-view-cell" id="nav">
+													<span class="mui-text-left">支付成功</span>
+													<p class="mui-ellipsis">导航前往
+													</p>
+												</div>
+												<%} else if(item.STATUS_ORDER_HIS==3){%>
+												<div class="mui-media-body mui-table-view-cell">
+													<span class="mui-text-left">检车线已接单</span>
+													<a class="mui-ellipsis"></a>
+												</div>
+												<%} else if(item.STATUS_ORDER_HIS==4){%>
+												<div class="mui-media-body mui-table-view-cell">
+													<span class="mui-text-left">等待检车</span>
+													<a class="mui-ellipsis"></a>
+												</div>
+												<%} else if(item.STATUS_ORDER_HIS==5){%>
+												<div class="mui-media-body mui-table-view-cell">
+													<span class="mui-text-left">检车中</span>
+												</div>
+												<%} else if(item.STATUS_ORDER_HIS==6){%>
+												<div class="mui-media-body mui-table-view-cell">
+													<span class="mui-text-left">订单完成</span>
+												</div>
+												<%} else if(item.STATUS_ORDER_HIS==7){%>
+												<div class="mui-media-body mui-table-view-cell">
+													<span class="mui-text-left">订单已取消</span>
+												</div>
+												<%}%>
+											</li>
+										</div>
+										<%}%>
+									</script>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="item2" class="mui-control-content">
+					<div id="scroll" class="mui-scroll-wrapper">
+						<div class="mui-scroll">
+							<ul class="mui-table-view" id="lvst">
+								<script type="text/template" id="radio-tigan_2">
+									<li class="mui-table-view-cell" id="unfull">
+										<div class="mui-table">
+											<div class="mui-table-cell mui-col-xs-3  mui-col-sm-3">
+												<p>订单号码</p>
+											</div>
+											<div class="mui-table-cell mui-col-xs-9">
+												<h5><%=record.CHECKINGLINEORDER_ID%></h5>
+											</div>
+
+										</div>
+									</li>
+									<li class="mui-table-view-cell" id="unfull">
+										<div class="mui-table">
+											<div class="mui-table-cell mui-col-xs-3  mui-col-sm-3">
+												<p>预约时间</p>
+											</div>
+											<div class="mui-table-cell mui-col-xs-9">
+												<h5><%=record.PLANE_DATE%></h5>
+											</div>
+
+										</div>
+									</li>
+									<li class="mui-table-view-cell" id="full">
+										<div class="mui-table">
+											<div class="mui-table-cell mui-col-xs-3  mui-col-sm-3">
+												<p id="twozi">车型</p>
+											</div>
+											<div class="mui-table-cell mui-col-xs-9">
+												<h5 class=" mui-ellipsis"><%=record.ITEM_NAME%></h5>
+											</div>
+
+										</div>
+									</li>
+									<li class="mui-table-view-cell" id="unfull">
+										<div class="mui-table">
+											<div class="mui-table-cell mui-col-xs-3  mui-col-sm-3">
+												<p id="threezi">车牌号</p>
+											</div>
+											<div class="mui-table-cell mui-col-xs-9" id="unfullxin">
+												<h5 class="mui-ellipsis"><%=record.PLATE_NO%>
+												</h5>
+											</div>
+										</div>
+									</li>
+									<li class="mui-table-view-cell" id="full">
+										<div class="mui-table">
+											<div class="mui-table-cell mui-col-xs-3  mui-col-sm-3">
+												<p id="threezi">联系人</p>
+											</div>
+											<div class="mui-table-cell mui-col-xs-9">
+												<h5 class="mui-col-sm-6"><%=record.CUSTORMER_NAME%></h5>
+											</div>
+
+										</div>
+									</li>
+									<li class="mui-table-view-cell" id="dial">
+										<div class="mui-table">
+											<div class="mui-table-cell mui-col-xs-3 mui-col-sm-3">
+												<p>联系方式</p>
+											</div>
+											<div class="mui-table-cell mui-col-xs-9">
+												<h5 class="mui-col-sm-6"><a href="tel:<%=record.PHONE_NO%>"><%=record.PHONE_NO%></a></h5>
+											</div>
+										</div>
+									</li>
+									<li class="mui-table-view-cell" id="unfull">
+										<div class="mui-table">
+											<div class="mui-table-cell mui-col-xs-3  mui-col-sm-3">
+												<p id="threezi">检车线</p>
+											</div>
+											<div class="mui-table-cell mui-col-xs-9">
+												<h5 class="mui-col-sm-6" id="zhogndian"><%=record.CHECKINGLINE_NAME%></h5>
+											</div>
+
+										</div>
+									</li>
+									<li class="mui-table-view-cell" id="unfull">
+										<div class="mui-table">
+											<div class="mui-table-cell mui-col-xs-3  mui-col-sm-3">
+												<p id="threezi">目的地</p>
+											</div>
+											<div class="mui-table-cell mui-col-xs-9 mui-media">
+												<h5 id="zhongdian"><%=record.ADDRESS%></h5>
+											</div>
+
+										</div>
+									</li>
+									<li class="mui-table-view-cell" id="unfull">
+										<div class="mui-table">
+											<div class="mui-table-cell mui-col-xs-3  mui-col-sm-3">
+												<p id="threezi">一口价</p>
+											</div>
+											<div class="mui-table-cell mui-col-xs-9" id="jiage">
+												<h5 class="mui-col-sm-6"><%=record.PRICE%>元</h5>
+											</div>
+
+										</div>
+									</li>
+								</script>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<!--<ul class="mui-table-view mui-grid-view mui-grid-9" id="dibu">
+					<li class=" mui-table-view-cell mui-col-xs-4 mui-col-sm-3 mui-media" id="dibu1">
+						<div id="text_left">功能键</div>
+					</li>
+
+					<li class=" mui-table-view-cell mui-col-xs-8 mui-col-sm-8 mui-media" id="dibu2">
+						<div id="text_right">功能键</div>
+					</li>
+				</ul>-->
+				<ul class="mui-table-view mui-grid-view mui-grid-9" id="dibujianche">
+					<li class=" mui-table-view-cell mui-col-xs-4 mui-col-sm-4 mui-media" id="dibu1">
+						<div id="text_left"></div>
+					</li>
+
+					<li class=" mui-table-view-cell mui-col-xs-8 mui-col-sm-8 mui-media" id="dibu2">
+						<div id="text_right"></div>
+					</li>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript" src="../../js/system/jquery-3.1.1.js"></script>
+		<script src="../../js/system/mui.min.js"></script>
+		<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/system/json_time.js"></script>
+		<script type="text/javascript" src="../../js/system/arttmpl.js"></script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js"></script>
+		<script type="text/javascript" src="../../js/business/checkline/order_detail.js"></script>
+	</body>
+
+</html>

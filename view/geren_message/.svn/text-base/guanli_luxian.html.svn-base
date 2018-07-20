@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>管理常用路线</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/system/style.css" />
+		<link rel="stylesheet" href="../../css/icons-extra.css" />
+		<link rel="stylesheet" href="../../css/iconfont.css" />
+		<link rel="stylesheet" href="../../css/business/geren_message/guanli_luxian.css" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">管理常用路线</h1>
+		</header>
+		<div class="mui-content" id="pullrefresh">
+			<ul id="mui-template" class="mui-table-view OA_task_1">
+				<script type="text/template" id="radio-tigan">
+					<% for(var i in record){ var item=record[i]; %>
+					<li class="mui-table-view-cell mui-media mui-slider-handle mui-table">
+						<div class="mui-slider-right mui-disabled">
+							<div class="mui-btn mui-btn-red" id="<%=item.ADDRESS_ID%>">删除</div>
+						</div>
+						<div class="mui-slider-handle">
+							<a href="#" id="<%=item.ADDRESS_ID%>">
+								<img class="mui-media-object mui-pull-left" src="../../image/zuobiao2.png">
+								<div class="mui-media-body mui-row">
+									<div class="mui-col-sm-9 mui-col-xs-9" id="leftcontent">
+										<span><%=item.ADDRESS_NAME_BIEMING%></span>
+										<p>始发地：
+											<%=item.ADDRESS_NAME_BEGIN%>
+										</p>
+									</div>
+									<div class="mui-col-sm-3 mui-col-xs-3" id="mudidi">
+										<span><%=item.POINT_TUJING_SUM%>个目的地</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<%}%>
+				</script>
+			</ul>
+		</div>
+		<div  class="mui-table-view tianjialuxian" id="dibu">
+			<ul>
+				<li class="mui-table-view-cell">
+					<span><img src="../../image/luxian.png"></span>
+					<p>添加一个新路线</p>
+				</li>
+			</ul>
+		</div>
+		<script type="text/javascript" src="../../js/system/jquery-3.1.1.js"></script>
+		<script type="text/javascript" src="../../js/system/arttmpl.js"></script>
+		<script type="text/javascript" src="../../js/system/mui.js"></script>
+		<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/business/geren_message/guanli_luxian.js"></script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js" ></script>
+
+	</body>
+
+</html>

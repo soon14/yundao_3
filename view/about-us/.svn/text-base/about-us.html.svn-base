@@ -1,0 +1,59 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>关于我们</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<link rel="stylesheet" href="../../css/mui.min.css" />
+		<link rel="stylesheet" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/system/style.css" />
+		<link rel="stylesheet" href="../../css/business/index.css" />
+		<link rel="stylesheet" href="../../css/business/about-us/about-us.css" />
+	</head>
+
+	<body class="mui-ios mui-ios-9 mui-ios-9-1 bg-whf6">
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">关于我们</h1>
+		</header>
+
+		<div class="mui-content bg-whf6">
+			<div class="about-us-header mb20">
+				<a><img src="../../image/logo_no.png" width="90px" style="margin-top: 27px;"></a>
+				<p class="p0">运到车主端</p>
+				<p>v 1.0.0</p>
+			</div>
+
+			<ul class="mui-table-view bg-whf6">
+				<li class="mui-table-view-cell bg-wh">
+					<a>
+						微信公众号<span class="mui-pull-right mui-navigate-right">@运到物流服务平台</span>
+					</a>
+				</li>
+
+				<li class="mui-table-view-cell bg-wh">
+					<a>
+						新浪微博<span class="mui-pull-right mui-navigate-right">@运到物流服务平台</span>
+					</a>
+				</li>
+			</ul>
+
+		</div>
+		<footer>
+			<div class="footer-center mt30">
+				<p>吉林省凯讯计算机技术有限公司 &nbsp; &nbsp;&nbsp;&nbsp;版权所有</p>
+			</div>
+		</footer>
+		<script src="../../js/system/mui.min.js"></script>
+		<script src="../../js/system/xiangyingshi.js"></script>
+		<script src="../../js/business/about-us/about-us.js"></script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js" ></script>
+		<script>
+			
+		</script>
+	</body>
+
+</html>

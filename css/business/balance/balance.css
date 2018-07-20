@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+/*余额*/
+.yue-content{text-align: center; margin-top: 10px; margin-bottom: 20px;}
+.yue-content span{font-size: 16px; color: #333333;}
+.yue-maney{text-align: center; margin-bottom: 40px;margin-top: 10px;color:#ff9c00;}
+.yue-maney span{font-size: 30px;}
+.mui-card{margin-left: 0;margin-right: 0;box-shadow:inherit;}
+.btn{border: 1px solid #d94949; background-color: #d94949; color: #FFFFFF; margin-top: 60px;}
+.btn-tx{border: 1px solid #ff9c00; background-color: #ff9c00; color: #FFFFFF; margin-top: 30px;}
+.mt48 div{text-align: center;}
+.mt48 div img{ width:102px;height:102px;}
+.head{color: #FFFFFF !important;font-size: 0.3rem !important;}
+.mui-bar .mui-btn-link{padding: 0 0 0 12px;}
+/*充值*/
+.recharge-body{padding:7px 9px;}
+.recharge-body label{padding:inherit; font-size: 0.3rem;line-height:inherit;}
+.recharge-body input{font-size: 0.3rem;width:62% !important;}
+.recharge-body img{width: 25px;margin-bottom:-1px;margin-right:5px;}
+.mui-content>.mui-table-view:first-child{padding:8px 0;}
+/*余额明细*/
+.balance-detailed-body{text-align: center;}
+.balance-detailed-body ul{margin-top:100px !important;}
+.balance-detailed-body ul:before,.balance-detailed-body ul:after{background-color:inherit;}
+.balance-detailed-body ul img {width: 100px;}
+.balance-detailed-body p{margin-top: 10px;font-size: 0.2rem;}
+.mui-pull-top-pocket {top: 1.5rem !important;}
+/*提现*/
+.mima-tixing{color: #666666;text-align: center;}
+.mima-tixing img{width: 17px; margin-bottom: 2px;margin-right: 5px;}
+.mima-tixing span{color: #d94949;}
+.tixian-body{}
+.tixian-sr{padding: 6px 15px 9px 15px;}
+.tixian-sr label{line-height: inherit;}
+.tixian-tishi,.tixian-sr label,input{font-size: 0.3rem;}
+.tixian-tishi{color: #909090;padding: 11px 15px 6px 15px;}
+.tixian-tishi span:last-child{color: #d94949;}
+.tixian-jine{}
+.tixian-jine input{margin-bottom: 1px;border-radius: 8px;background: #fafafa;-webkit-input-placeholder:red}
+.tixian-jine input::-webkit-input-placeholder {color: #d94949;}
+.tixian-wenti{text-align: center;color: #d94949;font-size: 0.28rem; }
+.tixian-wenti img{width: 14px;margin-bottom: 3px;}
+/*设置密码*/
+.shezhi-mima label{line-height: 26px;width: 25%;}
+.shezhi-mima input{font-size: 0.3rem;width: 75% !important;}
+.shezhi-wangji{   
+	position: absolute;
+    right: 13px;
+    top: 15px;
+    font-size: 0.3rem;
+    border: 1px #d94949 solid;
+    border-radius: 5px;
+    padding: 0.5% 3%;
+}

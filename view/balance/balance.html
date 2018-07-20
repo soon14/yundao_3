@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>余额</title>
+		<link rel="stylesheet" href="../../css/mui.min.css" />
+		<link rel="stylesheet" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/system/style.css" />
+		<!--<link rel="stylesheet" href="../../css/business/index.css" />-->
+		<link rel="stylesheet" href="../../css/business/balance/balance.css" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">余额</h1>
+			<a id="detail_id" class="mui-btn-link mui-pull-right head" id="reg">余额明细</a>
+		</header>
+		<div class="mui-content bg-whf6">
+			<div class="mui-card bg-whf6">
+				<div class="mt48">
+					<div style="">
+						<img src="../../image/balance-ye.png" alt="" />
+					</div>
+				</div>
+				<div>
+					<div class="yue-content">
+						<span>我的余额</span>
+					</div>
+					<div class="yue-maney">
+						<span id="yue_money" name="qianbao_yue"></span>
+					</div>
+				</div>
+			</div>
+			<div class="mui-content-padded">
+				<a id="recharge">
+					<button type="button" class="mui-btn mui-btn-block btn">充&nbsp;&nbsp;&nbsp;&nbsp;值</button>
+				</a>
+				<a id="withdrawals">
+					<button type="button" class="mui-btn mui-btn-block btn-tx">提&nbsp;&nbsp;&nbsp;&nbsp;现</button>
+				</a>
+				<div class="mima-tixing" id="tixian_password">
+					<p><img src="../../image/tixian.png" alt="" />首次提现时，请先<span>设置提现密码</span></p>
+					<!--<p><span>修改提现密码</span></p>-->
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="../../js/system/jquery-3.1.1.js"></script>
+		<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/system/json_time.js"></script>
+		<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+		<script type="text/javascript" src="../../js/system/arttmpl.js"></script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js" ></script>
+		<script type="text/javascript" src="../../js/business/balance/balance.js"></script>		
+	</body>
+
+</html>

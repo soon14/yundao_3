@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>注册第一步</title>
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/business/index.css" rel="stylesheet" />
+		<link href="../../css/business/login/register.css" rel="stylesheet" />
+	</head>
+
+	<body class="bg-wh size14">
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">注册</h1>
+		</header>
+		<div class="mui-content bg-wh">
+			<div class="mui-input-group m-rem2">
+				<div class="mui-input-row">
+					<label><img class="img-mar ft-le-s" src="../../image/dl_03.png" />手机号:</label>
+					<input class="p-rem size13 ft-le-s m-rem4" id='account' type="text" class="mui-input-clear mui-input" placeholder="请输入您的手机号码">
+				</div>
+				<div class="mui-input-row">
+					<label><img class="img-mar ft-le-s" src="../../image/dl_02.png" />验证码:</label>
+					<input class="p-rem size13 ft-le-s m-rem4" id='password' type="text" class="mui-input-clear mui-input" placeholder="请输入您收到的6位验证码">
+					<button type="button" class="verification size12" id="yanzhengBtn">获取验证码</button>
+				</div>
+
+			</div>
+			<div class="mui-content-padded">
+				<p>
+					<input id="register_user" name="style" type="checkbox" value="slider" checked="checked" class="chk_1">
+					<label for="register_user"></label>
+					<span class="size12">我已同意<span id="user_document">《运到APP用户注册协议》</span></span>
+				</p>
+			</div>
+			<div class="mui-content-padded m-rem23">
+				<button id='reg' class="mui-btn mui-btn-block mui-btn-primary">下一步</button>
+			</div>
+		</div>
+		<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js"></script>
+		<script type="text/javascript" src="../../js/business/login/register.js"></script>
+	</body>
+
+</html>

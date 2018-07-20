@@ -1,0 +1,58 @@
+#uptext {
+	color: #666666;
+	margin: 0;
+	font-size: 0.2916rem;
+	margin-top: 0.08rem;
+}
+#uptext img{
+	width: 0.53rem;
+	vertical-align: middle;
+}
+#baidumap{
+	width: 100%;
+  	position: fixed;
+  	top: 50px;
+  	bottom: 70px;
+	z-index: -999;
+}
+.mui-content-padded{
+	padding-top: 25px;
+}
+#orderDetail{
+	border: 1px solid #ffc749;background-color: #ffc749; position: absolute;left: 0.23rem;     bottom: 100px; width: 7.04rem; font-size: 0.36rem;color: #272727;
+}
+.shuaxin{
+	
+	text-align: center; color: #e4f0fe;position: absolute;bottom: 0px;width: 100%; background: #e4f0fe; color: #fff; margin: 0;
+}
+#current_position{
+	font-size:0.3rem;text-align: left;line-height: 1.2;
+}
+#current_time{
+	font-size:0.26rem !important;text-align: left;
+}
+#refresh{
+	margin-top: 10px;
+	color: #3c489c;
+}
+#refresh img{
+	width: 0.45rem;
+	vertical-align: bottom;
+}
+body,
+html {
+	overflow: hidden;
+	height: 100%;
+}
+.wutu{
+	text-align:center;padding-top:1.8rem;
+}
+.wutu img{
+	width: 3rem;
+}
+.wutu p{
+	font-size: 0.28rem;
+	margin-top: 5px;
+}
+.display-block{display: block;}
+.display-no{display: none;}

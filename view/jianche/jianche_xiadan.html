@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta charset="UTF-8">
+		<title>检车下单</title>
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/system/style.css" />
+		<link rel="stylesheet" href="../../css/icons-extra.css" />
+		<link rel="stylesheet" href="../../css/iconfont.css" />
+		<link rel="stylesheet" href="../../css/business/jianche/jianche_xiadan.css" />
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">选择检车线</h1>
+		</header>
+		<div class="mui-content" id="mui-template">
+			<script type="text/template" id="checkline_list">
+				<% for(var i in record){ var item=record[i]; %>
+				<ul class="mui-table-view" id="">
+				
+				 <li class="mui-table-view-cell"><%=item.CHECKINGLINE_NAME%><span class="mui-pull-right">¥<span><%=item.PRICE%></span>/辆</span></li>
+		         <li class="mui-table-view-cell mui-row">
+		         	<div class="mui-ellipsis mui-col-sm-10 mui-col-xs-9">
+		         	地址：<%=item.ADDRESS%></div>
+		         	<button type="button" class="mui-btn mui-btn-royal" id="<%=i%>">
+					预约
+				</button></li>
+			</ul>
+			<%}%>
+			</script>
+			<!--<ul class="mui-table-view">
+				 <li class="mui-table-view-cell">十八的检车线<span class="mui-pull-right">¥140/辆</span></li>
+		         <li class="mui-table-view-cell"><div class="mui-ellipsis mui-col-sm-10 mui-col-xs-9">
+		         	地址：吉林省长春市二道区远达大街与惠公路交汇</div>
+		         	<button type="button" class="mui-btn mui-btn-royal">
+					预约
+				</button></li>
+			</ul>
+			<ul class="mui-table-view">
+				 <li class="mui-table-view-cell">十八的检车线<span class="mui-pull-right">¥140/辆</span></li>
+		         <li class="mui-table-view-cell"><div class="mui-ellipsis mui-col-sm-10 mui-col-xs-9">
+		         	地址：吉林省长春市二道区远达大街与惠公路交汇</div>
+		         	<button type="button" class="mui-btn mui-btn-royal">
+					预约
+				</button></li>
+			</ul>-->
+		</div>
+		<script type="text/javascript" src="../../js/system/jquery-3.1.1.min.js" ></script>
+		<script type="text/javascript" src="../../js/system/mui.js"></script>
+		<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/system/arttmpl.js"></script>
+		<script type="text/javascript" src="../../js/business/checkline/checkline_list.js" ></script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js" ></script>
+	</body>
+</html>

@@ -1,0 +1,107 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+.searchinput {
+	text-align: left !important;
+	border-radius: 2px!important;
+	background-color: #fff !important;
+	/*border: 1px solid #EBEBEB !important;*/
+	height: 1rem !important;
+	font-size: 0.2916rem !important;
+	padding-top: 25px !important;
+	background: url(../../../image/fahuo_message/qishi1.png) no-repeat top left;
+	background-size: 0.53rem;
+	background-position: 15px 20px;
+	padding-left: 45px !important;
+	color: #909090;
+}
+
+#luxianinput {
+	/*padding-right: 0px !important;
+	padding-left: 0px;*/
+	padding: 0;
+	margin-bottom: 0.08rem;
+}
+
+.mui-input-row label {
+	background: url(../../../image/fahuo_message/qishi2.png) no-repeat top left;
+	font-size: 0.3rem;
+	width: 18.75%;
+	line-height: 1.3;
+	background-size: 0.53rem;
+	background-position: 15px 20px;
+}
+
+.mui-input-group .mui-input-row {
+	height: 60px;
+}
+
+.mui-input-group .mui-input-row input {
+	font-size: 0.2916rem;
+	line-height: 1.3;
+	padding-top: 15px !important;
+	padding-left: 45px !important;
+}
+
+#ADDRESS_NAME_BEGIN_BIEMING,#ADDRESS_NAME_END_BIEMING {
+	background: url(../../../image/fahuo_message/qishi2.png) no-repeat top left;
+	background-size: 0.53rem;
+	background-position: 15px 15px;
+}
+
+#PERSON_FAHUO ,#PERSON_SHOUHUO{
+	background: url(../../../image/fahuo_message/qishi3.png) no-repeat top left;
+	background-size: 0.53rem;
+	background-position: 15px 15px;
+}
+
+#PERSON_FAHUO_PHONE ,#PERSON_SHOUHUO_PHONE{
+	background: url(../../../image/fahuo_message/qishi4.png) no-repeat top left;
+	background-size: 0.53rem;
+	background-position: 15px 15px;
+}
+
+form {
+	margin-top: 0.08rem;
+}
+
+.mui-content-padded {
+	margin-top: 4rem;
+}
+
+.mui-input-group .mui-input-row:after {
+	left: 0;
+}
+
+.mui-search .mui-placeholder {
+	text-align: left;
+	border-radius: 2px;
+	background-color: #fff;
+	border: 1px solid #EBEBEB;
+	height: 28px;
+	padding: 0 5px;
+	font-size: 15px;
+	line-height: 25px;
+}
+
+.mui-search .mui-placeholder .mui-icon {
+	font-size: 20px;
+	color: #999;
+	float: right;
+}
+
+.mui-search.mui-active:before {
+	display: none;
+}
+
+.mui-icon {
+	line-height: 1.2;
+}
+input[type=text]{
+	height: 50px;
+}

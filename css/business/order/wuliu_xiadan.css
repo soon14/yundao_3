@@ -1,0 +1,157 @@
+#baidumap {
+	height: 232px;
+	margin-top: 10px;
+}
+
+.mui-content-padded {
+	margin: 0.08rem;
+}
+
+#square2 {
+	width: 30%;
+	height: 43px;
+	border: 1px solid #CACACA;
+	border-radius: 10px;
+	color: #7c919f;
+	font-size: 0.2916rem;
+	text-align: center;
+	word-break: break-word;
+	padding: 10px 10px 10px 10px;
+	white-space: normal;
+	position: absolute;
+	top: 35px;
+	right: 25px;
+}
+
+#dibu {
+	margin-left: 0;
+	margin-right: 0;
+	background-color: #8ca6c8;
+    height: 0.96rem;
+    position: absolute;
+    width: 100%;
+    bottom: 70px;
+    z-index: 999;
+}
+
+#dibu .mui-table-view {
+	background-color: #e4f0fe;
+}
+
+#dibu li {
+}
+#dibubutton{
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-top: 1.3rem;
+}
+.mui-media-object {
+	width: 67px!important;
+	height: 67px !important;
+	max-width: 67px !important;
+	border-radius: 67px;
+}
+
+
+
+#lvs-b {
+	color: #d94a49;
+	font-size: 0.2499rem;
+}
+
+#hs {
+	color: #666666;
+	font-size: 0.2499rem;
+}
+
+#heis {
+	color: #020202;
+	font-size: 0.28rem;
+}
+
+#jvse {
+	color: #FF9700!important;
+	font-size: 15px;
+	color: #FF9700!important;
+	margin: 0;
+}
+
+
+
+.mui-table-view:before {
+	height: 0;
+}
+
+.mui-table-view:before {
+	height: 0;
+}
+
+.mui-popup-inner:after {
+	height: 0;
+}
+
+.mui-popup-button:after {
+	width: 0;
+}
+
+.mui-popup-title,
+.mui-popup-input {
+	display: none;
+}
+
+.mui-popup-button {
+	color: #45C01A;
+}
+
+.mui-popup-title+.mui-popup-text {
+	padding-bottom: 14px;
+	padding-top: 14px;
+}
+.mui-media-body{
+	margin-top: 5px;
+}
+
+/*物流公司*/
+.baidumap{height: 184px; margin-top: 10px;}
+.mui-table-view-cell button{max-width:50%;padding:5px 8px;float: right;background: #dbb349;color: white;font-size: 0.28rem;border: 1px #dbb349 solid;}
+.mui-table-view-cell .content{line-height: 28px;}
+.mui-table-view-cell .content span{color: #d94a49;}
+.wlgs-bottom{bottom: 0;
+    display: table;
+    width: 100%;
+    height: 30px;
+    padding: 0;
+    table-layout: fixed;
+    border-top: 0;
+    border-bottom: 0;}
+nav div{float: left;width: 50%;text-align: center;line-height: 30px;color: white;padding: 10px;}
+nav div:first-child{background: #dbb349;}
+nav div:last-child{background: #db4c49;}
+nav div img{width: 20px; margin-bottom: 4px;margin-right: 5px;}
+.content{font-size: 0.27rem ;}
+.display-no{display: none;}
+.confirm_yikoujia .mui-popup .mui-input-row {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px 10px;
+    height: 40px !important;
+}
+.confirm_yikoujia .mui-input-row label {
+    padding: 10px 0px;
+    width: 25%;
+}
+.confirm_yikoujia .mui-input-row label~input {
+    float: left;
+    margin: 0;
+    width: 75%;
+}
+.confirm_yikoujia .mui-popup-input input {
+    border-radius: 5px;
+    height: 38px;
+}
+.confirm_yikoujia .mui-popup-button {
+    color: #d94949;
+}
+.confirm_yikoujia .mui-popup-button {
+    color: #d94949;
+}

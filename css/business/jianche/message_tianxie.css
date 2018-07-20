@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+.mui-table-view-cell:after{
+	right: 15px;
+}
+.mui-table-view:after{
+	left: 15px;
+	right: 15px;
+}
+.mui-content,html{
+	background-color: #FFFFFF;
+}
+li{
+	/*height: 1.1rem;*/
+	/*height: 8vh;*/
+	font-size: 0.2916rem;
+}
+input{
+	font-size:0.2916rem;
+}
+.mui-table-view-cell{
+	/*padding: 0.3rem 15px;*/
+}
+.mui-input-row label{
+	color: #424242;
+	padding: 0.2rem 0px;
+	width: 25%;
+}
+.mui-content-padded{
+	margin: 15px;
+	color:#da4b49;
+	line-height: 1.8;
+	width:80%;
+}
+.mui-input-row input{
+	padding:0.2rem 0px;
+	height: 0.7rem;
+}
+#dibubutton{
+	padding-top:3rem;
+	margin-left: 15px;
+    margin-right: 15px;
+}
+.mui-input-row label~input{
+	float: left;
+}
+.mui-table-view-cell{padding: 7px 15px;}

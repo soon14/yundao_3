@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>我的优惠券</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../../css/mui.min.css" />
+		<link rel="stylesheet" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/system/style.css" />
+		<!--<link rel="stylesheet" href="../../css/business/index.css" />-->
+		<link rel="stylesheet" href="../../css/business/coupon/coupon.css" />
+	</head>
+
+	<body class="bg-whf6">
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">我的优惠券</h1>
+			<!--<a id="duihuan" class=" mui-btn-link mui-pull-right" > 兑换</a>-->
+		</header>
+		<div class="mui-content">
+			<div id="mui-template">
+				<script type="text/template" id="radio-tigan">
+					<% for(var i in record){ var item=record[i]; %>
+						<div id="yhq2" class="yhq-body">
+							<ul class="mui-table-view " >
+								<li class="mui-table-view-cell mui-media">
+									<a id="<%=item.COUPON_CUSTOMER_ID%>" name="<%=item.MONEY%>,<%=item.USER_LIMIT_AMUNT%>">
+										<div class="mui-media-body mui-pull-left">
+											<div class="mui-ellipsis">
+												<ul class="mui-table-view">
+													<li class="mui-table-view-cell">
+														<p>
+															<%=item.NAME%>
+														</p>
+														<p>
+															<%=item.SCOPE_NAME%>
+														</p>
+													</li>
+													<li class="mui-table-view-cell">
+														<p class="yjq-time pt10">
+															<img src="../../image/yjq-time.png" /> 有效期：
+															<%=item.BEGINDATE%>——
+															<%=item.ENDDATE%>
+														</p>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<% if(item.SCOPE_NAME=="全平台通用优惠券"){%>
+											<div class="mui-media-object yhq-bg">
+										<%} else{%>		
+											<div class="mui-media-object yhq-bg1">	
+										<%}%>
+											<p>￥<%=item.MONEY%></p>
+											<p class="yhq-p">满<%=item.USER_LIMIT_AMUNT%>可用</p>
+										</div>																																										
+									</a>
+								</li>
+							</ul>	
+						</div>
+					<%}%>
+				</script>
+			</div>
+			<div id="yhq_wuxiao" class="mui-content-padded yhq-hui">
+				没有更多优惠券了！！
+				<a><span>查看无效优惠券<img src="../../image/yhq_wu.png"/></span></a>
+			</div>
+		</div>
+		<script type="text/javascript" src="../../js/system/jquery-3.1.1.js"></script>
+		<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/system/json_time.js"></script>
+		<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+		<script type="text/javascript" src="../../js/system/arttmpl.js"></script>
+		<script type="text/javascript" src="../../js/business/coupon/coupon.js"></script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js" ></script>
+	</body>
+
+</html>

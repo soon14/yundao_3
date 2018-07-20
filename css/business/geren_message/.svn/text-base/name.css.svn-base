@@ -1,0 +1,19 @@
+.mui-bar .mui-btn-link {
+	font-size: 0.2708rem;
+	line-height: 44px;
+	top: 0;
+	padding: 0;
+	color: #FFFFFF;
+	border: 0;
+}
+
+input[type=text] {
+	width: 100%;
+	border: 1px solid #EEEEEE;
+	height: 1rem;
+	margin-bottom: 0;
+}
+ p{
+	font-size:0.2291rem;
+	color:#949494;
+}

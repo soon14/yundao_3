@@ -1,0 +1,170 @@
+/*!
+* by wangshuyu(.com) 2017-?
+* under MIT license
+* 针对当前项目的实际样式库，
+* 包括文字链接颜色，文字链接经过的样式，一些常用的背景色样式，常用的边框样式等，
+* 1：网站常见颜色，链接色
+* 2：网站常见背景色
+* 3：网站常见边框色
+* 4：网站遗留的margin属性，例如，某一个DIV留白较大，有个单独的marging-top:35px的属性，这个属性放在CSS样式库中，以.mtd5{margin-top:35px}保留，以供
+* 以后类似布局或需要的地方使用
+* 5：网站遗留的单padding属性
+* 6：网站遗留的width属性
+* 7：网站常用的一些height属性
+*/
+
+
+/*加载icon字体*/
+
+@font-face {
+	/*font-family: "iconfont";
+	src: url('../fonts/iconfont.ttf') format('truetype');*/
+	/* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+.iconfont {
+	/*font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;*/
+}
+
+html {
+	font-size: 100%;
+	background-color: #f6f6f6;
+}
+
+body {
+	background-color: #f6f6f6;
+}
+
+img,
+button {
+	max-width: 100%;
+}
+
+header {
+	/*height: 1.45rem !important;*/
+	/*padding-top: 8%;*/
+	/*background: -webkit-linear-gradient(left, #f46d44 , #d94949);*/ /* Safari 5.1 - 6.0 */
+    /*background: -o-linear-gradient(right, #f46d44, #d94949);*/ /* Opera 11.1 - 12.0 */
+    /*background: -moz-linear-gradient(right, #f46d44, #d94949);*/ /* Firefox 3.6 - 15 */
+    /*background: linear-gradient(to right, #f46d44 , #d94949);*/ /* 标准的语法（必须放在最后） */
+   background:url(../../image/headerBG.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+a {
+	text-decoration: none;
+	color: #007aff;
+}
+
+a:hover {}
+textarea{
+	border-color:#E0E0E0;
+}
+
+.mui-title {
+	color: #fff !important;
+	font-size: 0.36rem;
+	font-weight: bold;
+}
+
+.mui-bar a {
+	color: #fff;
+}
+
+.mui-bar a:active {
+	color: #fff;
+}
+
+.mui-content {
+	/*padding-top: 1.45rem !important;*/
+	background-color: #f6f6f6;
+}
+
+.mui-bar-nav {
+	
+}
+
+.mui-bar-nav .mui-btn {
+	color: #fff;
+	font-size: 0.24rem;
+}
+
+.mui-bar .mui-icon {
+	font-size: 0.5rem;
+}
+
+.mui-bar-tab .mui-tab-item .mui-icon {
+	width: 0.5rem;
+	height: 0.5rem;
+}
+
+.mui-bar-tab .mui-tab-item.mui-active {
+	color: #f04430;
+}
+.mui-content>.mui-table-view:first-child{
+	margin-top: 0.08rem;/*MUI框架自动将第一个元素设置为顶部15px*/
+}
+.mui-table-view:after{
+	background-color: #e4e4e4;
+}
+.mui-table-view-cell>a:not(.mui-btn).mui-active{
+	background-color: #F3F3F3;
+}
+.mui-btn {
+    border-radius: 25px;
+    padding: 0.23rem;
+}
+.mui-btn-blue, .mui-btn-primary, input[type=submit] {
+    border: 1px solid #d94949;
+    background-color: #d94949;
+}
+.mui-btn-yellow{
+	border: 1px solid #ffc749;
+	background-color: #ffc749;}
+/*背景色*/
+.bg-wh{background: #FFFFFF;}
+.bg-whf5{background: #f5f5f5;}
+.bg-whe0{background:#e0e0e0;}
+.bg-whf6{background: #f6f6f6;}
+.bg-whfa{background: #fafafa;}
+.mui-tab-label{
+	font-size: 0.2499rem !important;
+}
+.mui-bar-tab .mui-tab-item{
+	color: #a1a1a1;
+}
+#segmentedControl {
+	background-color: #bdc7d4;
+	border-radius: 10px;
+	height: 0.7rem;
+	margin: auto;
+	font-size: 0.28rem;
+}
+
+#segmentedControl a {
+	color: #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+}
+.mui-segmented-control-positive.mui-segmented-control-inverted .mui-control-item.mui-active {
+	background-color: #dc4d48;
+	color: #FFFFFF;
+	border-bottom: 0;
+}
+.mui-bar .mui-btn-link:active{
+ 	color: #FFFFFF;
+ }
+.mui-bar{
+	-webkit-box-shadow: 0 0 0px rgba(218,218,218,1);
+    box-shadow: 0 0 0px rgba(218,218,218,1);
+    border-top: 1px solid #dadada;
+}
+.mui-btn-primary:enabled:active{
+	color: #fff;
+    border: 1px solid #f45353;
+    background-color: #f45353;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>物流订单详情</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/iconfont.css" />
+		<link rel="stylesheet" href="../../css/business/order/order_xiangqing.css" />
+
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 id="title" class="mui-title">订单</h1>
+			<button class="mui-btn mui-btn-link mui-pull-right" id="kefu_button"><img src="../../image/dingdan/xiangqing6.png" class="kefu">客服</button>
+		</header>
+		<div class="mui-content">
+			<div class="waibu">
+				<div id="segmentedControl" class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted mui-segmented-control-positive">
+					<a class="mui-control-item mui-active" href="#item1">订单状态</a>
+					<a class="mui-control-item" href="#item2">订单详情</a>
+				</div>
+			</div>
+
+			<div class="neirong">
+				<div id="item1" class="mui-control-content mui-active">
+					<div id="scroll" class="mui-scroll-wrapper">
+						<div class="mui-scroll">
+							<div class="mui-row">
+								<ol class="exp-conent-orderlist exp-content-body" id="orde_status">
+									<script type="text/template" id="radio-tigan">
+										<% for(var i in record){ var item=record[i]; %>										
+										<div class="mui-media-object mui-pull-left" id="xiangqingshijian">
+											<span><%=item.SYS_MINUTES_NEW%></span>
+											<p>
+												<%=item.SYS_DATE_NEW%>
+											</p>
+										</div>
+										<div>
+											<li class="exp-content-list list-item-2 mui-media">
+												<div class="list-icon" style="visibility: visible;"></div>
+												<div class="mui-media-body mui-table-view-cell">
+													<span class="mui-text-left"><%=item.STATUSNAME%></span>
+													<p id="wlzt"class="mui-ellipsis display-no">
+														<span id="dizhi">订单已提交</span>
+														<a class="a-clo" id="ipone"></a>
+													</p>
+												</div>												
+											</li>
+										<%}%>
+									</script>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="item2" class="mui-control-content">
+					<div id="scroll" class="mui-scroll-wrapper">
+						<div class="mui-scroll">
+							<ul class="mui-table-view" id="lvst">
+								<script type="text/template" id="radio-tigan_2">
+									<% for(var i in result_xq){ var item=result_xq[i]; %>									
+									<li class="mui-table-view-cell" id="unfull">
+										<div class="mui-table">
+											<div class="mui-table-cell mui-col-xs-3  mui-col-sm-3">
+												<p>订单号码</p>
+											</div>
+											<div class="mui-table-cell mui-col-xs-9">
+												<h5><%=item.LOGISTICSORDER_ID%></h5>
+											</div>
+
+										</div>
+									</li>
+									<li class="mui-table-view-cell" id="unfull">
+										<div class="mui-table">
+											<div class="mui-table-cell mui-col-xs-3  mui-col-sm-3">
+												<p>物流公司</p>
+											</div>
+											<div class="mui-table-cell mui-col-xs-9">
+												<h5><%=item.NAME%></h5>
+											</div>
+
+										</div>
+									</li>
+									<li class="mui-table-view-cell" id="full">
+										<div class="mui-table">
+											<div class="mui-table-cell mui-col-xs-3  mui-col-sm-3">
+												<p id="twozi">运价</p>
+											</div>
+											<div class="mui-table-cell mui-col-xs-9">
+												<h5 class=" mui-ellipsis"><%=item.PRICE%>元</h5>
+											</div>
+
+										</div>
+									</li>									
+									<%}%>
+								</script>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="wuliu-bottom">
+					<ul class="mui-table-view display-no" id="dibu_xiadan">
+						<p class="dibu_p_class">再次下单</p>
+					</ul>
+					<ul class="mui-table-view mui-grid-view mui-grid-9 display-no" id="dibu_wuliu">
+						<li class=" mui-table-view-cell mui-col-xs-4 mui-col-sm-4 mui-media" id="dibu_quxiao">
+							<div id="text_left">取消订单</div>
+						</li>
+						<li class=" mui-table-view-cell mui-col-xs-8 mui-col-sm-8 mui-media" id="dibu_zhifu">
+							<div id="text_right">前往支付</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<script type="text/javascript" src="../../js/system/jquery-3.1.1.js"></script>
+			<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+			<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+			<script type="text/javascript" src="../../js/system/constants.js"></script>
+			<script type="text/javascript" src="../../js/system/json_time.js"></script>
+			<script type="text/javascript" src="../../js/system/arttmpl.js"></script>
+			<script type="text/javascript" src="../../js/system/xiachenshi.js"></script>
+			<script type="text/javascript" src="../../js/business/order/order_wuliu_xq.js"></script>
+	</body>
+
+</html>

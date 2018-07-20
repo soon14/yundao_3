@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>审核</title>
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/business/index.css" rel="stylesheet" />
+		<link href="../../css/business/login/examine.css" rel="stylesheet" />
+	</head>
+
+	<body class="bg-whf5 size14">
+		<header class="mui-bar mui-bar-nav">
+			<h1 class="mui-title">审核</h1>
+			<a class="mui-btn mui-btn-link mui-pull-right" id="close">关闭</a>
+		</header>
+		<div class="mui-content bg-whf5">
+			<div class="examine-img">
+				<img class="w60" src="../../image/dl_sh.png" />
+			</div>
+			<div class="examine-content">
+				<span class="size17">审核失败</span>
+			</div>
+			<div class="examine-error-conent">
+				<span>失败原因：</span>
+				<div>
+					<span id="error_text">
+					身份证与行车号码不相符！
+					</span>
+				</div>
+			</div>
+			<!--<div class="mui-content-padded m-rem23">
+				<button class="mui-btn mui-btn-block mui-btn-primary">重新填写</button>
+			</div>	-->
+		</div>
+	</body>
+	<script type="text/javascript" src="../../js/system/mui.js"></script>
+	<script type="text/javascript" src="../../js/system/xiachenshi.js"></script>
+	<script type="text/javascript" src="../../js/business/login/examine-error.js"></script>
+
+</html>

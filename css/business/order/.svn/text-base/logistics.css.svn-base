@@ -1,0 +1,41 @@
+.mui-card {margin: 0;box-shadow: none;}
+.mui-row span{color:#020202;}
+.mui-row p{color:#da4a49 !important;}
+.mui-table-view-cell{padding: 11px 12px;}
+.fhd{float: left;font-size: 0.3rem;line-height: 32px;}
+.fhd:last-child{float: right;}
+.fhd button{font-size: 0.3rem;}
+.fhd img{width: 10px;}
+#wuliu{
+	font-size: .2918rem;
+}
+#wuliu .mui-table-view-cell:after{
+	height: 1px;
+}
+#wuliu .mui-media-object{
+	width: 1.29rem;
+	height: 1.29rem;
+	max-width: 1.29rem;
+	border: 0.8px #e5e5e5 solid;
+	border-radius:1.29rem ;
+}
+.mui-table-view-cell>a:not(.mui-btn){
+	white-space: normal;
+}
+#mingcheng p {
+    font-size: .2501rem;
+    color: #666666;
+}
+#jvli p {
+    color: #da4a49;
+}
+#zuobiao {
+    width: 0.32rem;
+}
+/*物流列表*/
+.mui-btn{background: #ffc749;border: 1px #ffc749 solid;}
+.chakan-btn{background: #dcdcdc;border: 1px #dcdcdc solid;}
+.display-no{display: none;}
+.display-block{display: block;}
+.wl-null{text-align: center;margin-top: 100px;}
+.wl-null img{width: 70%;}

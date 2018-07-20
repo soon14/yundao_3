@@ -1,0 +1,21 @@
+#tongzhi_count {
+	background-color: #d7000f;
+	color: #FFFFFF;
+	
+	
+}
+
+.shangxiaban{
+	background: url(image/shangxiaban.png); background-size: 0.45rem;background-repeat: no-repeat;
+}
+
+.mui-pull-top-pocket {
+	top: 80px !important;
+}
+.dangqian{
+	font-size: 0.2916rem;
+	margin-top: 12px;
+}
+header button img {
+	width: 0.21rem;
+}

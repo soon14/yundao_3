@@ -1,0 +1,27 @@
+.mui-table-view-cell img{max-width: 20px;height: 20px;}
+.mui-table-view-cell{font-size: 0.3rem;padding: 13px 15px;}
+.baidumap{height: 300px;}
+.mui-content-padded{
+	background:#e4f0fe;
+	margin: 0;
+	margin-left: 0;
+    margin-right: 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    z-index: 999;   
+    font-size: 0.28rem;
+}
+.mui-content-padded span{ color: #6e7172;}
+.mui-content-padded p{color: #999e9c;font-size: 0.25rem;}
+.mui-btn-yellow{
+    border: 1px solid #fec749;
+    background-color: #fec749;
+    color: #242e2c;
+    font-size: 0.28rem;
+}
+.chakan-btn{padding:0 15px;margin-top: 20px;}
+.bg-ul{background: #f3f3f3}
+.bg-ul li{background: white}
+.bg-ul li:last-child{margin-top: 3px;}
+.mui-table-view-cell:after {left: 0px;}

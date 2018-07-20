@@ -1,0 +1,111 @@
+/*登录*/
+/*html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}*/
+.area {margin: 20px auto 0px auto;}
+/*.mui-input-group {margin-top: 10px;}
+.mui-input-group:first-child {margin-top: 20px;}*/
+.mui-input-group label {width: 30px;}
+.mui-input-row label~input,.mui-input-row label~select,.mui-input-row label~textarea {width: 87%;}
+.mui-checkbox input[type=checkbox],.mui-radio input[type=radio] {top: 6px;}
+.mui-content-padded {margin-top: 25px;}
+.link-area {
+	display: block;
+	margin-top: 25px;
+	text-align: center;
+}
+.spliter {
+	color: #bbb;
+	padding: 0px 8px;
+}
+.oauth-area {
+	position: absolute;
+	bottom: 20px;
+	left: 0px;
+	text-align: center;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.oauth-area .oauth-btn {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-size: 30px 30px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin: 0px 20px;
+	/*-webkit-filter: grayscale(100%); */
+	border: solid 1px #ddd;
+	border-radius: 25px;
+}
+.oauth-area .oauth-btn:active {border: solid 1px #aaa;}
+.oauth-area .oauth-btn.disabled {background-color: #ddd;}
+.login-bg{
+		background-image: url(../../image/bj.png);
+		background-repeat: no-repeat;
+		background-position:  0 45px;
+		background-attachment: fixed;
+		background-size: 110%;
+		}
+.mui-content{background-color:rgba(255,255,255,0.15)}
+.login-logo{margin:0 auto;text-align: center;}
+.login-logo img{width: 5.5em;height: 7em;}
+.mui-bar-nav~.mui-content-pad-top{margin-top: 4rem;}
+
+.mui-btn-blue, .mui-btn-Verification, input[type=submit]{
+    border: 2px solid #999795;
+    background-color: white;	   
+    background-color:rgba(255,255,255,0.7)
+}
+.mui-content-login-pad {padding-top: 2% !important;}
+.mui-input-group {background-color:rgba(255,255,255,0.1);padding: 0 21px;}
+.mui-input-group:before{background-color:rgba(255,255,255,0.1)}
+.mui-input-group:after {background-color:rgba(255,255,255,0.1)}
+.mui-input-group .mui-input-row:after {
+    background: -webkit-linear-gradient(left, #dd4f2f,#fa329f,#f5e479); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right,#dd4f2f,#fa329f,#f5e479); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #dd4f2f,#fa329f,#f5e479); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #dd4f2f,#fa329f,#f5e479); /* 标准的语法（必须放在最后） */
+    left: 35px;
+}
+.mui-input-row label {padding: 14px 0 0 0px;}
+.mui-input-row label~input, .mui-input-row label~select, .mui-input-row label~textarea {font-size: 14px;}
+.mui-btn-block {font-size: 14px;}
+.mui-content-padded {margin: 1.2rem 1.2rem;}
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea {
+	margin: 10px 0 0 0;
+}
+.mui-input-row{margin-bottom:5%;height: 2.7rem !important;}
+@media screen and (min-width: 320px) and (max-width:375px) {}
+@media screen and (min-width: 375px) and (max-width:414px) {
+	.mui-input-group .mui-input-row {height: 45px;}
+	.mui-content-padded {margin: 1.5rem 1.2rem;}
+	.mui-input-row {margin-bottom: 7%;}
+	.mui-content-login-pad{padding-top:4% !important;}
+	/*.mui-btn{padding: 12px;}*/ 
+}
+@media screen and (min-width: 414px) and (max-width:576px) {
+	.mui-btn {padding:0.8rem;}
+	.mui-input-row label img {width: 2rem; height: 2rem;}
+	.mui-content-padded {margin: 2rem 1.2rem;}
+	.mui-input-row {height: 3rem !important;}
+}
+@media screen and (min-width: 576px) and (max-width:640px) {}
+@media screen and (min-width: 768px) and (max-width:1920px) {
+	.mui-bar-nav~.mui-content-pad-top{padding-top: 10.5rem;}	
+	.mui-input-row{height:4.7rem !important;}
+	.mui-input-row label~input, .mui-input-row label~select, .mui-input-row label~textarea {font-size: 22px;}
+	.mui-input-row label img {width: 3.8rem;height: 3.8rem;}
+	.mui-input-group .mui-input-row:after { left: 70px;height:2px;}
+	input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea {
+	margin: 5% 0 0 0;
+	}
+	.mui-content-padded {margin: 3.2rem 1.2rem;}
+	.mui-btn-block {font-size: 1.3rem;}
+}

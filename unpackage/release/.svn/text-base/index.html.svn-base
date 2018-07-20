@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>首页</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="css/mui.min.css" />
+		<!--App自定义的css-->
+		<link rel="stylesheet" href="css/system/main.css" />
+		<link rel="stylesheet" href="css/system/mui.picker.css" />
+		<link rel="stylesheet" href="css/system/mui.poppicker.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<link rel="stylesheet" href="css/business/index2.css" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<!--<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>-->
+			<h1 id="title" class="mui-title">发货</h1>
+			<button id="chooseCity" class="mui-btn  mui-btn-link mui-pull-right">
+					<span id="city_name">长春</span>
+					<img src="image/jiantou2.png" />
+			</button>
+		</header>
+		<div class="mui-content" id="neirong"></div>
+		<nav class="mui-bar mui-bar-tab">
+			<a id="defaultTab" class="mui-tab-item mui-active fahuo" href="view/order/fahuo.html">
+				<span class="mui-icon iconfont icon-icon-test3"></span>
+				<span class="mui-tab-label">发货</span>
+			</a>
+			<a class="mui-tab-item dingdan" href="view/order/dingdan.html">
+				<span class="mui-icon iconfont icon-icon-test4"></span>
+				<span class="mui-tab-label">订单</span>
+			</a>
+			<a class="mui-tab-item jianche" href="view/order/jianche.html">
+				<span class="mui-icon iconfont icon-icon-test1"></span>
+				<span class="mui-tab-label">检车</span>
+			</a>
+			<a class="mui-tab-item tongzhi" href="view/notice/notice.html">
+				<span class="mui-icon iconfont icon-icon-test2"><span id="tongzhi_count" class="mui-badge"></span></span>
+				<span class="mui-tab-label">通知</span>
+			</a>
+			<a class="mui-tab-item wode" href="view/geren_message/wode.html">
+				<span class="mui-icon iconfont  icon-icon-test"></span>
+				<span class="mui-tab-label">我的</span>
+			</a>
+		</nav>
+		<script type="text/javascript" src="js/system/mui.min.js"></script>
+		<script type="text/javascript" src="js/system/mui.picker.js"></script>
+		<script type="text/javascript" src="js/system/constants.js"></script>
+		<script type="text/javascript" src="js/system/xiangyingshi.js"></script>
+		<script type="text/javascript" src="js/system/city.data-3.js"></script>
+		<script type="text/javascript" src="js/system/xiachenshi.js" ></script>
+		<script type="text/javascript" src="js/system/gps.js"></script>
+		<script type="text/javascript" src="js/business/index.js"></script>
+		
+	</body>
+
+</html>

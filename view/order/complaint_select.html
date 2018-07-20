@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>投诉</title>
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/business/index.css" rel="stylesheet" />
+		<link href="../../css/business/order/complaint.css" rel="stylesheet" />
+	</head>
+
+	<body class="bg-whf5 size14">
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">投诉</h1>
+		</header>
+		<div class="mui-content ">
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;" class="">
+						<img class="mui-media-object mui-pull-left" src="../../image/tousu.png">
+						<div class="mui-media-body">
+							Hi,我是运到小助手
+							<p class="mui-ellipsis" style="font-size: 12px !important;">选择您遇到的问题进行投诉，我们尽快为您解决</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<div class="mui-card m-rem2 mui-card-1">
+				<div class="mui-input-group">
+					<div class="mui-input-row mui-radio mui-left">
+						<label>司机服务态度差</label>
+						<input name="radio1" type="radio" checked>
+					</div>
+					<div class="mui-input-row mui-radio mui-left m-rem2 bg-wh">
+						<label>司机乱收费</label>
+						<input name="radio1" type="radio">
+					</div>
+					<div class="mui-input-row mui-radio mui-left m-rem2 bg-wh">
+						<label>司机恶意绕道</label>
+						<input name="radio1" type="radio">
+					</div>
+					<div class="mui-input-row mui-radio mui-left m-rem2 bg-wh">
+						<label>司机爽约或拒运</label>
+						<input name="radio1" type="radio">
+					</div>
+					<div class="mui-input-row mui-radio mui-left m-rem2 bg-wh">
+						<label>货物丢失或损坏</label>
+						<input name="radio1" type="radio">
+					</div>
+					<ul class="mui-table-view" id="qita">
+						<li class="mui-table-view-cell">
+							<a class="mui-navigate-right">
+								其他问题
+							</a>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<div class="mui-content-padded m-rem50">
+			<button id='tousu' class="mui-btn mui-btn-block mui-btn-primary">投诉</button>
+		</div>
+	</body>
+	<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+	<script type="text/javascript" src="../../js/system/xiachenshi.js"></script>
+	<script type="text/javascript" src="../../js/system/constants.js"></script>
+	<script type="text/javascript" src="../../js/business/order/complaint_select.js"></script>
+
+</html>

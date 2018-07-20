@@ -1,0 +1,94 @@
+.service-heade{height: 1.2rem; padding-top: 0.24rem;background: white;padding-left: 11px;margin: 0;}
+.service-heade h5{line-height: 0.8rem; margin: 0;color: #424242;float: left;}
+.service-content{}
+.service-content .mui-content-padded{margin: 0;margin-left: -4px;}
+.mui-input-row label{font-size: 0.3rem ;}
+.mui-btn-primary {
+    border: 1px solid #d94949;
+    background-color: #d94949;
+    margin-top: 6.5rem;
+	font-size: 0.36rem;
+}
+.mui-table-view span{color:#424242 ; font-size: 0.2916rem;}
+.mui-btn-outlined{width: 32.2%;}
+.service-heade img{width: 0.5rem;height:0.5rem;float: left;margin-top: 5px;margin-right: 5px;}
+.mui-btn{border-radius:3px}
+.mui-btn1{border-radius:25px}
+button {
+				font-size: 16px!important;
+			}
+			
+			#square {
+				width: 0.05rem;
+				height: 0.3rem;
+				background: #45C01A;
+				margin-right: 10px;
+			}
+			h5{
+				font-size: 0.32rem;
+			}
+			#buttonid {
+				width: 2rem;
+				height: 1.2rem;
+				margin-right: 0.1rem;
+				font-size: 0.24rem !important;
+				text-align: center;
+				color: #020202;
+			}
+			
+			#buttonid p {
+				font-size: 0.24rem !important;
+				margin-left: -5px;
+			}
+			
+			.mui-content-padded .mui-btn p {
+				font-size: 0.75em;
+				color: #999999;
+			}
+			#buttonid:active {
+				border: 1px solid #45C01A;
+			}
+			
+			.mui-popup-title {
+				display: none;
+			}
+			
+			.mui-popup-inner:after {
+				height: 0;
+			}
+			
+			.mui-popup-button:after {
+				width: 0;
+			}
+			
+			.mui-popup-input input {
+				border-color;
+				border-radius: 5px;
+				height: 35px;
+			}
+			
+			.mui-popup .mui-input-row {
+				border: 1px solid #ccc;
+				border-radius: 10px;
+				margin: 10px 10px;
+				height: 40px !important;
+			}
+			
+			.mui-input-row label {
+				padding: 10px 0px;
+				width: 25%;
+			}
+			
+			.mui-input-row label~input {
+				float: left;
+				margin: 0;
+				width: 75%;
+			}
+			
+			.mui-popup-button {
+				color: #d94949;
+			}
+			
+			button {
+				border: none !important;
+			}

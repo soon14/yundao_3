@@ -1,0 +1,102 @@
+10
+
+dir
+279
+svn://git.oschina.net/xiyecode/yd_driver/unpackage
+svn://git.oschina.net/xiyecode/yd_driver
+
+
+
+2017-06-02T08:17:56.000Z
+171
+西野 <89085055@qq.com>
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+644eb219-6dba-43db-b24a-36a22e6bd11e
+
+.confirmed_dependencies
+file
+
+
+
+
+2017-06-05T12:51:08.886000Z
+c83081ea1a7abeb27f188681fab44da8
+2017-06-02T08:12:49.000Z
+170
+wzx <1271921125@qq.com>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+40414
+
+.dependencies
+file
+
+
+
+
+2017-05-25T11:46:25.967000Z
+37a6259cc0c1dae299a7866489dff0bd
+2017-05-25T07:27:59.000Z
+2
+西野 <89085055@qq.com>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4
+
+release
+dir
+
+res
+dir
+

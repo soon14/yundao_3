@@ -1,0 +1,82 @@
+#gerenzhongxin {
+	
+	height: 3.41rem;
+}
+#gerenzhongxin .mui-media-object{
+	max-width: 2.1rem;
+	height: 2.1rem;
+	margin-top: 0.5rem;
+}
+#gerenzhongxin .mui-media-body{
+	font-size: 0.3751rem;
+    padding-top: 1rem;
+    padding-left: 10px;
+}
+ #vip{
+	width: 0.7rem;
+}
+.mui-navigate-right:after{
+	font-size: 0.5rem;
+    color: #E0E0E0;
+    right: 0;
+}
+#table-viewX{
+	font-size: 0.2916rem;
+	margin-bottom: 0.08rem;
+}
+#table-viewX img{
+	width: 0.65rem;
+	height: 0.65rem;
+}
+#table-viewX .mui-media-body{
+	margin-top: 0.15rem;	
+}
+.mui-pull-right{
+	font-size: 0.2291rem;
+	color: #AEAEAE;
+}
+.mui-btn{
+	border-radius: 0;
+	font-size: 0.3126rem;
+	color: #1d1d1d;
+}
+.mui-content-padded{
+	margin: 0;
+}
+#huiyuan img{
+	width: 0.35rem;
+	height: 0.35rem;
+	margin-top: 10px;
+	vertical-align: bottom;
+}
+#huiyuan span{
+	margin-left: 5px;
+	font-size: 0.2291rem;
+	color: #cf9e61;
+	line-height: 1.5;
+	margin-top: 5px;
+	vertical-align: bottom;
+}
+#huiyuancontent{
+	margin-top: 10px;
+	font-size: 0.2291rem;
+	color: #aeaeae;
+}
+#jifen{
+	color: #1D1D1D;
+	font-size: 0.2916rem;
+}
+#jifen p{
+	color: #e30b0b;
+	font-size:0.3333rem;
+	line-height: 2;
+}
+.mui-table-view-cell:after{
+	left: 0;
+}
+#sencond{
+	margin-top: 0.08rem;
+}
+.mui-table-view-chevron .mui-table-view-cell>a:not(.mui-btn){
+	margin-right: -85px;
+}

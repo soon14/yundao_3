@@ -1,0 +1,24 @@
+.mui-table-view-cell:after{left:0;}
+.mui-table-view-cell{margin-top: 5px;padding: 9px 15px;}
+.mui-table-view-cell:after{background-color:inherit;}
+.mui-ellipsis{margin-top:5px}
+.mui-table-view .mui-media-object.mui-pull-right{margin-right: 5px;text-align: right;}
+.mui-table-view .mui-media-object{max-width: 82px;font-size: 18px;font-weight: normal;}
+.minus{color:#d94949}
+.plus{color:#ff9c00;}
+/*余额明细*/
+.balance-detailed-body{text-align: center;}
+.balance-detailed-body ul{margin-top:100px !important;}
+.balance-detailed-body ul:before,.balance-detailed-body ul:after{background-color:inherit;}
+.balance-detailed-body ul img {width: 100px;}
+.balance-detailed-body p{margin-top: 10px;font-size: 0.2rem;}
+.display-none{display: none;}
+.display-block{display: block;}
+.mui-table-view:before{background-color:inherit}
+/*提现*/
+.tixian li{font-size: 0.3rem;}
+.tixian li p{font-size: 0.25rem;}
+.tx-price{color: #ce4f48; font-size: 0.35rem;text-align: right;}
+.tx-price .p-green{color: #00a217;}
+.tx-price .p-red{color: #e40000;}
+.tx-price .p-hui{color: #959595;}

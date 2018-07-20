@@ -1,0 +1,51 @@
+#dibu p{
+	color: #FFFFFF;
+    position: absolute;
+    bottom: 0px;
+    left: 52%;
+    margin-left: -20px;
+    font-size: 0.3124rem;
+}
+#dibu span{
+	position: absolute;
+	bottom:4px;
+	left:50%; 
+	margin-left: -40px; 
+	width: 0.5rem;
+	height: 0.5rem;
+	right: 3px;
+}
+#dibu{
+	background-color: #8ca6c8;
+	height: 0.96rem;
+}
+#dibu li{
+	padding: 0.35rem 15px;
+	overflow: inherit;
+}
+.tianjialuxian {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background: none;
+	text-align: center;
+	height: 0.89rem;
+	background-color: #FFFFFF;
+}
+.mui-card{
+	margin: 0;
+	
+}
+.mui-card-header{
+	color: #b11513;
+	height: 1.15rem;
+	/*padding-right: 0;*/
+}
+.mui-card-content-inner{
+	color: #666666;
+	/*height: 3.92rem;*/
+}
+.mui-card ,.mui-card-header,.mui-card-content-inner{
+	font-size: 0.2916rem;
+	
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>我的</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/iconfont.css" />
+		<link rel="stylesheet" href="../../css/icons-extra.css" />
+		<link rel="stylesheet" href="../../css/business/geren_message/wode.css" />
+	</head>
+
+	<body>
+		<div class="mui-content">
+			<ul class="mui-table-view mui-table-view-chevron" id="gerenzhongxin">
+				<li class="mui-table-view-cell mui-media">
+					<a class="" id="geren_message">
+						<img class="mui-media-object mui-pull-left" id="head-img" src="../../image/touxiang.png">
+						<div class="mui-media-body">
+							<span id="geren_name"></span><br>
+							<div class="vip-driver">
+								<img src="../../image/v1-driver.png">
+								<span class="driver-dengji" id="totalscore_name">普通司机</span>
+							</div>
+							<div class="icons mui-inline" style="margin-right:6px; color: #FFFFFF;" id="xingxing">
+								<!--<i data-index="1" class="xingxing"><img src="../../image/wode/xingxing.png"></i>
+								<i data-index="2" class="xingxing"><img src="../../image/wode/xingxing.png"></i>
+								<i data-index="3" class="xingxing"><img src="../../image/wode/xingxing.png"></i>
+								<i data-index="4" class="xingxing"><img src="../../image/wode/xingxing.png"></i>
+								<i data-index="5" class="xingxing"><img src="../../image/wode/xingxing.png"></i>-->
+							</div><span class="fenshu" id="score">0</span><span class="fenshu">分</span>
+						</div>
+					</a>
+				</li>
+				<li class="mui-grid-view mui-row danshu">
+					<a class="mui-col-xs-6">
+						<div class="mui-media-body">
+							<img src="../../image/wode/danshu_img.png" class="danshu_img" />
+							<span>今日完成:<span class="danshu_span" id="od_number_day">0</span>单</span><br>
+						</div>
+					</a>
+					<a class="mui-col-xs-6">
+						<div class="mui-media-body">
+							<img src="../../image/wode/danshu_img.png" class="danshu_img" />
+							<span>本月完成:<span class="danshu_span" id="od_number_month">0</span>单</span><br>
+						</div>
+					</a>
+				</li>
+			</ul>
+
+			<ul class="mui-table-view" id="table-viewX">
+
+				<li class="mui-table-view-cell mui-media">
+					<a class="" id="luxian">
+						<img class="mui-media-object mui-pull-left" src="../../image/wode/shouru.png">
+						<div class="mui-media-body">
+							本月收入<span class="mui-pull-right" id="money_month">0<span>元</span></span>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right" id="yuer">
+						<img class="mui-media-object mui-pull-left" src="../../image/wode/yue.png" />
+						<div class="mui-media-body">
+							账户余额<span class="mui-pull-right" id="qianbao_yue"><!--0<span>元</span>--></span>
+						</div>
+					</a>
+
+				</li>
+			</ul>
+			<ul class="mui-table-view" id="table-viewX">
+				<li class="mui-table-view-cell">
+					<a id="drivertask" class="mui-navigate-right">
+						<img class="mui-media-object mui-pull-left" src="../../image/wode/renwu.png" />
+						<div class="mui-media-body">
+							司机任务
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a id="tuijianma" class="mui-navigate-right">
+						<img class="mui-media-object mui-pull-left" src="../../image/wode/haoyou.png" />
+						<div class="mui-media-body">
+							推荐好友<span class="mui-pull-right">拿优惠劵</span>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a id="wodeyouhuijuan" class="mui-navigate-right">
+						<img class="mui-media-object mui-pull-left" src="../../image/wode/youhuijuan.png" />
+						<div class="mui-media-body">
+							我的优惠劵<span class="mui-pull-right" id="count_coupon"></span>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a id="range" class="mui-navigate-right">
+						<img class="mui-media-object mui-pull-left" src="../../image/wode/fanwei.png" />
+						<div class="mui-media-body">
+							接单范围设置
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a id="wodedengji" class="mui-navigate-right">
+						<img class="mui-media-object mui-pull-left" src="../../image/wode/dengji.png" />
+						<div class="mui-media-body">
+							我的等级与积分<span class="mui-pull-right" id="totalscore"></span>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<ul class="mui-table-view" id="table-viewX">
+				<li class="mui-table-view-cell">
+					<a id="fuwubiaozhun" class="mui-navigate-right">
+						<img class="mui-media-object mui-pull-left" src="../../image/wode/kefu.png" />
+						<div class="mui-media-body">
+							服务标准
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a id="about" class="mui-navigate-right">
+						<img class="mui-media-object mui-pull-left" src="../../image/wode/guanyuwomen.png" />
+						<div class="mui-media-body">
+							关于我们
+						</div>
+					</a>
+				</li>
+			</ul>
+			<div class="mui-content-padded">
+				<button type="button" class="mui-btn mui-btn-block" id="exit_id">退出登陆</button>
+				<button type="button" class="mui-btn mui-btn-block" id="login_id">登陆</button>
+			</div>
+		</div>
+		<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+		<script type="text/javascript" src="../../js/business/geren_message/wode.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>头像</title>
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../../css/mui.min.css">
+		<!--App自定义的css-->
+		<script src="../../js/system/mui.js"></script>
+		<script src="../../js/system/xiangyingshi.js"></script>
+		<link rel="stylesheet" href="../../css/mui.min.css" />
+		<link rel="stylesheet" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/system/style.css" />
+		<link rel="stylesheet" href="../../css/business/geren_message/photo.css" />
+		<link rel="stylesheet" href="../../css/system/tubiao.css" />
+
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">头像</h1>
+		</header>
+		<div class="mui-page-content">
+			<div class="mui-table-view-cell" id="touxiang">
+				<a id="head" href="#picture">
+					<span class=" head">
+							<img class="head-img mui-action-preview" id="head-img1" src="../../image/photo.png"/>
+						<span>
+					</a>
+				</div>
+		</div>
+		<div id="picture" class="mui-popover mui-popover-action mui-popover-bottom">
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell"">
+					<a href="#"><div style="background: url(../../image/tubiao1.png) no-repeat;background-position: -0px -0px; width: 100px; position: absolute;left:38%;top:20px; line-height: 1.1;">拍照</div></a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a href="#"><div style="background: url(../../image/tubiao1.png) no-repeat;background-position: -0px -25px;width: 165px; position: absolute;left:38%;top:20px;line-height: 1.1;">从手机相册中选</div></a>
+				</li>
+			</ul>
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell">
+					<a href="#picture"  id="canceldown">&nbsp;取消</a>
+				</li>
+			</ul>
+		</div>
+		<script>
+			mui.init();
+			mui('.mui-scroll-wrapper').scroll();
+
+			mui.plusReady(function() {
+
+			});
+
+			setTimeout(function() {
+				//defaultImg();
+				setTimeout(function() {
+					initImgPreview();
+				}, 300);
+			}, 500);
+			mui('body').on('shown', '.mui-popover', function(e) {
+			//console.log('shown', e.detail.id);//detail为当前popover元素
+			});
+			mui('body').on('hidden', '.mui-popover', function(e) {
+				//console.log('hidden', e.detail.id);//detail为当前popover元素
+			});
+			mui('body').on('tap', '.mui-popover-action li>a', function() {
+				var a = this,
+					parent;
+				//根据点击按钮，反推当前是哪个actionsheet
+				for (parent = a.parentNode; parent != document.body; parent = parent.parentNode) {
+					if (parent.classList.contains('mui-popover-action')) {
+						break;
+					}
+				}
+				//关闭actionsheet
+				mui('#' + parent.id).popover('toggle');
+				//info.innerHTML = "你刚点击了\"" + a.innerHTML + "\"按钮";
+				switch(a.innerText){
+					case "拍照":
+						getImage();
+						break;
+					case "从手机相册中选":
+						galleryImg();
+						break;
+					case "取消":
+						break;
+				}
+			});
+
+			var image_touxiang = '';
+			function getImage() {
+				var c = plus.camera.getCamera();
+				c.captureImage(function(e) {
+					plus.io.resolveLocalFileSystemURL(e, function(entry) {
+						var s = entry.toLocalURL() + "?version=" + new Date().getTime();
+						console.log(s);
+						uploadHead(s); /*上传图片*/
+						document.getElementById("head-img1").src = s;
+						//变更大图预览的src
+						//目前仅有一张图片，暂时如此处理，后续需要通过标准组件实现
+						//document.querySelector("#__mui-imageview__group .mui-slider-item img").src = s + "?version=" + new Date().getTime();
+						localStorage.setItem("LOGOimgfile",s);
+						mui.openWindow({
+							id:"geren",
+							url:"geren_message.html"
+						});
+					}, function(e) {
+						console.log("读取拍照文件错误：" + e.message);
+					});
+				}, function(s) {
+					console.log("error" + s);
+				}, {
+					filename: "_doc/head.jpg"
+				})
+			}
+
+			function galleryImg() {
+				plus.gallery.pick(function(a) {
+					plus.io.resolveLocalFileSystemURL(a, function(entry) {
+						plus.io.resolveLocalFileSystemURL("_doc/", function(root) {
+							root.getFile("head.jpg", {}, function(file) {
+								//文件已存在
+								file.remove(function() {
+									console.log("file remove success");
+									entry.copyTo(root, 'head.jpg', function(e) {
+											var e = e.fullPath + "?version=" + new Date().getTime();
+											//document.getElementById("head-img").src = e;
+											uploadHead(e); /*上传图片*/
+											document.getElementById("head-img1").src = e;
+											//变更大图预览的src
+											//目前仅有一张图片，暂时如此处理，后续需要通过标准组件实现
+											//document.querySelector("#__mui-imageview__group .mui-slider-item img").src = e + "?version=" + new Date().getTime();
+											localStorage.setItem("LOGOimgfile",e);
+											mui.openWindow({
+												id:"geren",
+												url:"geren_message.html"
+											})
+											
+										},
+										function(e) {
+											console.log('copy image fail:' + e.message);
+										});
+								}, function() {
+									console.log("delete image fail:" + e.message);
+								});
+							}, function() {
+								//文件不存在
+								entry.copyTo(root, 'head.jpg', function(e) {
+										var path = e.fullPath + "?version=" + new Date().getTime();
+										uploadHead(path); /*上传图片*/
+										//document.getElementById("head-img").src = path;
+										document.getElementById("head-img1").src = path;
+										//变更大图预览的src
+										//目前仅有一张图片，暂时如此处理，后续需要通过标准组件实现
+										//document.querySelector("#__mui-imageview__group .mui-slider-item img").src = path;
+									},
+									function(e) {
+										console.log('copy image fail:' + e.message);
+									});
+							});
+						}, function(e) {
+							console.log("get _www folder fail");
+						})
+					}, function(e) {
+						console.log("读取拍照文件错误：" + e.message);
+					});
+				}, function(a) {}, {
+					filter: "image"
+				})
+			};
+
+			function defaultImg() {
+				if(mui.os.plus) {
+					plus.io.resolveLocalFileSystemURL("_doc/head.jpg", function(entry) {
+						var s = entry.fullPath + "?version=" + new Date().getTime();
+						document.getElementById("head-img1").src = s;
+					}, function(e) {
+						document.getElementById("head-img1").src = 'images/logo.png';
+					})
+				} else {
+					document.getElementById("head-img1").src = 'images/logo.png';
+				}
+
+			}
+
+
+			function initImgPreview() {
+				var imgs = document.querySelectorAll("img.mui-action-preview");
+				imgs = mui.slice.call(imgs);
+				if(imgs && imgs.length > 0) {
+				}
+			}
+
+			//将Base64塞进字符串
+			function uploadHead(imgPath) {
+
+				var image = new Image();
+				image.src = imgPath;
+				image.onload = function() {
+					var imgData = getBase64Image(image);
+					image_touxiang = imgData;
+					upload(image_touxiang);
+				}
+			}
+			//将图片压缩转成base64
+			function getBase64Image(img) {
+				var canvas = document.createElement("canvas");
+				var width = img.width;
+				var height = img.height;
+				if(width > height) {
+					if(width > 100) {
+						height = Math.round(height *= 100 / width);
+						width = 100;
+					}
+				} else {
+					if(height > 100) {
+						width = Math.round(width *= 100 / height);
+						height = 100;
+					}
+				}
+
+				canvas.width = width; /*设置新的图片的宽度*/
+				canvas.height = height; /*设置新的图片的长度*/
+				var ctx = canvas.getContext("2d");
+				ctx.drawImage(img, 0, 0, width, height); /*绘图*/
+				var dataURL = canvas.toDataURL("image/png", 0.8);
+				return dataURL.replace("data:image/png;base64,", "");
+			}
+			
+			function upload(image_touxiang) {
+			
+				/*在这里调用上传接口*/
+				var url = serverAddress + "/appRegister/updateUser_Info_App.do";
+				mui.ajax(url, {
+					data: {
+						IMAGE: image_touxiang
+						
+					},
+					dataType: 'json',
+					type: 'post',
+					timeout: 20000,
+					success: function(data) {
+						if(data.success == true) {
+							mui.alert(decodeURI(data.msg));
+						}
+						if(data.success == false) {
+							mui.alert(decodeURI(data.msg));
+						}
+					},
+					error: function(xhr, type, errorThrown) {
+						mui.alert('网络超时，请稍后再试！');
+					}
+				});
+			}
+		</script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js" ></script>
+	</body>
+
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>订单确认</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../../css/mui.min.css" />
+		<link rel="stylesheet" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/system/style.css" />
+		<!--<link rel="stylesheet" href="../../css/business/index.css" />-->
+		<link rel="stylesheet" href="../../css/business/car-order/order-confirm.css" />
+		<style>
+			.congirm-hig {
+				min-height: 110px !important;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">订单确认</h1>
+		</header>
+		<div class="mui-content"  style="overflow: hidden;">
+			<div id="setting" class="mui-page mui-page-center">
+				<div class="mui-table-view mui-table-view-chevron bg-color" id="tiaojian">
+					<div class="mui-table-view-cell insurance-prompt">
+						<span>支持微信、银联卡、现金支付 <i class="update"></i></span>
+					</div>
+				</div>
+				<div class="mui-scroll-wrapper" id="scroll" style="height: 69.5vh;">
+					<div class="mui-scroll">
+						<ul class="mui-table-view bg-whf6">
+							<li class="mui-table-view-cell">
+								<div class="mui-table">
+									<div class="mui-table-cell mui-col-xs-3  mui-col-sm-3">
+										<span>用车时间：</span>
+									</div>
+									<div class="mui-col-xs-9 li-last-child">
+										<h5><span class="sp-mr" id="yongcheshijian">2017-01-21 14:26:08</span></h5>
+									</div>
+
+								</div>
+							</li>
+							<li class="mui-table-view-cell">
+								<div class="mui-table">
+									<div class="mui-table-cell mui-col-xs-3  mui-col-sm-3">
+										<span>车&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;型：</span>
+									</div>
+									<div class="mui-col-xs-9 li-last-child">
+										<h5 id='car_type'>小型面包</h5>
+									</div>
+
+								</div>
+							</li>
+							<li class="mui-table-view-cell mb5" id="full">
+								<div class="mui-table">
+									<div class="title-flo mui-col-xs-3  mui-col-sm-3">
+										<span>额外服务：</span>
+									</div>
+									<div class="mui-col-xs-9 li-last-child2">
+										<h5 class=" mui-ellipsis" id="ewai">需要装卸（与司机议价）、需带回单、需带回款1000元</h5>
+									</div>
+
+								</div>
+							</li>
+							<li class="mui-table-view-cell">
+								<div class="mui-table">
+									<div class="mui-table-cell mui-col-xs-3  mui-col-sm-3">
+										<span>始&nbsp;&nbsp;发&nbsp;地：</span>
+									</div>
+									<div class="mui-col-xs-9 li-last-child">
+										<h5 class=" mui-ellipsis mui-table-view-h5" id="begin_address">长春内陆港联检大楼</h5>
+									</div>
+
+								</div>
+							</li>
+							<li class="mui-table-view-cell" id="full">
+								<div class="mui-table">
+									<div class="mui-table-cell mui-col-xs-3  mui-col-sm-3">
+										<span>目&nbsp;&nbsp;的&nbsp;地：</span>
+									</div>
+									<div class="mui-col-xs-9 li-last-child">
+										<h5 class="mui-ellipsis mui-table-view-h5" id="end_address">蓝色港湾二期</h5>
+									</div>
+
+								</div>
+							</li>
+							<li class="mui-table-view-cell" id="full">
+								<div class="mui-table">
+									<div class="mui-table-cell mui-col-xs-3 mui-col-sm-3">
+										<span>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格：</span>
+									</div>
+									<div class="li-last-child mui-col-xs-9 mui-col-sm-9">
+										<h5 class="mui-col-sm-6"><span class="price" id="shijiprice"></span><span id="xiaofei_span"></span></h5>
+									</div>
+
+								</div>
+							</li>
+							<li class="mui-table-view-cell bg-cl2" id="xiaofei">
+								<div class="mui-table text-center">
+									<div class="mui-table-cell text-center">
+										<p class="text-center">加点小费犒劳下司机吧<img src="../../image/xf-img.png" /></p>
+									</div>
+
+								</div>
+							</li>
+						</ul>
+						<div class="mui-input-group">
+							<div class="mui-input-row mui-radio congirm-hig">
+								<ul class="mui-table-view mui-table-view-striped mui-table-view-condensed">
+									<li class="mui-table-view-cell" id="left0">
+										<div class="mui-table">
+											<div class="mui-table-cell mui-col-xs-10">
+												<h4 class="lvs"><img src="../../image/order-xzfs.png"/>货到付款，选择计费方式</h4>
+											</div>
+										</div>
+									</li>
+									<li class="mui-table-view-cell" id="price">
+										<div class="mui-table">
+											<div class="mui-table-cell mui-col-xs-10">
+												<h4 class="lvs">一口价</h4>
+												<p class="hs" class="mui-ellipsis">手动输入运费价格，支付时按此运费价格结算</p>
+											</div>
+											<div class="mui-table-cell mui-col-xs-2 mui-text-right">
+												<input name="radio1" type="radio" checked="true">
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<!--<ul class="mui-table-view mui-grid-view bg-color payment-class">
+					<li class="mui-table-view-cell mui-media mui-col-sm-3 bottom-p">
+						<img class="mui-media-object" src="../../image/rud_03.png">
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-sm-3 bottom-p">
+						<img class="mui-media-object" src="../../image/rud_05.png">
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-sm-3 bottom-p">
+						<img class="mui-media-object" src="../../image/rud_07.png">
+					</li>
+				</ul>-->
+				<div class="mui-content-padded">
+					<button id='xiadan' class="mui-btn mui-btn-block mui-btn-primary mui-btn-w mui-disabled">请选择一口价</button>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="../../js/system/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+	<script type="text/javascript" src="../../js/system/constants.js"></script>
+	<script type="text/javascript" src="../../js/system/json_time.js"></script>
+	<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+	<script type="text/javascript" src="../../js/system/arttmpl.js"></script>
+	<script type="text/javascript" src="../../js/business/car-order/shunfengche-order-confirm.js"></script>
+	<script type="text/javascript" src="../../js/system/xiachenshi.js"></script>
+
+</html>

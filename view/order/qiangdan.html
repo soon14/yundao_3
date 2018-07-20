@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>抢单</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/iconfont.css" />
+		<link rel="stylesheet" href="../../css/icons-extra.css" />
+		<link rel="stylesheet" href="../../css/business/order/qiangdan.css" />
+		<!--<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=yaDRGoon5YoRzAAwH781yUgn"></script>-->
+	</head>
+
+	<body>
+
+		<div class="mui-content">
+			<ul class="mui-table-view" id="uptext">
+				<li class="mui-table-view-cell">
+					<a id="check_shunfeng" class="mui-navigate-right">
+						<img src="../../image/qiangdan2.png"> 我要看顺风车订单
+					</a>
+				</li>
+			</ul>
+			<div id="baidumap"></div>
+			<div id="zw_order"class="display-no">
+				<div class="mui-content-padded wutu">
+					<div><img src="../../image/sfc_qd.png"></div>
+					<p>担心回城空载，看看顺风车订单吧！</p>
+				</div>
+			</div>
+			<ul class="mui-table-view shuaxin">
+				<li class="mui-table-view-cell">
+					<span id="refresh" class="mui-pull-right">
+						<img src="../../image/dingwei.png"/>
+					刷新
+					</span>
+					<div class="mui-table-cell mui-col-sm-9 mui-col-xs-9 mui-pull-left ">
+						<h5 id="current_position" class="mui-ellipsis">当前位置：中国吉林省长春市二道区惠公路蓝色港湾2000号</h5>
+						<h6 id="current_time">更新时间：2017-01-24 01:16</h6>
+					</div>
+				</li>
+			</ul>
+			
+		</div>
+
+	</body>
+	<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+	<script type="text/javascript" src="../../js/system/constants.js"></script>
+	<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+	<script type="text/javascript" src="../../js/system/city.data-3.js"></script>
+	<script type="text/javascript" src="../../js/system/arttmpl.js"></script>
+	<script type="text/javascript" src="../../js/system/ydapp.js"></script>
+	<!--<script type="text/javascript" src="../../js/system/xiachenshi.js" ></script>-->
+	<script type="text/javascript" src="../../js/system/gps.js"></script>
+	<script type="text/javascript" src="../../js/business/order/qiangdan.js"></script>
+
+</html>

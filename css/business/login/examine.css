@@ -1,0 +1,10 @@
+/*审核*/
+.examine-img{margin: 0 auto;text-align: center;margin-top: 18%;}
+.examine-content{text-align: center;color: #868585;}
+.examine-content span{color: #dc6264;}
+.examine-erweima{text-align: center;margin-top: 40%;}
+
+
+/*审核失败*/
+.examine-error-conent{padding: 10px;}
+.examine-error-conent div{border: 1px #e0e0e0 solid;padding: 10px;background: white;min-height: 100px;color: #666666;}

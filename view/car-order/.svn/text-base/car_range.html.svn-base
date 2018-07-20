@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>接单范围设置</title>
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/business/index.css" rel="stylesheet" />
+		<link href="../../css/business/car-order/freight-insurance.css" rel="stylesheet" />
+	</head>
+
+	<body class="bg-whf5 size14">
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">接单范围设置</h1>
+		</header>
+		<div class="mui-content bg-whe0">
+
+			<div class="mui-table-view mui-table-view-chevron m-rem2 m-rem2-b">
+				<div class="mui-table-view-cell mui-media prompt">
+					<img class="mui-media-object mui-pull-left head-img" id="head-img" src="../../image/jiedanfanwei.png">
+					<div class="mui-media-body ">
+						<span class="shangmian">请选择接单范围</span>
+					</div>
+				</div>
+			</div>
+			<div class="mui-card m-rem2">
+				<div id="mui-template" class="mui-input-group bg-whe0">
+					<script type="text/template" id="radio-tigan">
+						<% for(var i in record){ var item=record[i]; %>
+						<div class="mui-input-row mui-radio mui-left m-rem2 bg-wh">
+							<label id="<%=item.TYPE%>"><%=item.RANGE%></label>
+							<input name="radio1" value="<%=item.TYPE%>" type="radio">
+							<% if(item.TYPE==0){%>
+							<i class="mui-pull-right update insurance-money">全城配送</i>
+							<%} else{%>
+							<i class="mui-pull-right update insurance-money">单位(公里)</i>
+							<%}%>
+						</div>
+						<%}%>
+					</script>
+				</div>
+			</div>
+		</div>
+		<div class="mui-content-padded">
+			<button id='baocun' class="mui-btn mui-btn-block mui-btn-primary">保存</button>
+		</div>
+		<script type="text/javascript" src="../../js/system/jquery-3.1.1.js"></script>
+		<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/system/arttmpl.js"></script>
+		<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js"></script>
+		<script type="text/javascript" src="../../js/business/car-order/car_range.js"></script>
+
+	</body>
+
+</html>

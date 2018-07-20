@@ -1,0 +1,4 @@
+.mui-content>.mui-card:first-child{margin-top:5px}
+.mui-card{margin:0px}
+.mui-card-content-inner h3{color:#c52727;font-size: 16px;font-weight: 400;text-align: center;}
+.mui-card-content-inner p{color:#333333 !important;}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>检车</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/iconfont.css" />
+		<link rel="stylesheet" href="../../css/icons-extra.css" />
+		<link rel="stylesheet" href="../../css/business/order/jianche.css" />
+	</head>
+
+	<body>
+		<div class="mui-content">
+			<ul class="mui-table-view" id="tuijian">
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;">
+						请选择您需要年检的车辆类型
+					</a>
+				</li>
+			</ul>
+			<div id="konggecontent">
+				<ul class="mui-table-view mui-card " id="van">
+					<li class="mui-table-view-cell mui-media">
+						<a href="#" id="car_1" class="mui-navigate-right">
+							<div class="mui-pull-left"><img src="../../image/jche1.png" class="cheImg"></div>
+							<div class="mui-media-body">
+								<ul class="mui-table-view" id="dixian">
+									<li class="mui-table-view-cell" id="leftcontent2">
+										<div class="mui-row">
+											<div id="title_zi">小型客车</div>
+										</div>
+										<div class="mui-media-body" id="content_zi">
+											<p class="mui-ellipsis" id="content_zi">跑车、轿车、微型面包车等定员2-9人</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<ul class="mui-table-view mui-card " id="truck">
+					<li class="mui-table-view-cell mui-media">
+						<a href="#" id="car_1" class="mui-navigate-right">
+							<div class="mui-pull-left"><img src="../../image/jche4.png" class="cheImg"></div>
+							<div class="mui-media-body">
+								<ul class="mui-table-view" id="dixian">
+									<li class="mui-table-view-cell" id="leftcontent2">
+										<div class="mui-row">
+											<div id="title_zi">多轴货车</div>
+										</div>
+										<div class="mui-media-body" id="content_zi">
+											<p class="mui-ellipsis" id="content_zi">大吨位重型货车</p>
+
+										</div>
+									</li>
+								</ul>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<ul class="mui-table-view mui-card " id="motorbike">
+					<li class="mui-table-view-cell mui-media">
+						<a href="#" id="car_1" class="mui-navigate-right">
+							<div class="mui-pull-left"><img src="../../image/jche3.png" class="cheImg"></div>
+							<div class="mui-media-body">
+								<ul class="mui-table-view" id="dixian">
+									<li class="mui-table-view-cell" id="leftcontent2">
+										<div class="mui-row">
+											<div id="title_zi">摩托车及低速车</div>
+										</div>
+										<div class="mui-media-body" id="content_zi">
+											<p class="mui-ellipsis" id="content_zi">摩托车、低速载货汽车（原四轮农用运输车）等</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<ul class="mui-table-view mui-card " id="specialcar">
+					<li class="mui-table-view-cell mui-media">
+						<a href="#" id="car_1" class="mui-navigate-right">
+							<div class="mui-pull-left"><img src="../../image/jche2.png" class="cheImg"></div>
+							<div class="mui-media-body">
+								<ul class="mui-table-view" id="dixian">
+									<li class="mui-table-view-cell" id="leftcontent2">
+										<div class="mui-row">
+											<div id="title_zi">特种车辆</div>
+										</div>
+										<div class="mui-media-body" id="content_zi">
+											<p class="mui-ellipsis" id="content_zi">油罐车、冷藏车、牵引车等，用于特殊用途的车辆</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+		<script type="text/javascript" src="../../js/business/checkline/jianche.js"></script>
+	</body>
+
+</html>

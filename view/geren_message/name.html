@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<title>名字</title>
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/system/style.css" />
+		<link rel="stylesheet" href="../../css/business/geren_message/name.css" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back  mui-btn-link mui-pull-left" id="cancel">取消</a>
+			<h1 class="mui-title">名字</h1>
+			<a class="mui-btn-link mui-pull-right" id="save">保存</a>
+		</header>
+		<div class="mui-content">
+			<div class="mui-input-row mui-content-padded">
+				<input id='account' type="text" class="mui-input-clear mui-input" placeholder="请输入名字"maxLength=4>
+			</div>
+			<div class="mui-content-padded">
+				<p class="mui-pull-right">名字最多4个字</p>
+			</div>
+
+		</div>
+		<script src="../../js/system/mui.js"></script>
+		<script src="../../js/system/xiangyingshi.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/business/geren_message/name.js"></script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js" ></script>
+	</body>
+
+</html>

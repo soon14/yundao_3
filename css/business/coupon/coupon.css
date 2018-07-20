@@ -1,0 +1,47 @@
+.yhq-body{height: 82px;margin: 10px;}
+.mui-table-view-cell{padding: 0 0 0 3px;}
+.mui-media-body{width: 70%;font-size: 0.3rem;margin-top:7px;}
+.mui-bar-nav a{color: white !important;}
+.mui-table-view-cell p{color: #666666;font-size:0.23rem;}
+.mui-table-view-cell p:first-child{color: #bd4831;font-size:0.25rem;}
+.mui-table-view-cell:after,.mui-table-view:after{background-color: inherit;}
+.mui-table-view .mui-media-object{min-width: 85px; height:85px;float: right;padding:17px 16px 0 5px;text-align:right;}
+.mui-table-view-cell>a:not(.mui-btn){margin: inherit;}
+.yhq-bg{background: url(../../image/yhq_01.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		}
+.yhq-bg1{background: url(../../image/yhq_02.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		}
+.mui-table-view .mui-media-object p{color: white;line-height: 25px;}
+.mui-table-view .mui-media-object p:first-child{font-size: 0.5rem !important;}
+.yjq-time{color:#666666 !important;font-size: 0.23rem !important;}
+.yjq-time img{width: 17px;margin-bottom: 2px;}
+.mui-table-view:before{background-color: inherit;}
+.yhq-p{font-size:0.3rem !important;}
+.mui-content-padded{font-size:0.28rem;text-align: center;margin-top: 70px;padding: 20px;}
+.mui-content-padded span{color: #e96047;}
+.mui-content-padded span img{width: 17px;margin-bottom:2px;margin-left: 6px;}
+/*优惠券失效*/
+.yhq-bg3{background: url(../../image/yhq_03.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		}
+.yhq-hui{color:#8c8c8c !important;}
+.yhq-img{position: absolute;z-index: 2;right: 0;}
+.yhq-img img{width: 85px;}
+.yhq-pos{position:relative;}
+
+/*没有优惠券*/
+.yhq-nothing{text-align: center;}
+.yhq-nothing p{font-size: 0.23rem;}
+.yhq-nothing img{width: 100px;margin-bottom: 20px;}
+

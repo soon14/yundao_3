@@ -1,0 +1,69 @@
+.bg-color {
+	background: #e4f0fe;
+}
+
+.bottom-p {
+	padding: 12px 0px 0px 15px !important;
+}
+
+.payment-class li {
+	width: 33.33% !important;
+}
+
+.bottom-p {
+	padding: 12px 0px 0px 15px !important;
+}
+
+.mui-control-content {
+	min-height: 94vh;
+}
+
+.confirm-h5 {
+	color: #999;
+	margin: 11px;
+	float: left;
+	font-size: 0.3rem;
+}
+
+.mui-btn {
+	/*margin-top: 55px;*/
+	
+}
+.mui-btn-w{
+	width: 7.1rem;
+}
+.mui-content-padded{
+	position: absolute;
+	bottom: 0px;
+}
+.mui-content-padded h5 {
+	font-size: 0.25rem;
+	color: #636262;
+	padding-bottom: 0.3rem;
+}
+.mui-table-view-cell p{
+	color: #1d1d1d;
+}
+.mui-table-view-cell h5{
+	color: #666666;
+}
+#jiage h5{
+	color: #ff0903;
+	font-size: 0.3543rem;
+}
+#twozi{
+	letter-spacing: 0.55rem;
+}
+#threezi{
+	letter-spacing: 0.15rem;
+}
+.mui-scroll-wrapper {
+    /* top: 44px; */
+    position: relative;
+}
+.mui-col-xs-3{
+	width: 27%;
+}
+.mui-table-view-cell:after{
+	left: 0;
+}

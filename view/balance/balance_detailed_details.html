@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>明细详情</title>
+		<link rel="stylesheet" href="../../css/mui.min.css" />
+		<link rel="stylesheet" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/system/style.css" />
+		<!--<link rel="stylesheet" href="../../css/business/index.css" />-->
+		<link rel="stylesheet" href="../../css/business/balance/balance_detailed_details.css" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">明细详情</h1>
+		</header>
+		<div id="mui-template" class="mui-content bg-whf6">
+			<script type="text/template" id="radio-tigan">
+				<% for(var i in record){ var item=record[i]; %>
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell recharge-body">
+							<a class="mui-input-row">
+								<label><img src="../../image/recharge_img.png" alt="" />出账金额</label>
+								<% if(item.STATUS==1){%>
+									<div class="mui-pull-right mui-media-object plus m-r">+<%=item.MONEY%></div>
+								<%} else if(item.STATUS==2){%>
+									<div class="mui-pull-right mui-media-object minus m-r">-<%=item.MONEY%></div>
+								<%}%>																	
+							</a>
+						</li>
+					</ul>
+					<ul class="mui-table-view bg-whf6">					
+						<li class="mui-table-view-cell mui-media bg-wh p-2">
+							<a href="javascript:;">
+								<% if(item.STATUS==1){%>
+									<div class="mui-pull-right mui-media-object plus">收入</div>
+								<%} else if(item.STATUS==2){%>
+									<div class="mui-pull-right mui-media-object minus">支出</div>
+								<%}%>																
+								<div class="mui-media-body">
+									类型：
+								</div>
+							</a>							
+						</li>
+						<li class="mui-table-view-cell mui-media bg-wh p-2">
+							<a href="javascript:;">
+								<div class="mui-pull-right mui-media-object "><%=item.SYS_DATE%></div>
+								<div class="mui-media-body">
+									时间：
+								</div>							
+							</a>
+						</li>
+						<li class="mui-table-view-cell mui-media bg-wh p-2">
+							<a href="javascript:;">
+								<div class="mui-pull-right mui-media-object "><%=item.OD_ID%></div>
+								<div class="mui-media-body">
+									交易单号：						
+								</div>								
+							</a>
+						</li>
+						<li class="mui-table-view-cell mui-media bg-wh p-2">
+							<a href="javascript:;">
+								<div class="mui-pull-right mui-media-object "><%=item.BEIZHU%></div>
+								<div class="mui-media-body">
+									备注：
+								</div>
+							</a>
+						</li>							
+					</ul>
+				<%}%>
+			</script>
+		</div>
+		<script type="text/javascript" src="../../js/system/jquery-3.1.1.js"></script>
+		<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/system/json_time.js"></script>
+		<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>	
+		<script type="text/javascript" src="../../js/system/arttmpl.js"></script>	
+		<script type="text/javascript" src="../../js/business/balance/balance_detailed_details.js"></script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js" ></script>
+	</body>
+
+</html>

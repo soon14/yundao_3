@@ -1,0 +1,54 @@
+#touxiang {
+	background-color: #000000;
+}
+
+.mui-page-content {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+}
+
+#head {
+	height: 600px;
+	margin-top: 50px;
+}
+
+.head-img {
+	width: 100%;
+}
+
+#head-img1 {
+	position: absolute;
+	top: 2rem;
+	left: 0;
+	width: 7.5rem;
+}
+
+#head:active {
+	color: #000000;
+}
+
+.mui-table-view-cell>a:not(.mui-btn).mui-active {
+	background-color: #000000;
+}
+
+#picture {
+	font-size: 0.3124rem;
+}
+
+#picture .mui-table-view-cell {
+	color: #999999;
+}
+#picture a{
+	height: 1.1rem;
+}
+#canceldown{
+	line-height: 2;
+}
+
+

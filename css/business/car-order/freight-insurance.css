@@ -1,0 +1,33 @@
+.mui-card{margin:0px}
+.mui-table-view-chevron .mui-table-view-cell{padding-right: 30px;}
+.mui-table-view-cell i{font-style: normal;color: #999999;font-size: 0.25rem;}
+.bg-color{background: #e4f0fe;}
+.mui-content>.mui-table-view:first-child {margin-top: 0px;}
+.mui-table-view .mui-media-object{ max-width: 28px;height: 28px;}
+.mui-media-body{line-height: 30px;}
+.insurance-prompt{padding: 16px 15px;color: #666666;font-size:0.2916rem}
+.prompt {padding: 10px 15px;}
+.mui-checkbox label, .mui-radio label{width:45%;line-height:2.6;}
+.insurance-money{padding: 16px 15px;font-style: normal;color: #da4a49;font-size: 0.28rem;}
+.mui-radio.mui-left input[type=radio] {left: 15px;}
+.mui-input-group .mui-input-row:after{left:0;/*background-color:#e0e0e0;*/}
+.mui-input-group:before{height: 5px;background-color:#e0e0e0;}
+.mui-input-row .mui-btn+input, .mui-input-row label+input, .mui-input-row:last-child {background: #fff;}
+.mui-content-padded {margin: 0.3rem  10px  10px  10px;}
+.mui-checkbox input[type=checkbox]:checked:before, .mui-radio input[type=radio]:checked:before {color: #fcb400;}
+.mui-checkbox input[type=checkbox]:before, .mui-radio input[type=radio]:before {font-size: 22px;}
+.mui-radio.mui-left input[type=radio] {left: 18px;margin-top: 12px;}	
+.mui-checkbox.mui-left label, .mui-radio.mui-left label{padding-left:50px}
+.mui-radio input[type=radio]:checked:before {content: '\e442';}	
+.m-rem2-b {margin-bottom: 0.02rem !important;}
+.m-rem2 {margin-top:0.02rem !important;}
+.mui-btn {padding: 0.3rem !important;border-radius: 25px;}
+.mui-input-group .mui-input-row,.mui-table-view{height:1.1rem;}
+.shangmian{
+	color: #424242;
+	font-size: 0.2916rem;
+}
+.m-rem2 label{
+	color: #424242;
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>登录</title>
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link href="../../css/business/index.css" rel="stylesheet" />
+		<link href="../../css/business/login/login.css" rel="stylesheet" />
+	</head>
+
+	<body class="login-bg">
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">登录</h1>
+			<a class="mui-btn mui-btn-link mui-pull-right" id="zhuche">注册</a>
+		</header>
+		<div class="mui-content mui-content-pad-top">
+			<div class="login-logo">
+				<img src="../../image/logo.png" />
+			</div>
+		</div>
+		<div class="mui-content mui-content-login-pad">
+			<div id='login-form' class="mui-input-group">
+				<div class="mui-input-row">
+					<label><img src="../../image/dl_03.png" /></label>
+					<input id='phone' type="text" class="mui-input-clear mui-input" placeholder="请输入您的手机号">
+				</div>
+				<div class="mui-input-row">
+					<label><img src="../../image/dl_02.png" /></label>
+					<input id='password' type="text" class="mui-input-clear mui-input" placeholder="请输入您收到的六位密码">
+				</div>
+			</div>
+			<div class="mui-content-padded">
+				<button id='verification' class="mui-btn mui-btn-block mui-btn-Verification">获取验证码</button>
+			</div>
+			<div class="mui-content-padded">
+				<button id='login' class="mui-btn mui-btn-block mui-btn-primary">登录</button>
+			</div>
+		</div>
+		<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js" ></script>
+		<script type="text/javascript" src="../../js/system/gps.js"></script>
+		<script type="text/javascript" src="../../js/business/login/login.js"></script>
+	</body>
+
+</html>

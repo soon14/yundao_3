@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>提现</title>
+		<link rel="stylesheet" href="../../css/mui.min.css" />
+		<link rel="stylesheet" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/system/style.css" />
+		<!--<link rel="stylesheet" href="../../css/business/index.css" />-->
+		<link rel="stylesheet" href="../../css/business/balance/balance.css" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">提现</h1>
+		</header>
+		<div class="mui-content bg-whf6">
+			<ul class="mui-table-view tixian-body">
+				<li class="mui-table-view-cell tixian-sr">
+					<a class="mui-input-row ">
+						<label>到账银行卡：</label>
+						<input id="raice" type="text" placeholder="请输入本人名下的银行卡">
+					</a>
+				</li>
+				<li class="mui-table-view-cell tixian-jine">
+					<a class="mui-input-row ">
+						<!--<label><img src="../../image/recharge_img.png" alt="" />金额（元）：</label>-->
+						<input id="raice" type="text" placeholder="￥提现金额">
+					</a>
+				</li>
+				<li class="mui-table-view-cell tixian-tishi">
+					<a class="mui-input-row">
+						<label>可提现金额￥<span>3000.00</span>，<span>全部提现</span></label>
+					</a>
+				</li>
+			</ul>
+			<div class="mui-content-padded">
+				<button id="tixian" type="button" class="mui-btn mui-btn-block btn-tx">提现</button>
+				<p id="tixian-wenti" class="tixian-wenti">常遇问题 <img src="../../image/tixian_wt.png" alt="" /></p>
+			</div>
+		</div>
+		<script type="text/javascript" src="../../js/system/jquery-3.1.1.js"></script>
+		<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/system/json_time.js"></script>
+		<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+		<script type="text/javascript" src="../../js/system/arttmpl.js"></script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js"></script>
+		<script type="text/javascript" src="../../js/business/balance/withdrawals.js"></script>
+	</body>
+
+</html>

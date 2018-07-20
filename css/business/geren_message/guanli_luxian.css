@@ -1,0 +1,95 @@
+.mui-card {
+	margin: 0;
+	margin-top: 0.08rem;
+	height: 84px;
+}
+
+.mui-card-content-inner {
+	padding: 0px;
+}
+
+.mui-table-view:before {
+	height: 0;
+}
+
+.mui-table-view:after {
+	height: 0;
+	left: 15px;
+}
+
+.mui-content>.mui-card:first-child{
+	margin-top: 0;
+}
+
+.tianjialuxian {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background: none;
+	text-align: center;
+	height: 0.89rem;
+	background-color: #FFFFFF;
+}
+
+
+.mui-media-object{
+	width: 0.5rem;
+    height: 0.5rem !important;
+}
+.mui-table-view-cell>a:not(.mui-btn){
+	white-space: normal;
+}
+#mudidi{
+	padding-top: 10px;
+}
+#mudidi span{
+	margin-top: 10px;
+	color: #d94a49;
+}
+#leftcontent {
+	font-size: 0.2916rem;
+}
+#leftcontent p,#mudidi span{
+	font-size: 0.2499rem;
+}
+#dibu p{
+	color: #FFFFFF;
+    position: absolute;
+    bottom: 0px;
+    left: 52%;
+    margin-left: -39px;
+    font-size: 0.3124rem;
+}
+#dibu span{
+	position: absolute;
+	bottom:2px;
+	left:50%; 
+	margin-left: -65px; 
+	width: 0.5rem;
+	height: 0.5rem;
+	right: 3px;
+}
+#dibu{
+	background-color: #8ca6c8;
+	height: 0.96rem;
+}
+#dibu li{
+	padding: 0.35rem 15px;
+	overflow: inherit;
+}
+.mui-table-view-cell{
+	padding: 14px 15px;
+}
+.mui-table-view-cell.mui-active{
+	background-color: #8ca6c8;
+}
+#mui-template.mui-table-view-cell{
+	height: 84px;
+	margin-bottom: 0.08rem;	
+}
+.mui-table-view-cell:after{
+	left: 0;
+}
+.mui-scroll-wrapper{
+	top:44px !important;
+}

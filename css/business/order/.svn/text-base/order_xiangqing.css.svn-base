@@ -1,0 +1,421 @@
+
+.waibu {
+	background-color: #FFFFFF;
+	padding: 10px;
+	border-bottom: 1px solid #E4E4E4;
+}
+
+.mui-control-content {
+	height: 78vh;
+}
+.mui-hight{height: 75.5vh;}
+#dibu p{
+	color: #FFFFFF !important;
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	margin-left: -0.6248rem;
+	font-size: 0.3124rem;
+	margin-bottom: 13px;
+}
+
+#dibu span {
+	position: absolute;
+	bottom: 4px;
+	left: 50%;
+	margin-left: -40px;
+	width: 0.5rem;
+	height: 0.5rem;
+	right: 3px;
+}
+
+#dibu {
+	background-color: #8ca6c8;
+	height: 0.96rem;
+	position: absolute;
+    width: 100%;
+    bottom: 0px;
+    z-index: 99;
+}
+
+#dibu li {
+	padding: 0.3rem 15px;
+	overflow: inherit;
+}
+
+.tianjialuxian {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background: none;
+	text-align: center;
+	height: 0.89rem;
+	background-color: #FFFFFF;
+}
+
+body,
+html {
+	overflow: hidden;
+	height: 100%;
+}
+
+.exp-content-block {
+	color: #333;
+	font-size: 16px;
+	line-height: 28px;
+	margin-top: 40px;
+}
+
+.exp-content ol .list-item-1 {
+	margin-top: 20px;
+	padding-top: 0;
+}
+
+.exp-content-body {
+	text-align: justify;
+	margin-top: 5px;
+	margin-left: -30px;
+	font-size: 0.3125rem;
+	color: #424242;
+}
+
+.list-item-1 {
+	/*margin-top: 20px !important;*/
+	padding-top: 0 !important;
+}
+
+.exp-content-body li {
+	padding: 45px 0 0 15px;
+	margin-left: 90px;
+	border-left: 4px solid #8b9eb6;
+	/*margin-top: 1px;*/
+	background-color: #ffffff;
+	border-top:1px solid #e1e1e1;
+	/*border-bottom:1px solid #e1e1e1;*/
+	border-right: 1px solid #e1e1e1;
+	/*position: relative;
+    right: 80px;*/
+}
+.dibuxian{
+	border-bottom:1px solid #e1e1e1;
+}
+/*.exp-content-list:before{
+	content: "";
+    height: 100%;
+    margin-left: 5px;
+    border-left: 4px solid #8b9eb6;
+	
+}*/
+.exp-content-list {
+	display: block;
+	position: relative;
+	min-height: 31px;
+	height: 66px;
+	padding-top: 0 !important;
+}
+
+.list-item-1 .list-icon {
+	top: 20px!important;
+	background: url(../../../image/dingdan/xiangqing1.png) no-repeat 2px/27px;
+	/*background-color: #FFFFFF;*/
+}
+
+.list-item-2 .list-icon ,.list-item-3 .list-icon ,.list-item-4 .list-icon,.list-item-5 .list-icon,.list-item-6 .list-icon,.list-item-7 .list-icon,.list-item-8 .list-icon ,.list-item-9 .list-icon,.list-item-10 .list-icon  {
+	top: 8px!important;
+	background: url(../../../image/dingdan/xiangqing3.png) no-repeat 2px/27px;
+	/*background-color: #FFFFFF;*/
+}
+.list-item-11 .list-icon {
+	
+	top: 8px!important;
+	background: url(../../../image/dingdan/xiangqing2.png) no-repeat 2px/27px;
+	/*background-color: #FFFFFF;*/
+}
+
+.list-icon {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	left: -18px;
+	top: 43px;
+	font-size: 16px;
+	color: #efe;
+	text-align: center;
+	line-height: 32px;
+	_background: 0 0;
+}
+#xiangqingshijian{
+	margin-top: 10px;
+	text-align: right;
+}
+#xiangqingshijian p{
+	font-size: 0.25rem;
+	color: #666666;
+}
+.mui-card{
+	font-size: 0.3125rem;
+	background-color: transparent;
+	box-shadow: none;
+	margin: 0;
+}
+.mui-table-view-cell:last-child:after{
+	/*height: 1px;*/
+}
+.jiti_shijian{
+	color: #fab10a !important;
+}
+
+
+.mui-table-view-cell:after{
+	height: 0;
+}
+.mui-media-body{
+	/*width: 60%;*/
+} 
+.mui-media img{
+	margin-top: 11px;
+	margin-right: 15px;
+}
+.mui-table-view-cell p,.mui-table-view-cell a{
+	font-size: 0.2708rem;
+	color: #666666 !important;
+}
+.mui-pull-right .mui-media-body{
+	font-size: 0.2292rem;
+	color: #9d9d9d;
+}
+.mui-table-view-cell{
+	padding: 14px 14px;
+}
+#lvst .mui-table-view-cell:after{
+	height: 1px;
+	left: 0;
+}
+#lvst p{
+	font-size: 0.2916rem;
+	color: #1D1D1D !important;
+	/*text-align: justify;
+    text-align-last: justify;*/
+   
+}
+#lvst h5{
+	font-size: 0.2916rem;
+    color: #666666;
+    padding-left: 15px;
+    line-height: 1.5;
+}    
+#lvst li{
+	/*height: 50px;*/
+}
+#shifa{
+	font-size: 0.2916rem;
+	padding-left: 15px;
+}
+#shifa{
+	color: #1d1d1d;
+}
+#zhongdian{
+	color: #1d1d1d !important;
+}
+
+#jiage h5{
+	color: #ff0903;
+}
+#changyong{
+	font-size: 0.2916rem;
+	color: #7C919F !important;
+}
+#twozi{
+	letter-spacing: 0.55rem;
+}
+#threezi{
+	letter-spacing: 0.15rem;
+}
+.kefu{
+	width: 0.5rem;
+	vertical-align: middle;
+	/*background: url(../../../image/dingdan/xiangqing6.png) no-repeat top center;*/
+}
+.mui-table-view-cell.mui-active,.mui-table-view-cell>a:not(.mui-btn).mui-active{
+	background-color: #FFFFFF;
+}
+.mui-table-view-cell>a:not(.mui-btn){
+	padding: 0;
+	margin: 0;
+}
+.mui-ellipsis {
+     overflow: hidden; 
+     white-space: inherit; 
+    text-overflow: ellipsis;
+}
+
+#dibu .mui-media{
+	color: #FFFFFF;
+	font-size: 0.2916rem;
+	
+}
+#dibujianche{
+	position: absolute;
+	bottom: 0;
+	background: #8ca6c8;
+	text-align: center;
+	width: 100%;
+	z-index: 999;
+}
+#dibujianche p{
+	color: white !important;
+}
+#dibu #dibu1{
+	background-color: #f5827d;
+}
+#dibu1{
+	background-color: #a4bad6;    
+	height: 0.96rem;
+	color: #FFFFFF;
+	font-size: 0.3124rem;
+	line-height: 0.59rem;
+}
+#dibu2{
+	background-color: #8ca6c8;   
+	height: 0.96rem;
+	color: #FFFFFF;font-size: 0.3124rem;
+	line-height: 0.59rem;
+}
+.mui-grid-view.mui-grid-9 .mui-table-view-cell{
+	border: 0;
+}
+#dibu .mui-media div{
+	margin-top: -5px;
+}
+
+#dibu .mui-active{
+	background-color: #8ca6c8;
+}
+
+#zhongjian{
+	border-radius: 0;
+	padding: 5px;
+}
+#shangmian{
+	background: -webkit-linear-gradient(left, #f46d44 , #d94949); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #f46d44, #d94949); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #f46d44, #d94949); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #f46d44 , #d94949); /* 标准的语法（必须放在最后） */
+}
+.mui-popup-text{
+	color: #ce2b19;
+}
+.mui-popup{
+	color: #FFFFFF;
+}
+.mui-popup-buttons{
+	background-color: #FFFFFF;
+}
+#queding,#quxiao{
+	width: 100px;
+	background-color: #db4c49;
+	margin: 0;
+	color: #FFFFFF;
+	padding: 0;
+	height: 80%;
+	border: 1px solid #db4c49;
+	
+}
+#quxiao{
+	margin-left: 10px;
+}
+.mui-popup-inner:after{
+	height: 0;
+}
+.mui-icon{
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+/*.mui-icon-close{
+	color: #7e7e7e;line-height: 0.86;
+	margin-left: -3.51px;
+}
+#icon-close{
+	position: fixed;
+    z-index: 999;
+    left: 238px;
+    top: 0px;
+    width: 33px;
+    height: 33px;
+    display: inline-block;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 25px;
+    background-clip: padding-box;
+}*/
+
+.mui-col-xs-9{/*white-space:nowrap;   */ white-space: normal;}
+.display-no{display: none !important;}
+.display-block{display: block;}
+.mui-table-view-cell .a-clo{color: #007aff !important;}
+.mui-grid-view.mui-grid-9{border: 0 !important;}
+#dibu_wuliu{
+      /*bottom: -6px;*/
+    position: absolute;
+    bottom: 0;
+    background: #8ca6c8;
+    text-align: center;
+    width: 100%;
+}
+#dibu_quxiao{
+	background-color: #a4bad6;
+    height: 0.96rem;
+    color: #FFFFFF;
+    font-size: 0.3124rem;
+    z-index: 99999;
+    line-height: 0.59rem;
+}
+#dibu_zhifu{
+    background-color: #8ca6c8;
+    height: 0.96rem;
+    color: #FFFFFF;
+    font-size: 0.3124rem;
+    z-index: 99999;
+    line-height: 0.59rem;
+}
+#dibu_xiadan{
+	background-color: #8ca6c8;
+	position: absolute;
+    height: 0.96rem;
+    width: 100%;
+    bottom: 0px;
+    z-index: 99;
+}
+#dibu_xiadan p{
+   color: #FFFFFF !important;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -0.6248rem;
+    font-size: 0.3124rem;
+    margin-bottom: 13px;
+}
+.driver-name{
+	width:300px; height:22px;line-height:22px; white-space: nowrap;text-overflow:ellipsis; overflow:hidden;
+}
+.driver-name-inner{
+	width:1.22rem; height:22px; white-space: nowrap;/*text-overflow:ellipsis;*/ overflow:hidden;
+}
+@media screen and (min-width: 320px) and (max-width:375px) {
+	.mui-control-content {height: 72vh;}
+	.mui-hight{height:72vh;}
+}
+@media screen and (min-width: 375px) and (max-width:414px) {
+	.mui-control-content {height: 74vh;}
+	.mui-hight{height:74vh;}
+}
+@media screen and (min-width: 414px) and (max-width:576px) {
+.mui-control-content {height: 76vh;}
+.mui-hight{height:76vh;}
+#dibu p {bottom: 5px;}
+#dibu_xiadan p{bottom: 5px;}
+}
+@media screen and (min-width: 576px) and (max-width:640px) {}
+@media screen and (min-width: 768px) and (max-width:1920px) {
+	
+}

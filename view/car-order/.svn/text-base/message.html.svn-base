@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>留言</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../../css/mui.min.css" />
+		<link rel="stylesheet" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/system/style.css" />
+		<link rel="stylesheet" href="../../css/business/car-order/message.css"/>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">留言</h1>
+			<!--<button id="chooseCity" class="mui-btn  mui-btn-link mui-pull-right" style="font-size: 0.75em; color: #fff;">长春<span class="mui-icon mui-icon-arrowdown" style="font-size: 0.75em;"></span></button>-->
+		</header>
+		<div class="mui-content">
+<!--			<div class="mui-pages">
+-->
+				<ul class="mui-table-view mui-table-view-chevron top-bg">
+					<li class="mui-table-view-cell top-header">
+						<div class="mui-input-row mui-search">
+							请输入留言内容:
+						</div>
+					</li>
+				</ul>
+				<ul class="mui-table-view mui-table-view-chevron top-content">
+					<div class="mui-input-row">
+						<textarea id="textarea" rows="5" placeholder="您可以在下方选择货物类型，或在此特点写其他特殊情况,例如：一张床两个柜子，500公斤生鲜"></textarea>
+					</div>
+				</ul>
+				<ul class="mui-table-view mui-table-view-chevron " style="margin-top: 22px; height: 110px;">
+					<div class="flex-container" style="padding-top: 20px;" id="ButtonList">
+						<button type="button" class="mui-btn mui-btn-outlined mui-col-sm-2" value="生鲜蔬菜" style="background:url(../../image/biankuang3.png) center top  /100% 100% no-repeat;">
+					生鲜蔬菜
+				</button>
+						<button type="button" class="mui-btn mui-btn-outlined mui-col-sm-2 " value="食品" style="background:url(../../image/biankuang3.png) center top  /100% 100% no-repeat;">
+					食品
+				</button>
+						<button type="button" class="mui-btn mui-btn-outlined mui-col-sm-2 " value="电子产品" style="background:url(../../image/biankuang3.png) center top  /100% 100% no-repeat;">
+					电子产品
+				</button>
+						<button type="button" class="mui-btn mui-btn-outlined mui-col-sm-2 " value="建材" style="background:url(../../image/biankuang3.png) center top  /100% 100% no-repeat;">
+					建材
+				</button>
+
+						<button type="button" class="mui-btn mui-btn-outlined mui-col-sm-2 " value="家具" style="background:url(../../image/biankuang3.png) center top  /100% 100% no-repeat;">
+					家具
+				</button>
+						<button type="button" class="mui-btn mui-btn-outlined mui-col-sm-2 " value="服装" style="background:url(../../image/biankuang3.png) center top  /100% 100% no-repeat;">
+					服装
+				</button>
+						<button type="button" class="mui-btn mui-btn-outlined mui-col-sm-2 " value="配件" style="background:url(../../image/biankuang3.png) center top  /100% 100% no-repeat;">
+					配件
+				</button>
+						<button type="button" class="mui-btn mui-btn-outlined mui-col-sm-2 " value="其他" style="background:url(../../image/biankuang3.png) center top  /100% 100% no-repeat;">
+					其他
+				</button>
+					</div>
+				</ul>
+				<div class="mui-content-padded">
+					<button type="button" class="mui-btn mui-btn-block" id="tijiao">提&nbsp;&nbsp;&nbsp;&nbsp;交</button>
+				</div>
+			<!--</div>-->
+		</div>
+		<script type="text/javascript" src="../../js/system/jquery-3.1.1.js"></script>
+		<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/system/json_time.js"></script>
+		<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>	
+		<script type="text/javascript" src="../../js/system/arttmpl.js"></script>	
+		<script type="text/javascript" src="../../js/business/car-order/message.js"></script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js" ></script>
+	</body>
+
+</html>

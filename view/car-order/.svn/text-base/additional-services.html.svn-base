@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>额外服务</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--<link rel="stylesheet" type="text/css" href="css/ydapp.css" />
+		<link rel="stylesheet" href="css/icons-extra.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />-->
+		<link rel="stylesheet" href="../../css/mui.min.css" />
+		<link rel="stylesheet" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/system/style.css" />
+		<link rel="stylesheet" href="../../css/business/car-order/additional-services.css"/>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">额外服务</h1>
+		</header>
+		<div class="mui-content">
+			<div class="mui-content-padded service-heade">
+				<!--<div id="square" class="mui-pull-left"></div>-->
+				<img src="../../image/ewai.png"/>
+				<h5>额外服务</h5>
+			</div>
+
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell service-content">
+					<div class="mui-content-padded">
+						<button type="button" class="mui-btn  mui-btn-outlined " id="buttonid1" style="background:url(../../image/biankuang1.png) center top  /100% 100% no-repeat ; "><span>需要装卸<p>与司机议价</p></span></button>
+						<button type="button" class="mui-btn  mui-btn-outlined " id="buttonid2" style="background:url(../../image/biankuang1.png) center top  /100% 100% no-repeat;"><span>需带回单<p id="dibu">（免费）</p></span></button>
+						<button type="button" class="mui-btn  mui-btn-outlined " id="buttonid3" style="background:url(../../image/biankuang1.png) center top  /100% 100% no-repeat;"><span>需要回款<p id="dibu">（免费）</p></span></button>
+					</div>
+				</li>
+			</ul>
+			<div class="mui-content-padded">
+				<button id='queren' class="mui-btn mui-btn-block mui-btn-primary mui-btn1">确认</button>
+			</div>
+		</div>
+		<script type="text/javascript" src="../../js/system/jquery-3.1.1.js"></script>
+		<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/system/json_time.js"></script>
+		<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>	
+		<script type="text/javascript" src="../../js/system/arttmpl.js"></script>	
+		<script type="text/javascript" src="../../js/business/car-order/additional-services.js"></script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js" ></script>
+	</body>
+
+</html>

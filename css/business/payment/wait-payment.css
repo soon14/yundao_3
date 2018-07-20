@@ -1,0 +1,19 @@
+/*待支付*/
+.wait-payment{height:215px;background: white;text-align: center;padding-top: 60px;}
+.wait-payment div{font-size: 0.5rem; color: #ff9c00;margin-top: 15px;}
+form{font-size: 0.3rem;margin-top:4px}
+.mui-radio input[type=radio]:checked:before{font-size: 20px;color: #FFB032;}
+.mui-radio input[type=radio]:checked:before{content:'\e442';}
+.mui-checkbox input[type=checkbox]:before, .mui-radio input[type=radio]:before{font-size: 20px;}.mui-radio input[type=radio]{top:10px;width: 20px;}
+.wait-payment img{width: 100px;}
+.mui-radio img{width: 40px;height: 40px;margin-bottom:5px;margin-right:10px}		
+.mui-input-group .mui-input-row{height: 50px;margin-top: 2px;}	
+.mui-checkbox label, .mui-radio label{line-height: 50px;}
+.mui-input-row label{padding:0 15px;}
+.mui-input-row .mui-btn+input, .mui-input-row label+input, .mui-input-row:last-child {
+    background: white;
+}
+
+/*支付成功*/
+.wait-payment .payment-success{font-size: 0.3rem !important;color: #a4a4a4 !important;}
+.wait-payment .payment-success span{color: #de6060 !important;}

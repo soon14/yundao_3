@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>注册第二步</title>
+		<link type="text/css" href="../../css/mui.min.css" rel="stylesheet" />
+		<link type="text/css" href="../../css/system/mui.picker.min.css" rel="stylesheet" />
+		<link type="text/css" href="../../css/business/index.css" rel="stylesheet" />
+		<link type="text/css" href="../../css/business/login/register_driver.css" rel="stylesheet" />
+	</head>
+
+	<body class="bg-wh size14">
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">注册</h1>
+		</header>
+		<div class="mui-content bg-wh">
+			<form class="mui-input-group m-rem2">
+				<div class="mui-input-row">
+					<label>姓 名：</label>
+					<input class="mui-input h45" id='name' type="text" placeholder="请输入您的姓名">
+					<span class="mui-input-img"><img src="../../image/zc_06.png" /></span>
+				</div>
+				<div class="mui-input-row">
+					<label>身份证：</label>
+					<input id='sfid' type="text" class="mui-input h45" placeholder="请输入您的18位身份证号">
+					<span class="mui-input-img"><img src="../../image/zc_06.png" /></span>
+				</div>
+				<div class="mui-input-row">
+					<label>车牌号：</label>
+					<input id='car_no' type="text" class="mui-input h45" placeholder="请输入您的车牌号">
+					<span class="mui-input-img"><img src="../../image/zc_06.png" /></span>
+				</div>
+				<div id="showUserPicker" class="mui-input-row">
+					<label>车辆类型：</label>
+					<input id='car_type' type="email" class="mui-input h45" placeholder="请输入您爱车的车辆类型" readonly="readonly">
+					<span class="mui-input-img"><img src="../../image/zc_06.png" /></span>
+				</div>
+				<div id='riqiinput' class="mui-input-row btn" data-options='{"type":"date"}'>
+					<label>保险日期：</label>
+					<input id="insurancedate" class="mui-input h45" placeholder="请输入您爱车的保险日期" value="" readonly="readonly">
+					<span class="mui-input-img"><img src="../../image/zc_06.png" /></span>
+				</div>
+			</form>
+			<div class="mui-content-padded m-rem150">
+				<button id='reg' class="mui-btn mui-btn-block mui-btn-primary">下一步</button>
+			</div>
+		</div>
+		<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+		<script type="text/javascript" src="../../js/system/mui.picker.min.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js"></script>
+		<script type="text/javascript" src="../../js/business/login/register_driver.js"></script>
+	</body>
+
+</html>

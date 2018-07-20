@@ -1,0 +1,26 @@
+/*注册*/
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+.mui-input-row label{padding: 1rem 0 0 0;width:inherit;}
+.mui-input-row label .img-mar{margin-bottom: -0.4rem;margin-right: 0.3rem;}
+input, select, textarea {font-size: 14px;}
+.mui-input-group:after {background-color:rgba(255,255,255,0.1)}
+.mui-input-row{margin: 0 0.6rem;height: 48px !important;}
+.mui-input-group .mui-input-row:after {left:0}
+.mui-input-row label~input{float: left;width: 60%;}
+.mui-input-img{position: absolute;z-index: 1;top: 10px;right: 0;width: 38px;height: 38px;text-align: center;color: #999;}
+.mui-input-img img{width: 22%;margin-top: 0.6rem;}
+.mui-input-group{padding: 0 4px;}
+/*字间距*/
+.ft-le-s{letter-spacing: -1px;}
+/*宽度*/
+.w30{width: 30%;}
+.w60{width: 60%;}
+/*高度*/
+.h45{height: 45px !important;}

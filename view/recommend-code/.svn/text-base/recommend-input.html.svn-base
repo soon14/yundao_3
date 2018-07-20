@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>推荐码</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../../css/mui.min.css" />
+		<link rel="stylesheet" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/system/style.css" />
+		<link rel="stylesheet" href="../../css/business/recommend-code/recommend-code.css" />
+	</head>
+
+	<body class="bg-whf6">
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">推荐码</h1>
+			<!--<h1 class="mui-btn-link mui-pull-right" id="save_code"> 完成</h1>-->
+			<button id="save_code" class="mui-btn-link mui-pull-right">
+					<span>完成</span>
+			</button>
+		</header>
+		<div class="mui-content">
+			<div class="mui-table-view mui-table-view-chevron bg-color insurance-prompt">
+				推荐人写成功后不可更改
+			</div>
+			<div class="mui-input-group">
+				<div class="mui-input-row bg-whfa">
+					<label class="p-label">推荐人：</label>
+					<input id="offer_code" type="text" class="mui-input" placeholder="请输入推荐人的推荐码">
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="../../js/system/jquery-3.1.1.js"></script>
+		<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/system/json_time.js"></script>
+		<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+		<script type="text/javascript" src="../../js/system/arttmpl.js"></script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js"></script>
+		<script type="text/javascript" src="../../js/business/recommend-code/recommend-code-input.js"></script>
+	</body>
+
+</html>

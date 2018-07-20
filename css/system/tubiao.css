@@ -1,0 +1,15 @@
+/*!
+* by wangshuyu(.com) 2017-?
+* under MIT license
+* 网站中的一些图标样式，
+* 合并样式部分样式为：{background:url(XX.png) no-repeat}
+* 分离部分的样式为：{background-position:x,y;}
+*/
+
+/*头像页面的下拉菜单图标样式*/
+.tubiao1{
+	 background:url(../image/tubiao1.png) no-repeat;background-position: -0px -0px;
+}
+.tubiao2{
+	 background:url(../image/tubiao1.png) no-repeat;background-position: -0px -50px;
+}

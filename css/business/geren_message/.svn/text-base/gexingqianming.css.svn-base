@@ -1,0 +1,15 @@
+.mui-bar a{
+	font-size: 0.2708rem !important;
+	color: #FFFFFF !important;
+}
+textarea{
+	height: 4.05rem;
+	font-size: 0.2916rem;
+	margin-bottom: 0px;
+}
+.mui-content-padded{
+	margin-top:0.15rem ;
+}
+#qianming{
+	font-size: 0.2691rem;
+}

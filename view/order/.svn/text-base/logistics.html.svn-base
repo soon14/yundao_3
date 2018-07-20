@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>物流</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../../css/system/mui.picker.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/system/mui.poppicker.css" />
+		<link rel="stylesheet" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/system/style.css" />
+		<link rel="stylesheet" href="../../css/business/order/logistics.css" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 id="title" class="mui-title">物流</h1>			
+		</header>
+		<div class="mui-content">		
+			<div class="mui-scroll" id="xinxi3">						
+				<ul class="mui-table-view mui-card" id="wuliu">
+					<script type="text/template" id="radio-tigan">
+						<% for(var i in record){ var item=record[i]; %>
+							<li class="mui-table-view-cell mui-media">
+								<a id="<%=item.LOGISTICS_ID%>" zuobiao_x="<%=item.ZUOBIAO_X%>" zuobiao_y="<%=item.ZUOBIAO_Y%>"href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="<%=item.LOGOPATH_NEW%>">
+									<div class="mui-media-body mui-row mt15">
+										<div class="mui-col-xs-8" id="mingcheng">
+											<span><%=item.LOGISTICS_NAME%></span>
+											<p><%=item.COUNTRYWIDE_NAME%></p>
+										</div>
+										<div class="mui-col-sm-4 mui-col-xs-4" id="jvli">
+											<p class="mui-pull-right">约<!--<%=item.PRICE%>-->20元/kg</p>
+										</div>
+									</div>		
+								</a>
+							</li>
+						<%}%>
+					</script>				
+				</ul>
+				<!--暂无物流-->
+				<div id="zanwuwl" class="wl-null display-no">
+					<img src="../../image/zwkx.png">
+					<p>暂无可选物流！</p>
+					<!--<div class="mui-content-padded">
+						<button id='chakan' class="mui-btn mui-btn-block mui-btn-primary mui-btn1 chakan-btn">查看更多物流公司</button>
+					</div>-->
+				</div>
+			</div>
+		</div>
+		
+	</body>
+	<script type="text/javascript" src="../../js/system/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+	<script type="text/javascript" src="../../js/system/constants.js"></script>
+	<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+	<script type="text/javascript" src="../../js/system/xiachenshi.js" ></script>
+	<script type="text/javascript" src="../../js/system/arttmpl.js"></script>
+	<script type="text/javascript" src="../../js/system/gps.js"></script>
+	<script type="text/javascript" src="../../js/business/order/logistice.js"></script>	
+</html>

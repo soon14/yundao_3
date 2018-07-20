@@ -1,0 +1,67 @@
+10
+
+dir
+279
+svn://git.oschina.net/xiyecode/yd_driver/view
+svn://git.oschina.net/xiyecode/yd_driver
+
+
+
+2017-06-15T08:30:58.000Z
+275
+殷乐 <1306544469@qq.com>
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+644eb219-6dba-43db-b24a-36a22e6bd11e
+
+about-us
+dir
+
+balance
+dir
+
+car-order
+dir
+
+checkline
+dir
+
+coupon
+dir
+
+geren_message
+dir
+
+jianche
+dir
+
+login
+dir
+
+logistics
+dir
+
+notice
+dir
+
+order
+dir
+
+payment
+dir
+
+recommend-code
+dir
+

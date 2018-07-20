@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta charset="UTF-8">
+		<title>检车线信息填写</title>
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../../css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/system/style.css" />
+		<link rel="stylesheet" href="../../css/icons-extra.css" />
+		<link rel="stylesheet" href="../../css/iconfont.css" />
+		<link rel="stylesheet" href="../../css/system/mui.picker.css" />
+		<link rel="stylesheet" href="../../css/system/mui.dtpicker.css" />
+		<link rel="stylesheet" href="../../css/business/jianche/message_tianxie.css" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">信息填写</h1>
+		</header>
+		<div class="mui-content">
+			<ul class="mui-table-view mui-input-row">
+				<li class="mui-table-view-cell">
+					<label>联系人：</label>
+					<input id='name' type="text" class="mui-input-clear mui-input" placeholder="请填入联系人姓名"></li>
+				<li class="mui-table-view-cell">
+					<label>车牌号：</label>
+					<input id='carno' type="text" class="mui-input-clear mui-input" placeholder="请填入待见车辆车牌号"></li>
+				<li class="mui-table-view-cell">
+					<label>联系电话：</label>
+					<input id='phone' type="text" class="mui-input-clear mui-input" placeholder="请填入联系人电话"></li>
+				<li class="mui-table-view-cell">
+					<label>检车时间：</label>
+					<input id='time' type="text" class="mui-input-clear mui-input" placeholder="请选择预约检车时间" readonly="readonly">
+
+				</li>
+			</ul>
+			<h5 class="mui-content-padded">友情提示：异地车辆年检需提前在车辆注册地办理《车辆异地年检委托书》</h5>
+
+			<div id="dibubutton">
+				<button id='save_address' class="mui-btn mui-btn-block mui-btn-primary">保存</button>
+			</div>
+		</div>
+		<script type="text/javascript" src="../../js/system/mui.js"></script>
+		<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/system/mui.dtpicker.js"></script>
+		<script type="text/javascript" src="../../js/system/mui.picker.min.js"></script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js"></script>
+		<script type="text/javascript" src="../../js/business/checkline/message_tianxie.js"></script>
+	</body>
+
+</html>

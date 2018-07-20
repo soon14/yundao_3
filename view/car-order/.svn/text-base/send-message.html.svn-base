@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<!-- 百度地图 -->
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=x8wP7ck7pQ4P8UAol2pen8B5"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<!-- 禁止浏览器从本地缓存中调阅页面，网页不保存在缓存中，每次访问都刷新页面 -->
+		<meta http-equiv="pragram" content="no-cache">
+		<meta http-equiv="cache-control" content="no-cache, must-revalidate">
+		<title>发货信息</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../../css/mui.min.css" />
+		<link rel="stylesheet" href="../../css/system/main.css" />
+		<link rel="stylesheet" href="../../css/system/style.css" />
+		<link rel="stylesheet" href="../../css/business/car-order/send-message.css"/>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">发货信息</h1>
+
+		</header>
+		<div class="mui-content">
+			<div class="mui-pages">
+
+				<ul class="mui-table-view mui-table-view-chevron">
+					<li class="mui-table-view-cell">
+						<div id="l-map"></div>
+						<div class="mui-input-row mui-search ">	
+							<img src="../../image/zc_01.png"/>
+							长春市绿园区
+						</div>				
+					</li>
+				</ul>
+				<div>
+					<div class="mui-input-group">
+						<div class="mui-input-row">
+							<label><img src="../../image/zc_02.png"/></label>
+							<input id="ADDRESS_NAME_BEGIN_BIEMING" type="text" class="mui-input-clear mui-ellipsis" placeholder="请补充详细地址如门牌号等（可不填）">
+						</div>
+						<div class="mui-input-row">
+							<label><img src="../../image/zc_03.png"/></label>
+							<input id="PERSON_FAHUO" type="text" class="mui-input-clear" placeholder="请输入发货人姓名（可不填）" data-input-clear="5">
+						</div>
+						<div class="mui-input-row">
+							<label><img src="../../image/zc_04.png"/></label>
+							<input id="PERSON_FAHUO_PHONE" type="text" class="mui-input-clear" placeholder="请输入联系电话" data-input-clear="5">
+						</div>
+					</div>
+					<div class="mui-content-padded" style="margin-top: 35px;">
+						<button id='save_fahuo' class="mui-btn mui-btn-block mui-btn-primary" >确定</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<script type="text/javascript" src="../../js/system/jquery-3.1.1.js"></script>
+		<script type="text/javascript" src="../../js/system/mui.min.js"></script>
+		<script type="text/javascript" src="../../js/system/constants.js"></script>
+		<script type="text/javascript" src="../../js/system/json_time.js"></script>
+		<script type="text/javascript" src="../../js/system/xiangyingshi.js"></script>	
+		<script type="text/javascript" src="../../js/system/arttmpl.js"></script>	
+		<script type="text/javascript" src="../../js/business/car-order/send-message.js"></script>
+		<script type="text/javascript" src="../../js/system/xiachenshi.js" ></script>
+	</body>
+
+</html>
